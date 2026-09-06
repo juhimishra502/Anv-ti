@@ -1,0 +1,65 @@
+{
+  "status": "research_in_progress",
+  "last_updated": "2026-09-04",
+  "states_tested": [
+    "DL",
+    "TN",
+    "MH",
+    "KA"
+  ],
+  "test_scope": "Offline source-backed routing and data-quality checks only; no government application submitted, phone call or office visit.",
+  "source_snapshot_verification": "Downloaded content and selected scanned pages reviewed; download status alone is not approval.",
+  "release_policy": "Do not generate final handoff document or mark state complete until critical gaps are resolved.",
+  "national_financial_scope": "Banks, demat, mutual funds, bonds, insurance, EPFO/NPS and post-office claims remain in overall scope; this operational pilot does not certify their complete institution-specific procedures.",
+  "milestones": [
+    {
+      "name": "Download and inspect primary operational sources",
+      "status": "in_progress"
+    },
+    {
+      "name": "Extract facts with per-field provenance",
+      "status": "in_progress"
+    },
+    {
+      "name": "Validate four jurisdictions and negative cases",
+      "status": "complete_offline_only"
+    },
+    {
+      "name": "Resolve missing/conflicting critical fields",
+      "status": "pending"
+    },
+    {
+      "name": "Compile final Claude handoff",
+      "status": "blocked_until_evidence_complete"
+    }
+  ],
+  "source_count": 30,
+  "original_snapshots_saved": 28,
+  "procedures_researched": 7,
+  "office_records": 5,
+  "offline_checks_passed": 28,
+  "execution_ready_procedures": 0,
+  "next_actions": [
+    {
+      "priority": 1,
+      "task": "Confirm Mehrauli SMC attestation, counter hours, 14 versus 21 days and current jurisdiction; published SDM contact 011-26641772."
+    },
+    {
+      "priority": 1,
+      "task": "Confirm Egmore incumbent, public hours, current REV-114 eligibility order, SLA and upload rules; published office contact 044-28361890."
+    },
+    {
+      "priority": 1,
+      "task": "Confirm Andheri City Survey current online mutation charges, public hours, email and appeals; published office contact 022-26362674."
+    },
+    {
+      "priority": 1,
+      "task": "Identify Bengaluru North hobli-specific Deputy Tahsildar counter and current family-tree fee components; published Tahsildar number 080-22232050 is not verified by telephone."
+    },
+    {
+      "priority": 2,
+      "task": "Complete death-registration and property-record branches in each pilot jurisdiction; institution-specific financial claims remain outstanding."
+    }
+  ],
+  "contact_status": "No emails, calls or applications sent. Public-source gaps need direct confirmation or newer authoritative records."
+}

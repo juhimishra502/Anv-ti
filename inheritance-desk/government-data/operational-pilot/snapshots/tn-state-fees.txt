@@ -1,0 +1,1712 @@
+Common Service Centres | Tamil Nadu Information Technology Department
+Skip to main content
+Theme
+Background
+Default
+Background 1
+Background 2
+Background 3
+Background 4
+Background 5
+Background 6
+Background 7
+Toggle navigation
+-
+A
+A
++
+A
+Skip To Navigation
+தமிழ்
+|
+English
+Screen Reader Access
+Login
+e-district
+e-Sevai
+-
+A
+A
++
+A
+Bribe giving and receiving is an offence
+Home
+About Us
+e-Services
+List of services offered in e-sevai centres
+List of services offered through institutions
+IT Infrastructure
+IT Promotion
+ELCOSEZ
+Tenders
+Press Release
+Notification
+Gazette notification of other departments
+Contact Us
+Feedback
+Quick Links
+Vision & Mission
+Administrative Setup
+Roll of Honor
+Heads of Departments (HoD)
+IT Policies,Acts & Rules
+Policy Documents
+Policy Note
+Announcements
+Compendium of e-Governance
+Guidelines for Indian Government Websites
+Major Activities
+ELCOT
+TNEGA
+TACTV
+TVA
+TANFINET
+ICT Academy
+Gallery
+Audio
+Photos
+Video
+Government Orders
+Right to Information
+Breadcrumb
+Home
+TNEGA
+Common service centres
+Back
+Common Service Centres
+The Common Service Centre Project is IT enabled Government Services should be accessible to the common man in his/her village, through efficient, transparent, reliable and affordable means. Implemented under the National e-Governance Plan (NeGP), the Common Services Centers (CSCs) are ICT enabled front end service delivery points at the village level for delivery of Government, Financial, Social and Private Sector services in the areas of agriculture, education, banking, utility payments, etc.
+CSC scheme consisting of the CSC operator (called Village Level Entrepreneur or VLE); the Service Centre Agency (SCA), that will be responsible for a division of CSCs; and a State Designated Agency (SDA) identified by the State Government responsible for managing the implementation in the entire State.
+Tamil Nadu was one of the pilot States identified by the GoI for the implementation of e-District project and the Tamil Nadu eGovernance Agency (TNeGA) has been designated as “State Designated Agency (SDA)” by MeiTY/ GoTN for implementing the State wide roll-out of e-District project through the Common Service Centres (CSCs). The CSCs run by various agencies are being monitored by TNeGA.
+Objective:
+The scope of the program is to cover maximum Government services and provide all high quality and cost effective e-Governance services under one umbrella through the use of ICT.
+A highlight of the CSCs is that it will offer web-enabled e-governance services in rural areas, including application forms, certificates, and utility payments such as electricity, telephone and water bills.
+Benefits:
+One stop solution for various G2C and B2C services.
+Citizen can avail all the Services at their doorstep.
+Citizen can monitor their application status at any point of time.
+The time taken to deliver the services is drastically reduced from 15 days to 2 days.
+The CSC programme provides employment opportunity to village entrepreneurs (VLEs), lucrative business to People’s organizations such as PACCS, VPRCs, IFAD and PSUs such as TACTV.
+Delivery Channels:
+Tamil Nadu Arasu Cable TV Corporation (TACTV)
+Electronics Corporation of Tamil Nadu Limited (ELCOT)
+Primary Agriculture Cooperative Credit Society (PACCS)
+Village Poverty Reduction Committee (VPRC)
+International Fund for Agricultural Development (IFAD)
+Village Level Entrepreneurs (VLE)
+Tamil Nadu Arasu Cable TV Corporation (TACTV) and Electronics Corporation of Tamil Nadu Limited (ELCOT) have been allowed to establish CSC (e-Sevai centres) in all the District head quarters, Taluk offices and Corporations and Municipalities.
+Primary Agriculture Cooperative Credit Society (PACCS), Village Poverty Reduction Committees (VPRCs) aided Pudhu Vaazhvu Project have been allowed to commence the e-Sevai centres in the rural areas of their jurisdiction across the State.
+International Fund for Agricultural Development (IFAD) has been allowed to commence the e-Sevai centres in the coastal/ remote areas.
+Village Level Entrepreneurs (VLE) has been allowed to commence the e-Sevai centres in the Village Panchayats.
+As on 14th March 2018, Totally 10420 Common Service Centres have been established throughout the State.
+S.No
+Service Centre Agency
+No. of Centers
+No. of Counters
+1
+IFAD
+8
+8
+2
+PACS
+4329
+4331
+3
+TACTV
+658
+995
+4
+VLE
+1156
+1156
+5
+VPRC
+4269
+4364
+Total
+10420
+10854
+Infrastructure Required for CSC
+Sl.No
+Description – Minimum Speciation
+Minimum Qty
+Remarks
+1
+LAPTOP / DESKTOP PC with licensed Operating System of Windows XP-SP2 or above. Core i3 or above with minimum 5 GB RAM, DVD drive, 500 GB hard disk and Ethernet. Out of 3 one 1 laptop is compulsory.
+3
+Mandatory
+2
+LAPTOP / DESKTOP PC with licensed Operating System of Windows XP-SP2 or above.
+3
+Mandatory
+3
+Scanner A4, flatbed scanner
+1
+Mandatory
+4
+Web Camera/ Digital Camera
+1
+Mandatory
+5
+Internet – Broadband connectivity
+1
+Mandatory
+6
+UPS with minimum three / five hour backup for all the equipments or portable generator set.
+1
+Mandatory
+7
+UIDAI certified Biometric device
+1
+Mandatory
+8
+Lamination Equipment – 4” variable temperature controlled
+1
+Optional
+9
+AC- Windows or Split Unit with capacity to suit the room dimension and antistatic mat for floor
+1
+Optional
+10
+Photo copier
+1
+Optional
+11
+External Hard Disk for backup and CD/DVD Drive
+1
+Optional
+Procedure for establishment of Common Service Center (CSC) for Government Agencies
+Kindly approach TNeGA for enrolling as Service Centre Agency
+Procedure for establishment of Common Service Center (CSC) for Common Public
+1. Enroll as VLE in CSC 2.0 scheme (use the link )
+2. Once enrolled as CSC SPV VLE, State Head Operations of CSC SPV, Tamil Nadu sends the VLE details to TNeGA for e-District & e-Sevai ID creation.
+List of Services Offered:
+Through e-Sevai centres in Tamil Nadu the following services are offered to public.
+S.No
+Services
+No. of services count
+1
+e-District
+53
+2
+e-Sevai
+59
+3
+APNA
+59
+TOTAL
+207
+List of e-District Services
+Sl.No
+Department
+Services Offered
+Software Development Agency
+Uniform service code assigned by TNeGA
+Utility charges/ Government fee
+Revised Service charges including service tax w.e.f. 1/4/17
+1
+Revenue
+Community Certificate
+NIC/CMS
+REV101
+0
+60
+2
+Revenue
+Nativity Certificate
+NIC/CMS
+REV102
+0
+60
+3
+Revenue
+Income Certificate
+NIC/CMS
+REV103
+0
+60
+4
+Revenue
+No Graduate Certificate
+NIC/CMS
+REV104
+0
+60
+5
+Revenue
+Deserted Woman Certificate
+NIC/CMS
+REV105
+0
+60
+6
+Revenue
+Print out of Birth Certificate for Revenue Villages
+NIC
+REV110
+0
+25
+7
+Revenue
+Print out of Death Certificate for Revenue Villages
+NIC
+REV112
+0
+25
+8
+Revenue
+Indira Gandhi National Old Age Pension Scheme
+NIC
+REV201
+0
+60
+9
+Revenue
+Indira Gandhi National Widow Pension Scheme
+NIC
+REV202
+0
+60
+10
+Revenue
+Indira Gandhi National Disability Pension Scheme
+NIC
+REV203
+0
+60
+11
+Revenue
+Physically Handicapped Pension scheme
+NIC
+REV204
+0
+60
+12
+Revenue
+Destitute Deserted Wives Pension Scheme
+NIC
+REV205
+0
+60
+13
+Revenue
+Unmarried Women Pension Scheme
+NIC
+REV206
+0
+60
+14
+Revenue
+Destitute Widow Pension Scheme
+NIC
+REV207
+0
+60
+15
+Revenue
+Tamil Nilam – Full Field Patta Transfer
+NIC
+REV501
+0
+60
+16
+Revenue
+Tamil Nilam – Joint Patta Transfer
+NIC
+REV502
+0
+60
+17
+Revenue
+Tamil Nilam – Subdivision
+NIC
+REV503
+0
+60
+18
+Revenue
+Grievance Day Petition
+NIC
+REV701
+0
+25
+19
+Revenue
+Tamil Nilam - Extract of Areg
+NIC
+REV702
+0
+25
+20
+Revenue
+Tamil Nilam – Extract of Chitta
+NIC
+REV703
+0
+25
+21
+Social Welfare
+Annai Terasa Ammaiyar Ninaivu Orphan Girl Marriage Assistance scheme
+NIC
+SWN201
+0
+120
+22
+Social Welfare
+Girl Child Protection Scheme- I
+NIC
+SWN202
+0
+120
+23
+Social Welfare
+Girl Child Protection Scheme- II
+NIC
+SWN203
+0
+120
+24
+Social Welfare
+Dharmambal Ammaiyar Ninaivu Widow Re-marriage Assistance scheme
+NIC
+SWN204
+0
+120
+25
+Social Welfare
+Dr. Muthulakshmi Reddy Ninaivu Intercaste Marriage Assistance scheme
+NIC
+SWN205
+0
+120
+26
+Social Welfare
+EVR Maniammaiyar Ninaivu Widow Daughter Marriage Assistance scheme
+NIC
+SWN206
+0
+120
+27
+Social Welfare
+Moovalur Ramamirtham Ammaiyar Ninaivu Marriage Assistance scheme
+NIC
+SWN207
+0
+120
+28
+Civil Supplies
+Consumer complaint other than PDS
+NIC
+CSD701
+0
+25
+29
+Civil Supplies
+Consumer complaint related to PDS
+NIC
+CSD702
+0
+25
+30
+TN Police Department
+CSR Status
+NIC
+TNP701
+0
+15
+31
+TN Police Department
+FIR Status
+NIC
+TNP702
+0
+15
+32
+TN Police DepartmentTN Police Department
+Online Complaint Registration
+NIC
+TNP703
+0
+25
+33
+TN Police Department
+Status Viewing
+NIC
+TNP704
+0
+15
+34
+TN Police Department
+Vehicle Search
+NIC
+TNP705
+0
+15
+35
+TN Police Department
+View FIR
+NIC
+TNP706
+0
+Rs. 20/- for viewing and downloading of FIR and additional Rs. 5/- (per page)will be charged if printing is required.
+36
+TN Police Department
+Download Road Accident Case Documents
+NIC
+TNP707
+0
+Rs.60/- As service charge and additional Rs. 5/- (per page) will be charged if printing of documents involves.
+37
+TN Police Department
+Lost Document Report
+NIC
+TNP708
+0
+Rs. 20/- As service charge and Rs. 5/- (per page) will be charged if printing is required.
+38
+TN Transport
+Booking Appointment for Driving license
+NIC
+STA301
+0
+60
+39
+TN Transport
+Learner&#39;s licence Online application
+NIC
+STA501
+0
+60
+40
+TN Transport
+Reprint Leaner&#39;s licence Online application
+NIC
+STA701
+0
+25
+41
+TN Registration
+Application through offline Payment
+NIC
+IGR601
+0
+60
+42
+TN Registration
+Print Challan for offline Payment
+NIC
+IGR701
+0
+25
+43
+TN Registration
+Online appointment for Marriage/Document registration
+NIC
+IGR301
+0
+60
+44
+TN Registration
+Printing Acknowledgement for Appointment
+NIC
+IGR702
+0
+15
+45
+Health Department
+Pre-Registration of Pregnancies – PICME
+NIC
+HFW201
+0
+15 (Department will pay)
+In addition to the above 45 services, the following services are also done by NIC and offered in e-District.
+(a) Scholarship Schemes of BC/MBC/DNC Welfare Department
+Issuance of  Post Matric Scholarship
+Educational Assistance to BC students in Professional Courses
+Educational Assistance to BC Graduates
+Educational Assistance to BC Polytechnic Students
+(b) Scholarship Schemes of AD&TW Department
+GoI Post Matric Scholarship for SC Students
+GoI Post Matric Scholarship for ST Students
+State Special Scholarship for Post matric Students
+Higher Education Special Scholarship Scheme
+List of e-Sevai services
+Sl.No
+Department
+Services Offered
+Services Code
+Utility Charges / Government fee
+Service charge including Service Tax (in Rs.)
+1
+Anna University
+TNEA 2016 BE/ BTech Online registration
+TNE-501
+0
+60
+2
+Boilers
+Registration of License under boilers act
+DBL-401
+0
+150
+3
+Boilers
+Renewal of License under boilers act
+DBL-402
+0
+150
+4
+CMA
+Collection of Non Tax
+CMA-601
+Upto 1000
+15
+1001 - 3000
+25
+3001 - 5000
+40
+5001 - 10000
+50
+10001 and above
+60
+5
+CMA
+Collection of Professional Tax
+CMA-602
+Upto 1000
+15
+1001 - 3000
+25
+3001 - 5000
+40
+5001 - 10000
+50
+10001 and above above
+60
+6
+CMA
+Collection of Property tax
+CMA-603
+Upto 1000
+15
+1001 - 3000
+25
+3001 - 5000
+40
+5001 - 10000
+50
+10001 - above
+60
+7
+CMA
+Collection of Underground Drainage Charge
+CMA-604
+Upto 1000
+15
+1001 - 3000
+25
+3001 - 5000
+40
+5001 - 10000
+50
+10001 and above
+60
+8
+CMA
+Collection of Water Charges
+CMA-605
+Upto 1000
+15
+1001 - 3000
+25
+3001 - 5000
+40
+5001 - 10000
+50
+10001 - above
+60
+9
+CMWSSB
+Water and Sewerage Tax
+CMW-601
+Upto 1000
+15
+1001 - 3000
+25
+3001 - 5000
+40
+5001 - 10000
+50
+10001 and above
+60
+10
+COC
+Printing of Birth Certificate
+COC-101
+0
+40
+11
+COC
+Printing of Death Certificate
+COC-102
+0
+40
+12
+COC
+Renewal of trade license
+COC-401
+Upto 1000
+15
+1001 - 3000
+25
+3001 - 5000
+40
+5001 - 10000
+50
+10001 - above
+60
+13
+COC
+Collection of company tax
+COC-601
+Upto 1000
+15
+1001 - 3000
+25
+3001 - 5000
+40
+5001 - 10000
+50
+10001 - above
+60
+14
+COC
+Collection of professional tax
+COC-602
+Upto 1000
+15
+1001 - 3000
+25
+3001 - 5000
+40
+5001 - 10000
+50
+10001 and above
+60
+15
+COC
+Collection of property tax
+COC-603
+Upto 1000
+15
+1001 - 3000
+25
+3001 - 5000
+40
+5001 - 10000
+50
+10001 and above
+60
+16
+DCA
+Application for licence to grant or renewal allopathic drugs
+DCA-401
+0
+150
+17
+DCA
+Application for licence to grant or renewal Homoeopathic Medicines
+DCA-402
+0
+150
+18
+DCA
+Application for licence to grant or renewal restricted licence (allopathic drugs)
+DCA-403
+0
+150
+19
+DCA
+Application for licence to grant or renewal specified in Schedule X drugs
+DCA-404
+0
+150
+20
+DCA
+Application to obtain duplicate license
+DCA-405
+0
+100
+21
+Employment & Training
+Printing of registration ID
+EMP-502
+0
+30
+22
+Employment & Training
+Application for Renewal
+EMP-504
+0
+30
+23
+Employment & Training
+Applicaion for profile updation
+EMP-501
+0
+30
+24
+Employment & Training
+Application for Registration
+EMP-503
+0
+30
+25
+Fire & Rescue
+NOC for MSB Compliance
+DFR-101
+0
+120
+26
+Fire & Rescue
+NOC for MSB Planning Permission
+DFR-102
+0
+120
+27
+Fire & Rescue
+NOC for Non - MSB Planning Permission
+DFR-103
+0
+120
+28
+Fire & Rescue
+MSB Fire License Registration and Renewal
+DFR-401
+0
+120
+29
+Fire & Rescue
+Non - MSB Fire License Registration and Renewal
+DFR-402
+0
+120
+30
+PDS
+Apply for New Card
+PDS-501
+0
+60
+31
+PDS
+Alterations to the Card- Addition of New Family Members, Change of Address / Card Type / Cylinder count / Family Head Member, Modify / Remove Family Member details, Beneficiary change of Photo
+PDS-502
+0
+60
+32
+PDS
+Printing of Smart Card
+PDS-504
+0
+60
+33
+PDS
+Card Surrender / Cancellation
+PDS-502
+0
+60
+34
+PDS
+New User Registration
+PDS-503
+0
+60
+35
+PDS
+Family Card Blocking / unblocking
+PDS-502
+0
+60
+36
+Revenue
+Family Migration Certificate
+REV-107
+0
+60
+37
+Revenue
+Unemployment Certificate
+REV-108
+0
+60
+38
+Revenue
+Widow Certificate
+REV-109
+0
+60
+39
+Revenue
+Agricultural Income Certificate
+REV-106
+0
+60
+40
+Revenue
+Certificate for Loss of Educational Records
+REV-111
+0
+60
+41
+Revenue
+No Male Child Certificate
+REV-119
+0
+60
+42
+Revenue
+Unmarried Certificate
+REV-120
+0
+60
+43
+Revenue
+Inter-caste Marriage certificate
+REV-113
+0
+60
+44
+Revenue
+Legal Heir Certificate
+REV-114
+0
+60
+45
+Revenue
+Community Certificate
+REV-101
+0
+60
+46
+Revenue
+Deserted Women Certificate
+REV-105
+0
+60
+47
+Revenue
+Income Certificate
+REV-103
+0
+60
+48
+Revenue
+Nativity Certificate
+REV-102
+0
+60
+49
+Revenue
+Residence Certificate
+REV-116
+0
+60
+50
+Revenue
+Solvency Certificate
+REV-118
+0
+60
+51
+Revenue
+License under Pawn Broker Act
+REV-401
+0
+60
+52
+Revenue
+Money Lender&#39;s License
+REV-402
+0
+60
+53
+Revenue
+Other Backward Class (OBC) Certificate
+REV-115
+0
+60
+54
+Revenue
+Small / Marginal Farmer Certificate
+REV-117
+0
+60
+55
+Revenue
+First Graduate Certificate
+REV-104
+0
+60
+56
+TANGEDCO
+Electricity Bill Payment
+TEB-601
+Upto 1000
+15
+1001 - 3000
+25
+3001 - 5000
+40
+5001 - 10000
+50
+10001 and above
+60
+57
+TANGEDCO
+Registration of New LT Connection
+TEB-602
+0
+60
+58
+TANGEDCO
+Payment for New LT Connection
+TEB-603
+Upto 1000
+15
+1001 - 3000
+25
+3001 - 5000
+40
+5001 - 10000
+50
+10001 and above
+60
+59
+TNEGA
+PDS Aadhaar Enrollment
+CSC-024
+0
+30
+60
+Boilers
+Application for approval of Manufacturer and renewal thereof
+DBL-403
+0
+200
+61
+Boilers
+Application for approval of Erector and renewal thereof
+DBL-404
+0
+200
+62
+Greater Chennai Traffic Police
+Collection of Greater Chennai Traffic Police Challan Payment
+CTP-601
+0
+For fine amount upto Rs.250/-, Service Charge is Rs.5/-. For fine amount above Rs.250/-, Service Charge is 5% of fine amount.
+63
+Tamil Nadu Waqf Board
+Ulema Pension Schme
+WQA-201
+0
+10
+64
+TNEI
+Issuance of Drawing approval
+TEI-401
+0
+300
+65
+TNEI
+Issuance of Safety Certificate
+TEI-402
+0
+300
+List of APNA services
+S.No
+Services
+Products
+1
+AADHAAR
+Aadhaar Demographic Update
+2
+AADHAAR
+Aadhaar EKYC PVC Print
+3
+AADHAAR
+Aadhaar Registered Device
+4
+AADHAAR
+EPFO Aadhaar Seeding
+5
+Recharge
+Broadband Postpaid
+6
+Recharge
+BBPS Payment
+7
+Recharge
+DTH
+8
+Recharge
+Landline Postpaid
+9
+Recharge
+Postpaid Mobile
+10
+Recharge
+Prepaid Mobile
+11
+Financial
+Aadhaar Seeding With Bank Account
+12
+Financial
+Atal Pension Yojana
+13
+Financial
+Basic Banking Course
+14
+Financial
+FASTAG Service - Equitas + SBI Electronic Toll
+15
+Financial
+National Pension Scheme (NPS)
+16
+Financial
+Pin Pad Device Payment Service
+17
+Financial
+Pradhan Mantri Mudra Loan
+18
+Financial
+RAP Registration
+19
+Financial
+Swavalamban Contribution
+20
+Travel
+Bus Ticket Booking - State & Private
+21
+Travel
+Flight Tickets
+22
+Travel
+OYO Rooms
+23
+Travel
+Railway Ticket Booking
+24
+Insurance
+Renewal Premium Payment
+25
+Insurance
+Agri Pump Set Insurance
+26
+Insurance
+Cattle & Live Stock
+27
+Insurance
+Farmer Package policy
+28
+Insurance
+Fire & Allied Perils
+29
+Insurance
+Health Insurance – Al
+30
+Insurance
+Life Insurance
+31
+Insurance
+Motor Comprehensive
+32
+Insurance
+Motor Third Party
+33
+Insurance
+Personal Accidental
+34
+Health
+CSC Telemedicine
+35
+Health
+Diagnostic Services
+36
+Health
+Health Homeo 999
+37
+Health
+Health Services - 1mg Ayush
+38
+Health
+Health Services - Hello Health Services
+39
+Health
+Medicine - Welcome Cure
+40
+Health
+Online Store - Jiva Ayurveda
+41
+Health
+Super Speciality Consultation - Apollo Tele Health Services
+42
+Health
+Telemedicine - Apollo Tele Health Services
+43
+Health
+Veterinary Doctor Consultation
+44
+Education
+Advanced English Learning
+45
+Education
+Basic Computer Course
+46
+Education
+Course On GST
+47
+Education
+Digital Financial Transactions And Awareness Prog.
+48
+Education
+ELegal Consultancy
+49
+Education
+Exam Registration - National Institute Of Open Schooling
+50
+Education
+IT/JEE/BITSAT/NEET Preparation
+51
+Education
+NIELIT Courses
+52
+Education
+NIELIT Facilitation Centre
+53
+Education
+Online Application Form – IGNOU
+54
+Education
+Online Learning Solution - Khan Academy
+55
+Education
+Online Multimedia School (6th To 10th)
+56
+Education
+Online Registration For English Speaking Course
+57
+Education
+PMG DISHA
+58
+Education
+Sarkari Pariksha
+59
+Education
+Super 30 Books
+60
+Education
+Super 30 Sample Paper
+61
+Education
+Tally Certification With Flash Content
+62
+Education
+Tally Kaushal Praman Patra
+63
+Education
+Tally Self Learning Manual
+64
+Skills
+CAD Registration
+65
+Skills
+CSC Skill Centre
+66
+Government
+Application Form For Card Print - Disability
+67
+Government
+Birth And Death Application
+68
+Government
+Certificate Printing - Birth & Death
+69
+Government
+Jeevan Pramaan
+70
+Government
+License Application – FSSAI
+71
+Government
+Life Certificate (LIC)
+72
+Government
+National Scholarships
+73
+Government
+Online Admission Form - Navodaya Vidyalaya Samiti
+74
+Government
+PAN Card Services – NSDL
+75
+Government
+PAN Card Services – UTIITSL
+76
+Government
+Passport Services
+77
+Government
+Pradhan Mantri Awas Yojana
+78
+Government
+Pradhan Mantri Fasal Bima Yojana
+79
+Government
+Ration Card Printing
+80
+Government
+Right To Information Service
+81
+Government
+Swachh Bharat – IHHL
+82
+Other
+Biometric Device Order
+83
+Other
+DIY KIT ORDER – LED
+84
+Other
+DigiPay
+85
+Other
+Rashtrapati Bhavan Museum Ticket
+86
+Other
+Printing Service – Visiting Card, Flex, Rubber Stamp
+87
+Other
+Videocon D2h Recharge
+88
+Other
+Online Store - Kisan Point
+89
+Other
+GST & TDS Return, DSC, LLP Registration
+90
+Other
+VLE Bazzar
+91
+Other
+Soil Health Card
+92
+Other
+KisaneStore
+93
+Other
+Biometric Devices (UIDAI RD Service Compliant)
+94
+Other
+Know Your TDS
+95
+Other
+Ujala – EESL
+Number of transactions in CSCs for the year Apr 2017-Feb 2018:
+Year
+Transaction Count
+e-District
+e-Sevai
+APNA
+Total
+Apr 2017 to Feb 2018
+91,26,904
+17,66,053
+47,21,705
+1,56,14,662
+Through e-Sevai centers, Totally 207 services are giving to the public. Through e-District portal 53 services, through e-Sevai portal 59 services and through APNA portal 95 services are being delivered through esevai centers from April 2017 to February 2018, totally 1.56cr transaction are carried out through e-Sevai centres.
+List of e-District Managers:
+Sl.No
+District
+Name
+Contact No.
+eMail ID
+1
+Ariyalur
+Shanmugapriya S
+7708157185
+edm.ariyalur@gmail.com
+2
+Ariyalur `
+Meenatchi P
+7708117614
+edm2.ari@gmail.com
+3
+Chennai
+Dharani R
+7502427145
+edm.tnchennai@gmail.com
+4
+Chennai
+Brindha T V
+9843064995
+edm2.chn@gmail.com
+5
+Coimbatore
+Nivethitha M
+9597843488
+edm.coimbatore@gmail.com
+6
+Coimbatore
+Madhan Kumar N
+9688736638
+edm2.coimbatore@gmail.com
+7
+Cuddalore
+Mohanraja R
+9600515005
+edm.tn.cud@gmail.com
+8
+Cuddalore
+Initha Devi E
+7339548339
+edm2.cud@gmail.com
+9
+Dharmapuri
+Satheesan G
+9790582465
+edm.dpi@gmail.com
+10
+Dharmapuri
+Poongothai A
+9843090894
+edm2.dpi@gmal.com
+11
+Dindigul
+Abinaya V
+9585738984
+edm.dgl@gmail.com
+12
+Dindigul
+Vacant
+vacant
+edm2.dgl@gmail.com
+13
+Erode
+Vacant
+vacant
+erd.edm@gmail.com
+14
+Erode
+Bharathi P
+8489454110
+edm2.erd@gmail.com
+15
+Kancheepuram
+Suganya Bharathi V
+9585969118
+edm.kanchi@gmail.com
+16
+Kancheepuram
+Sumathi E
+7200267992
+edm2.kanchi@gmail.com
+17
+Kanyakumari
+Aswin Shamily Joe R
+9894975555
+edm.kkm@gmail.com
+18
+Kanyakumari
+Jenolin Flora D F
+9486680385
+edm2.kkm@gmail.com
+19
+Karur
+Tamilselvi G
+9566313114
+edm.karur@gmail.com
+20
+Karur
+Kalaiyarasi T
+9789567949
+edm2.karur@gmail.com
+21
+Krishnagiri
+Surya M
+9629595785
+edm.kgi@gmail.com
+22
+Krishnagiri
+Preetha A
+7402348956
+edm2.kgi@gmail.com
+23
+Madurai
+Vacant
+vacant
+edm.mdu@gmail.com
+24
+Madurai
+Muthuselvi B
+8056729888
+edm2.mdu@gmail.com
+25
+Nagapattinam
+Atchaya Biria D
+9976635029
+edm.ngp@gmail.com
+26
+Nagapattinam
+Rajkamal A
+9524202886
+edm2.ngp@gmail.com
+27
+Namakkal
+Renuga Devi K
+9944437268
+edm.nmk@gmail.com
+28
+Namakkal
+Sundarraj P
+9786412915
+edm2.nmk@gmail.com
+29
+Nilgiris
+Geethu V
+7598524310
+edm.nlgs@gmail.com
+30
+Nilgiris
+Elsy E A
+7092979961
+edm2.nlgs@gmail.com
+31
+Perambalur
+Arun Selvam A
+9751710502
+edm.pmb@gmail.com
+32
+Perambalur
+Rajkumar M
+9655136168
+edm2.pmb@gmail.com
+33
+Pudukkottai
+Shamili A
+7502905842
+edm.pdk@gmail.com
+34
+Pudukkottai
+Vedhanayaki K
+9677469054
+edm2.pdk@gmail.com
+35
+Ramanathapuram
+Priyadharsan K
+9500873757
+edm.ramnad.priyadarshan@gmail.com
+36
+Ramanathapuram
+Megala C
+9003791568
+edm2.rmd@gmail.com
+37
+Salem
+Surya S
+8300022978
+edm.salem2014@gmail.com
+38
+Salem
+Ranjitha C
+8300024078
+edm2.salem@gmail.com
+39
+Sivagangai
+Vacant
+vacant
+edm.svg@gmail.com
+40
+Sivagangai
+Sathya Priya G
+9486277529
+edm2.svg@gmail.com
+41
+Thanjavur
+Aishwarya B
+9943941416
+edm2.tnj@gmail.com
+42
+Thanjavur
+Saranya E
+8270050446
+edm.theni@gmail.com
+43
+Theni
+Sarubaladevi E
+8270050446
+edm.theni@gmail.com
+44
+Theni
+Radhika K
+9952742616
+edm2.thn@gmail.com
+45
+Thiruchirapalli
+Ramesh kumar T
+8754207717
+edm.trichy@gmail.com
+46
+Thiruchirapalli
+Rubini C
+8438149812
+edm2.trichy@gmail.com
+47
+Thiruvarur
+Iswarya G
+9655129824
+edm.thiruvarur@gmail.com
+48
+Thiruvarur
+Srimathi R
+9442482813
+edm2.tvr@gmail.com
+49
+Thoothukudi
+Swaruba P
+8870167419
+edmthoothukudi@gmail.com
+50
+Thoothukudi
+Carlin Eccles Sharmila K
+9790452368
+edm.tuticorin@gmail.com
+51
+Tirunelveli
+Rajakumari P
+9791472272
+edm.tirunelveli@gmail.com
+52
+Tirunelveli
+Thowbika Barveen H
+8508434115
+edm2.tirunelveli@gmail.com
+53
+Tiruppur
+Sampath Kumar J R
+9790592518
+edm.tpr@gmail.com
+54
+Tiruppur
+Nandhini C
+8300024086
+edm2.tpr@gmail.com
+55
+Tiruvallur
+Bharathidasan V S
+9894812164
+edm.tlr@gmail.com
+56
+Tiruvallur
+Karthiga R
+9788280858
+edm2.tlr@gmail.com
+57
+Tiruvannamalai
+Sudha Priya C
+9443909982
+edm.tvm@gmail.com
+58
+Tiruvannamalai
+Dinesh Babu E
+8122113693
+edm2.tvm@gmail.com
+59
+Vellore
+Nivedita S
+8220080042
+edm.vellore@gmail.com
+60
+Vellore
+Vacant
+vacant
+edm2.vel@gmail.com
+61
+Villupuram
+Vacant
+vacant
+edm.vpm@gmail.com
+62
+Villupuram
+Prasath R
+9940170020
+edm2.vpm@gmail.com
+63
+Virudhunagar
+Rajani Devi R
+9159932644
+edm.vnr@gmail.com
+64
+Virudhunagar
+Kajamydeen K
+9952243457
+edm2.vnr@gmail.com
+Achievements of CSCs:
+1.Prepaid e-Wallet:
+A prepaid e-Wallet model has been introduced for the efficient revenue sharing and collection. e-Sevai Portal is integrated with a Payment Gateway system (PayGov) and an e-Wallet.
+TNeGA has implemented Aadhaar enabled biometric authentication for all CSC operators to login into e-District and e-Sevai portals on 18.01.2017 to ensure the operators identity. Two factor authentications have been introduced, one is using the existing login credentials provided by the system and the next is the introduction of biometric based e-sign solution (Aadhaar enabled biometric based login) for CSC operators to enter into the e-Sevai portal.
+2.Aadhaar enabled biometric authentication:
+TNeGA has implemented Aadhaar enabled biometric authentication for all CSC operators to login into e-District and e-Sevai portals on 18.01.2017 to ensure the operators identity. Two factor authentications have been introduced, one is using the existing login credentials provided by the system and the next is the introduction of biometric based e-sign solution (Aadhaar enabled biometric based login) for CSC operators to enter into the e-Sevai portal.
+3. Sending SMS:
+In order to alert the citizens about the service charges to be paid in the CSCs and also to facilitate them to lodge their grievances, a new system of sending SMS to the applicants has been commenced from 7.10.2016. SMS will be sent to the applicant during the time of application, approval, rejection or return.
+4. Establishment of Toll Free Call centre at TNeGA:
+The toll free call center at TNeGA was started at 01.07.2016. People can contact 1800 425 1333 for their grievances. A total of 1,10,911 calls has been received from July 2016 to April 2017 at an average of 900 calls per day.
+5. Service Tracking SMS facility through short code:
+SMS based tracking system has been operationalized from 17.03.2017. It is PULL SMS based system. A short code 155250 is introduced with the help of BSNL. Applicant can use this short code for tracking the current position of the application status. As on 22.05.2017, 105177 PULL SMS has been received from Common Public.
+6. Mobile Number Acompulsory:
+Applicant’s Mobile number has been made mandatory for availing the services through CSCs from 02.05.2017. This is for the purpose of generating the OTP for availing the services and tiny URL.
+7. Tiny URL:
+Tiny URL concept has been operationalized from 23.05.2017. Once the application is approved, a tiny URL will be sent to applicant mobile number by SMS mode. With the help of internet, applicant can download their certificate without going to CSCs.
+Services through CSC centers & Transaction:
+E-District Services: Totally 41 Services are offered by NIC through State of Tamil Nadu covering 32 District, 285 Taluks and 385 Blocks. Last one year (April 2016 to April 2017) Transactions 1,08,50,508.
+E-Sevai services: Totally 47 Services are offered by CMS through State of Tamil Nadu. Last one year Transactions (April 2016 to April 2017) transaction 2,18,314.
+APNA CSC services: Apart from the e-District/e-Sevai portal, the services of GoI are being delivered through APNA CSC portal in the CSCs by respective SCAs. Totally 72 Services are offered by APNA CSC.
+Proposed System:
+1.Single Sign On:
+TNeGA is implementing various e-Governance initiatives of GoI and GoTN and projects/schemes implemented by the TNeGA are in various stages of development/ implementation. Single sign on is one of the major concept that intergrate e-District (NIC and CMS), TNGIS, SRDH, SPR Online etc with several other projects.
+2. Geo tagging of CSC locations:
+Actions are being taken to implement Geo-tagging of CSC locations (process of adding geographical identification to CSC locations) with the data consisting latitude and longitude coordinates of the e-Sevai centres. Geo-tagging will help us to find a wide variety of location-specific information from a device.
+For instance, we can find the location of login of the e-Sevai portal by entering latitude and longitude coordinates through a search engine. This will prevent instances of misuse of Ids at different locations other than the allotted centres.
+3. Cashless Transaction through AEPS:
+TNeGA has initiated steps to implement the digital/cashless payments in the CSCs. TNeGA has addressed all the SCAs to install PoS machines in all the counters to enable the public for making payments through online. At present, Aadhaar enabled payment system is under consideration to make cashless transaction in CSCs.
+4. Empanelment of Government Organization:
+Board has decided to give power to Commissioner of TNeGA to enroll any Government Organizations who are willing to run the CSCs. At present, Postal Department, Employment Offices have approached TNeGA to establish CSCs.
+5. Empanelment of Browsing centres :
+Board has decided to empanel browsing centres across the state for delivering e-Sevai services to public. This will be launched very soon.
+6. e-SIGN :
+As a part of e-Governance most of the services are delivered to the citizen in the electronic format. To ensure the authenticity it is essential to have the document signed digitally using the methods prescribed in the IT Act 2010 and subsequent amendments. In order to digitally sign the documents, the digital signature key token are being issued by the Certifying Authorities approved by the CCA. Instead of using the hard form of DSC token for signing the electronic document, it is proposed to introduce Aadhaar based e-Sign.
+Contact Info
+Artificial Intelligence, Information Technology
+and Digital Services Department,
+Government of Tamil Nadu,
+2nd Floor, NKM Building, Secretariat, Chennai-600009.
+Phone No: 044-2567 0783
+e-mail : secyit[at]tn[dot]gov[dot]in
+Fax No:25670505
+Website: https://it.tn.gov.in
+About Website
+Site Map
+Blog
+Useful links
+State Portal
+GoI MeitY Portal
+ELCOT
+TNeGA
+TACTV
+TVA
+TANFINE
+T
+TNGIS
+Visitors Map
+Material on this site is subject to Copyright protection unless otherwise indicated. The material may be downloaded without requiring specific prior permission. Any other proposed use of the material is subject to the approval of Information Technology Department, Government of Tamil Nadu. Application for obtaining permission should be made to secyit[dot]tn[at]gov[dot]in
+© 2019-2026. All rights reserved  | Powered by
+TNeGA

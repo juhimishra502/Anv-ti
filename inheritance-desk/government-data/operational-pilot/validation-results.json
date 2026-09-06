@@ -1,0 +1,458 @@
+{
+  "generated_at": "2026-09-04T16:10:04.830065+05:30",
+  "test_type": "offline research data and routing specification",
+  "checks_passed": 28,
+  "checks_total": 28,
+  "checks": [
+    {
+      "check": "All four requested pilot states represented",
+      "passed": true
+    },
+    {
+      "check": "No duplicate procedure, office or source IDs",
+      "passed": true
+    },
+    {
+      "check": "Every claimed field cites a captured official source",
+      "passed": true
+    },
+    {
+      "check": "Missing fields are explicit null, never guessed zero",
+      "passed": true
+    },
+    {
+      "check": "All referenced offices exist and match state",
+      "passed": true
+    },
+    {
+      "check": "No partial workflow is released as execution approved",
+      "passed": true
+    },
+    {
+      "check": "Every original snapshot matches its SHA256",
+      "passed": true
+    },
+    {
+      "check": "Download failures do not have invented snapshots",
+      "passed": true
+    },
+    {
+      "check": "Routing: delhi_mehrauli_survivors",
+      "passed": true
+    },
+    {
+      "check": "Routing: chennai_egmore_heirs",
+      "passed": true
+    },
+    {
+      "check": "Routing: mumbai_andheri_property_card",
+      "passed": true
+    },
+    {
+      "check": "Routing: bengaluru_north_family_tree",
+      "passed": true
+    },
+    {
+      "check": "Routing: state_alone_cannot_pick_sdm",
+      "passed": true
+    },
+    {
+      "check": "Routing: wrong_mumbai_district_no_reuse",
+      "passed": true
+    },
+    {
+      "check": "Routing: unknown_city_survey_area_no_reuse",
+      "passed": true
+    },
+    {
+      "check": "Routing: patta_uses_asset_not_user_state",
+      "passed": true
+    },
+    {
+      "check": "Routing: demat_never_routed_to_land_office",
+      "passed": true
+    },
+    {
+      "check": "Routing: property_card_not_seven_twelve",
+      "passed": true
+    },
+    {
+      "check": "Delhi Aadhaar is not made compulsory",
+      "passed": true
+    },
+    {
+      "check": "Delhi attestation conflict remains visible",
+      "passed": true
+    },
+    {
+      "check": "Tamil Nadu government fee and centre charge separated",
+      "passed": true
+    },
+    {
+      "check": "EPSIT upload rule differs from e-Hakk",
+      "passed": true
+    },
+    {
+      "check": "Maharashtra notice period is not total SLA",
+      "passed": true
+    },
+    {
+      "check": "Old stamp-fee form is not current online total",
+      "passed": true
+    },
+    {
+      "check": "Karnataka fee alternatives are not added or silently replaced",
+      "passed": true
+    },
+    {
+      "check": "Karnataka issuing role is Deputy Tahsildar",
+      "passed": true
+    },
+    {
+      "check": "Unknown public hours remain unknown for TN/MH/KA",
+      "passed": true
+    },
+    {
+      "check": "No headquarters address masquerades as Karnataka issuing counter",
+      "passed": true
+    }
+  ],
+  "four_state_cases": [
+    {
+      "id": "delhi_mehrauli_survivors",
+      "service": "surviving_member",
+      "applicant_residence": {
+        "state": "DL",
+        "district": "South Delhi",
+        "subdivision": "Mehrauli"
+      },
+      "asset_location": {
+        "state": "TN"
+      },
+      "expected": [
+        "dl-smc"
+      ],
+      "actual": [
+        "dl-smc"
+      ],
+      "passed": true
+    },
+    {
+      "id": "chennai_egmore_heirs",
+      "service": "legal_heir",
+      "deceased_residence": {
+        "state": "TN",
+        "district": "Chennai",
+        "taluk": "Egmore"
+      },
+      "applicant_residence": {
+        "state": "KA"
+      },
+      "expected": [
+        "tn-heir"
+      ],
+      "actual": [
+        "tn-heir"
+      ],
+      "passed": true
+    },
+    {
+      "id": "mumbai_andheri_property_card",
+      "service": "land_mutation",
+      "record_type": "property_card",
+      "asset_location": {
+        "state": "MH",
+        "district": "Mumbai Suburban",
+        "village": "Andheri"
+      },
+      "applicant_residence": {
+        "state": "DL"
+      },
+      "expected": [
+        "mh-epsit"
+      ],
+      "actual": [
+        "mh-epsit"
+      ],
+      "passed": true
+    },
+    {
+      "id": "bengaluru_north_family_tree",
+      "service": "family_tree",
+      "applicant_residence": {
+        "state": "KA",
+        "district": "Bengaluru Urban",
+        "taluk": "Bengaluru North"
+      },
+      "expected": [
+        "ka-familytree"
+      ],
+      "actual": [
+        "ka-familytree"
+      ],
+      "passed": true
+    }
+  ],
+  "negative_and_cross_state_cases": [
+    {
+      "id": "state_alone_cannot_pick_sdm",
+      "service": "surviving_member",
+      "applicant_residence": {
+        "state": "DL"
+      },
+      "expected": [],
+      "actual": [],
+      "passed": true
+    },
+    {
+      "id": "wrong_mumbai_district_no_reuse",
+      "service": "land_mutation",
+      "record_type": "property_card",
+      "asset_location": {
+        "state": "MH",
+        "district": "Mumbai City",
+        "village": "Andheri"
+      },
+      "expected": [],
+      "actual": [],
+      "passed": true
+    },
+    {
+      "id": "unknown_city_survey_area_no_reuse",
+      "service": "land_mutation",
+      "record_type": "property_card",
+      "asset_location": {
+        "state": "MH",
+        "district": "Mumbai Suburban",
+        "village": "Bandra"
+      },
+      "expected": [],
+      "actual": [],
+      "passed": true
+    },
+    {
+      "id": "patta_uses_asset_not_user_state",
+      "service": "land_mutation",
+      "record_type": "patta",
+      "asset_location": {
+        "state": "TN",
+        "district": "Chennai",
+        "taluk": "Egmore"
+      },
+      "applicant_residence": {
+        "state": "DL"
+      },
+      "expected": [
+        "tn-patta"
+      ],
+      "actual": [
+        "tn-patta"
+      ],
+      "passed": true
+    },
+    {
+      "id": "demat_never_routed_to_land_office",
+      "service": "demat_transmission",
+      "asset_location": {
+        "state": "MH",
+        "district": "Mumbai Suburban",
+        "village": "Andheri"
+      },
+      "expected": [],
+      "actual": [],
+      "passed": true
+    },
+    {
+      "id": "property_card_not_seven_twelve",
+      "service": "land_mutation",
+      "record_type": "7_12",
+      "asset_location": {
+        "state": "MH",
+        "district": "Mumbai Suburban",
+        "village": "Andheri"
+      },
+      "expected": [
+        "mh-ehakk"
+      ],
+      "actual": [
+        "mh-ehakk"
+      ],
+      "passed": true
+    }
+  ],
+  "execution_ready_procedures": 0,
+  "real_applications_tested": 0,
+  "offices_contacted": 0,
+  "readiness": [
+    {
+      "procedure_id": "dl-smc",
+      "ready_for_execution": false,
+      "missing_fields": [
+        "upload_limits",
+        "appeal"
+      ],
+      "unresolved_fields": [
+        "attestation",
+        "submission",
+        "sla_days"
+      ],
+      "office_gaps": [
+        "dl-mehrauli-sdm:appointment",
+        "dl-mehrauli-sdm:jurisdiction_mapping"
+      ],
+      "research_gaps": [
+        "Resolve attestation and SLA conflict",
+        "Confirm public counter hours",
+        "Confirm address-to-subdivision mapping",
+        "Verify current portal upload limits and form fields"
+      ]
+    },
+    {
+      "procedure_id": "dl-revenue-mutation",
+      "ready_for_execution": false,
+      "missing_fields": [
+        "eligibility",
+        "upload_limits",
+        "government_fee_inr",
+        "appeal"
+      ],
+      "unresolved_fields": [
+        "routing_conflict"
+      ],
+      "office_gaps": [
+        "dl-mehrauli-tehsildar:phone",
+        "dl-mehrauli-tehsildar:appointment",
+        "dl-mehrauli-tehsildar:jurisdiction_mapping"
+      ],
+      "research_gaps": [
+        "Current death-specific form",
+        "Exact fee and payment method",
+        "Notice/hearing requirements",
+        "Jurisdiction conflict",
+        "Revenue-land applicability versus urban/municipal/DDA property"
+      ]
+    },
+    {
+      "procedure_id": "tn-heir",
+      "ready_for_execution": false,
+      "missing_fields": [
+        "eligibility",
+        "upload_limits",
+        "sla_days",
+        "appeal"
+      ],
+      "unresolved_fields": [
+        "submission"
+      ],
+      "office_gaps": [
+        "tn-egmore-tahsildar:person",
+        "tn-egmore-tahsildar:public_hours",
+        "tn-egmore-tahsildar:appointment"
+      ],
+      "research_gaps": [
+        "Current issuing officer name and hours",
+        "Current G.O. and eligibility exceptions",
+        "Application SLA",
+        "Current upload limits",
+        "Current fee revision check"
+      ]
+    },
+    {
+      "procedure_id": "tn-patta",
+      "ready_for_execution": false,
+      "missing_fields": [
+        "eligibility",
+        "documents",
+        "upload_limits",
+        "government_fee_inr"
+      ],
+      "unresolved_fields": [
+        "sla_days",
+        "appeal"
+      ],
+      "office_gaps": [
+        "tn-egmore-tahsildar:person",
+        "tn-egmore-tahsildar:public_hours",
+        "tn-egmore-tahsildar:appointment"
+      ],
+      "research_gaps": [
+        "Current inheritance checklist",
+        "Current SLA order",
+        "Survey and fee components",
+        "Urban TSLR versus patta applicability",
+        "Exact competent officer for subdivision"
+      ]
+    },
+    {
+      "procedure_id": "mh-epsit",
+      "ready_for_execution": false,
+      "missing_fields": [
+        "eligibility",
+        "government_fee_inr",
+        "sla_days"
+      ],
+      "unresolved_fields": [
+        "fee_claim"
+      ],
+      "office_gaps": [
+        "mh-andheri-city-survey:public_hours",
+        "mh-andheri-city-survey:appointment"
+      ],
+      "research_gaps": [
+        "Current mutation fee",
+        "Direct contact and public hours",
+        "SLA and appeal limitation",
+        "Confirm online declaration/signature requirements for disputed cases"
+      ]
+    },
+    {
+      "procedure_id": "mh-ehakk",
+      "ready_for_execution": false,
+      "missing_fields": [
+        "eligibility",
+        "government_fee_inr",
+        "sla_days",
+        "appeal"
+      ],
+      "unresolved_fields": [],
+      "office_gaps": [
+        "No specific local office verified"
+      ],
+      "research_gaps": [
+        "Village office, named official, address, hours",
+        "Disposal deadline",
+        "Fee notification revision check",
+        "Objection/appeal details"
+      ]
+    },
+    {
+      "procedure_id": "ka-familytree",
+      "ready_for_execution": false,
+      "missing_fields": [
+        "eligibility",
+        "documents",
+        "submission",
+        "upload_limits",
+        "government_fee_inr",
+        "appeal"
+      ],
+      "unresolved_fields": [
+        "fee_alternative",
+        "legal_heir_conflict"
+      ],
+      "office_gaps": [
+        "ka-bengaluru-north-tahsildar:address",
+        "ka-bengaluru-north-tahsildar:public_hours",
+        "ka-bengaluru-north-tahsildar:appointment",
+        "ka-bengaluru-north-tahsildar:jurisdiction_mapping"
+      ],
+      "research_gaps": [
+        "Exact issuing counter/address/hours and incumbent",
+        "Full current attachment checklist",
+        "₹40 versus centre rates and e-stamp component",
+        "Service eligibility and receiving-institution acceptance",
+        "Current filing screens and appeal"
+      ]
+    }
+  ]
+}

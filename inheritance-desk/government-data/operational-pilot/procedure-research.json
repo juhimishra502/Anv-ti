@@ -1,0 +1,795 @@
+[
+  {
+    "id": "dl-smc",
+    "state": "DL",
+    "title": "Surviving Member Certificate",
+    "route": {
+      "context": "applicant_residence",
+      "district": "South Delhi",
+      "subdivision": "Mehrauli",
+      "service": "surviving_member"
+    },
+    "execution_approved": false,
+    "scope": "Research record; exact scenario only",
+    "checked_on": "2026-09-04",
+    "office_ids": [
+      "dl-mehrauli-sdm"
+    ],
+    "facts": {
+      "eligibility": {
+        "value": "Indian citizen residing in Delhi",
+        "sources": [
+          "dl-smc-guideline"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "documents": {
+        "value": [
+          "Applicant and each survivor's identity evidence; accepted alternatives include PAN, passport, voter ID, driving licence",
+          "Applicant's present and permanent residence evidence",
+          "Death certificate",
+          "Signed declarations; adult declaration for children under 18",
+          "Applicant/survivor photographs and Annexure I if more than four survivors"
+        ],
+        "sources": [
+          "dl-smc-guideline",
+          "dl-smc-faq"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "aadhaar_required": {
+        "value": false,
+        "sources": [
+          "dl-smc-faq"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "attestation": {
+        "value": [
+          "Guideline: applicant self-attests copies",
+          "FAQ: gazetted-officer attestation"
+        ],
+        "sources": [
+          "dl-smc-guideline",
+          "dl-smc-faq"
+        ],
+        "status": "conflicting",
+        "note": null
+      },
+      "submission": {
+        "value": [
+          "Online eDistrict or service counter",
+          "Guideline also requires original declaration delivered by hand or registered/speed post with acknowledgement number",
+          "Retain receipt; track using application number"
+        ],
+        "sources": [
+          "dl-smc-guideline",
+          "dl-smc-faq"
+        ],
+        "status": "published_requires_reconciliation",
+        "note": null
+      },
+      "government_fee_inr": {
+        "value": 0,
+        "sources": [
+          "dl-smc-faq"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "other_costs": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Postage, copies and any centre charge are separate; not a verified total."
+      },
+      "sla_days": {
+        "value": [
+          14,
+          21
+        ],
+        "sources": [
+          "dl-smc-faq",
+          "dl-smc-legacy"
+        ],
+        "status": "conflicting",
+        "note": "No promised completion date; verification exclusions require exact service mapping."
+      },
+      "upload_limits": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Do not invent numeric file limits."
+      },
+      "output": {
+        "value": "Surviving Member Certificate",
+        "sources": [
+          "dl-smc-guideline"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "appeal": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Service-specific first appeal, deadline and escalation contact not established."
+      }
+    },
+    "gaps": [
+      "Resolve attestation and SLA conflict",
+      "Confirm public counter hours",
+      "Confirm address-to-subdivision mapping",
+      "Verify current portal upload limits and form fields"
+    ]
+  },
+  {
+    "id": "dl-revenue-mutation",
+    "state": "DL",
+    "title": "Revenue land mutation following death",
+    "route": {
+      "context": "asset_location",
+      "district": "South Delhi",
+      "subdivision": "Mehrauli",
+      "service": "land_mutation",
+      "record_type": "revenue_land"
+    },
+    "execution_approved": false,
+    "scope": "Research record; exact scenario only",
+    "checked_on": "2026-09-04",
+    "office_ids": [
+      "dl-mehrauli-tehsildar"
+    ],
+    "facts": {
+      "documents": {
+        "value": [
+          "Application to Tehsildar",
+          "Residence evidence",
+          "Land ownership evidence",
+          "Affidavits from surviving members"
+        ],
+        "sources": [
+          "dl-south-mutation"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "sla_days": {
+        "value": 30,
+        "sources": [
+          "dl-south-mutation"
+        ],
+        "status": "published_not_guaranteed",
+        "note": null
+      },
+      "government_fee_inr": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "No exact current fee found in checked local checklist."
+      },
+      "routing_conflict": {
+        "value": "Local page says residence jurisdiction; Central district agricultural-land page says where land is situated. Do not use applicant state for land routing.",
+        "sources": [
+          "dl-south-mutation",
+          "dl-central-mutation"
+        ],
+        "status": "conflicting",
+        "note": null
+      },
+      "output": {
+        "value": "Updated revenue record; municipal tax record is a separate service",
+        "sources": [
+          "dl-south-mutation"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "submission": {
+        "value": "Tehsildar application",
+        "sources": [
+          "dl-south-mutation"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "upload_limits": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Online death-mutation application channel not established."
+      },
+      "appeal": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Case-specific revenue appeal provisions and deadline need verification."
+      }
+    },
+    "gaps": [
+      "Current death-specific form",
+      "Exact fee and payment method",
+      "Notice/hearing requirements",
+      "Jurisdiction conflict",
+      "Revenue-land applicability versus urban/municipal/DDA property"
+    ]
+  },
+  {
+    "id": "tn-heir",
+    "state": "TN",
+    "title": "Legal Heir Certificate REV-114",
+    "route": {
+      "context": "deceased_residence",
+      "district": "Chennai",
+      "taluk": "Egmore",
+      "service": "legal_heir"
+    },
+    "execution_approved": false,
+    "scope": "Research record; exact scenario only",
+    "checked_on": "2026-09-04",
+    "office_ids": [
+      "tn-egmore-tahsildar"
+    ],
+    "facts": {
+      "documents": {
+        "value": [
+          "Deceased's ordinary pre-death address",
+          "Spouse declaration identifying heirs, including mother-in-law where relevant",
+          "Marriage/relationship evidence: marriage certificate, passport, Aadhaar or NPR",
+          "Children's birth certificates or transfer certificates",
+          "Death certificate"
+        ],
+        "sources": [
+          "tn-production-checklist"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "government_fee_inr": {
+        "value": 0,
+        "sources": [
+          "tn-state-fees",
+          "tn-eservices-fees"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "centre_charge_inr": {
+        "value": 60,
+        "sources": [
+          "tn-state-fees",
+          "tn-eservices-fees"
+        ],
+        "status": "published_schedule",
+        "note": "Separate from government fee; schedule is labelled effective 2017. No proof of latest revision found."
+      },
+      "workflow": {
+        "value": [
+          "CSC",
+          "Village Administrative Officer",
+          "Revenue Inspector",
+          "Headquarters Deputy Tahsildar",
+          "Tahsildar"
+        ],
+        "sources": [
+          "tn-heir-workflow"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "submission": {
+        "value": [
+          "CAN registration/lookup",
+          "Select REV-114",
+          "Applicant, deceased address and heir details",
+          "Upload applicable attachments",
+          "Payment and acknowledgement",
+          "Track application; download digitally signed certificate after approval"
+        ],
+        "sources": [
+          "tn-heir-operator-manual"
+        ],
+        "status": "legacy_manual",
+        "note": "2017 operator manual; not proof of current citizen-screen details."
+      },
+      "upload_limits": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Manual says prescribed type/size; numeric limit not confirmed from current screen."
+      },
+      "sla_days": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Do not present an unsourced 15–30 day estimate."
+      },
+      "output": {
+        "value": "Digitally signed legal-heir certificate",
+        "sources": [
+          "tn-heir-operator-manual"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "appeal": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Current G.O.478 and amendments plus appeal route must be verified."
+      },
+      "edge_cases": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "No surviving spouse, unmarried deceased, deceased heirs, adoption, remarriage, minors and foreign residence require current eligibility rules."
+      }
+    },
+    "gaps": [
+      "Current issuing officer name and hours",
+      "Current G.O. and eligibility exceptions",
+      "Application SLA",
+      "Current upload limits",
+      "Current fee revision check"
+    ]
+  },
+  {
+    "id": "tn-patta",
+    "state": "TN",
+    "title": "Patta transfer after inheritance",
+    "route": {
+      "context": "asset_location",
+      "district": "Chennai",
+      "taluk": "Egmore",
+      "service": "land_mutation",
+      "record_type": "patta"
+    },
+    "execution_approved": false,
+    "scope": "Research record; exact scenario only",
+    "checked_on": "2026-09-04",
+    "office_ids": [
+      "tn-egmore-tahsildar"
+    ],
+    "facts": {
+      "submission": {
+        "value": "Online transfer of registry under G.O.303 dated 27 December 2016",
+        "sources": [
+          "tn-patta-procedure"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "sla_days": {
+        "value": {
+          "without_subdivision": 15,
+          "with_subdivision": 30
+        },
+        "sources": [
+          "tn-patta-procedure"
+        ],
+        "status": "legacy_rule_requires_review",
+        "note": "Page attributes these to G.O.210/2011 then states its procedure was superseded in 2016; inspect later order before approval."
+      },
+      "centre_charge_inr": {
+        "value": 60,
+        "sources": [
+          "tn-eservices-fees"
+        ],
+        "status": "published_schedule",
+        "note": "Fee list distinguishes full-field, joint-patta and subdivision services; survey charges not established."
+      },
+      "government_fee_inr": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Need service-specific current notification and survey/other components."
+      },
+      "documents": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Complete inheritance-specific checklist for this land-record category not yet verified."
+      },
+      "appeal": {
+        "value": "RDO/Sub-Collector first appeal and DRO/Collector revision; page describes a 30-day filing period and says further CLA revision powers were withdrawn.",
+        "sources": [
+          "tn-patta-procedure"
+        ],
+        "status": "requires_legal_review",
+        "note": null
+      },
+      "output": {
+        "value": "Transfer of registry/patta record",
+        "sources": [
+          "tn-patta-procedure"
+        ],
+        "status": "officially_published",
+        "note": null
+      }
+    },
+    "gaps": [
+      "Current inheritance checklist",
+      "Current SLA order",
+      "Survey and fee components",
+      "Urban TSLR versus patta applicability",
+      "Exact competent officer for subdivision"
+    ]
+  },
+  {
+    "id": "mh-epsit",
+    "state": "MH",
+    "title": "Inherited property-card mutation through EPSIT",
+    "route": {
+      "context": "asset_location",
+      "district": "Mumbai Suburban",
+      "village": "Andheri",
+      "service": "land_mutation",
+      "record_type": "property_card"
+    },
+    "execution_approved": false,
+    "scope": "Research record; exact scenario only",
+    "checked_on": "2026-09-04",
+    "office_ids": [
+      "mh-andheri-city-survey"
+    ],
+    "facts": {
+      "documents": {
+        "value": [
+          "Photo identity evidence",
+          "Original death certificate",
+          "General self-declaration",
+          "Declaration identifying heirs",
+          "Applicant identity evidence",
+          "Certified power of attorney and its Index II, if represented"
+        ],
+        "sources": [
+          "mh-current-faq",
+          "mh-epsit-documents"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "submission": {
+        "value": [
+          "Applicant creates own mobile-based login",
+          "Choose jurisdiction and CTS/property identifiers",
+          "Enter deceased/heir details and any representative/court-case information",
+          "Upload and preview",
+          "Send application for mutation; preserve receipt/status"
+        ],
+        "sources": [
+          "mh-epsit-manual",
+          "mh-current-faq"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "upload_limits": {
+        "value": {
+          "format": "PDF",
+          "max_per_file_mb": 2
+        },
+        "sources": [
+          "mh-epsit-manual"
+        ],
+        "status": "manual_published",
+        "note": "Page 44; split oversized documents into multiple uploads where supported."
+      },
+      "notice_days": {
+        "value": 15,
+        "sources": [
+          "mh-epsit-documents"
+        ],
+        "status": "published_process",
+        "note": "Page 1: Form 9 notice; uncontested route only. This is not total SLA."
+      },
+      "government_fee_inr": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Page 2 generic offline form shows ₹5 court-fee stamp; current online charge and applicability not established."
+      },
+      "fee_claim": {
+        "value": {
+          "amount": 5,
+          "component": "court-fee stamp on generic paper form",
+          "page": 2
+        },
+        "sources": [
+          "mh-epsit-documents"
+        ],
+        "status": "legacy_form_requires_confirmation",
+        "note": null
+      },
+      "workflow": {
+        "value": [
+          "Maintenance Surveyor scrutiny",
+          "Form 9 notice to interested parties",
+          "If no objection in notice period, recommendation to office head",
+          "Office head checks and decides",
+          "Disposal communication"
+        ],
+        "sources": [
+          "mh-epsit-documents"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "appeal": {
+        "value": "District Superintendent of Land Records hears appeals against City Survey Officer decisions; PRATYAY supports cases.",
+        "sources": [
+          "mh-land-records"
+        ],
+        "status": "authority_published_deadline_unverified",
+        "note": null
+      },
+      "output": {
+        "value": "Property-card mutation decision/updated record",
+        "sources": [
+          "mh-land-records"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "sla_days": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "15-day notice must not be shown as total delivery time."
+      },
+      "special_declaration": {
+        "value": "Form includes no pending court case declaration; disputed or stayed case cannot use an unqualified clean-case declaration.",
+        "sources": [
+          "mh-epsit-documents"
+        ],
+        "status": "officially_published",
+        "note": null
+      }
+    },
+    "gaps": [
+      "Current mutation fee",
+      "Direct contact and public hours",
+      "SLA and appeal limitation",
+      "Confirm online declaration/signature requirements for disputed cases"
+    ]
+  },
+  {
+    "id": "mh-ehakk",
+    "state": "MH",
+    "title": "Inherited 7/12 record mutation through e-Hakk",
+    "route": {
+      "context": "asset_location",
+      "district": null,
+      "village": null,
+      "service": "land_mutation",
+      "record_type": "7_12"
+    },
+    "execution_approved": false,
+    "scope": "State procedure research; no village office has been verified.",
+    "checked_on": "2026-09-04",
+    "office_ids": [],
+    "facts": {
+      "documents": {
+        "value": [
+          "Death certificate, original or self-attested",
+          "Court heirship certificate only if available",
+          "Heirs' birth-date, identity and residence evidence plus mobile numbers",
+          "Prescribed heir declaration/affidavit",
+          "Foreign heir's email/address evidence if applicable",
+          "Ration card if available"
+        ],
+        "sources": [
+          "mh-current-faq"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "government_application_fee_inr": {
+        "value": 0,
+        "sources": [
+          "mh-current-faq"
+        ],
+        "status": "published",
+        "note": "Self-application; do not interpret as all related copies/certification being free."
+      },
+      "centre_charge_inr": {
+        "value": 25,
+        "sources": [
+          "mh-current-faq"
+        ],
+        "status": "published_estimate",
+        "note": "FAQ cites 5 December 2023 GR for a centre-filed heir mutation; actual extra pages/copies need confirmation."
+      },
+      "upload_limits": {
+        "value": {
+          "format": "PDF",
+          "strictly_less_than_mb": 1
+        },
+        "sources": [
+          "mh-current-faq",
+          "mh-ehakk-manual"
+        ],
+        "status": "published",
+        "note": "Current FAQ says below 1 MB; newer manual p47 says 1Mb. Old manual's 300KB should not override."
+      },
+      "submission": {
+        "value": [
+          "Select heir-entry mutation",
+          "Enter applicant",
+          "Search holder by name/khata",
+          "Select affected khatas in the village",
+          "Add heirs",
+          "Upload, preview and OTP submission",
+          "Retain 11-digit acknowledgement"
+        ],
+        "sources": [
+          "mh-ehakk-manual"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "corrections": {
+        "value": "Returned applications appear in correction tab; drafts in draft tab. Village Revenue Officer checks and forwards accepted mutation to competent Circle Officer.",
+        "sources": [
+          "mh-current-faq"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "sla_days": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Current applicable notified disposal deadline not yet verified."
+      },
+      "appeal": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Exact authority/deadline by mutation decision required."
+      },
+      "output": {
+        "value": "Mutation entry affecting selected khatas",
+        "sources": [
+          "mh-ehakk-manual"
+        ],
+        "status": "officially_published",
+        "note": null
+      }
+    },
+    "gaps": [
+      "Village office, named official, address, hours",
+      "Disposal deadline",
+      "Fee notification revision check",
+      "Objection/appeal details"
+    ]
+  },
+  {
+    "id": "ka-familytree",
+    "state": "KA",
+    "title": "Attestation of Family Tree",
+    "route": {
+      "context": "applicant_residence",
+      "district": "Bengaluru Urban",
+      "taluk": "Bengaluru North",
+      "service": "family_tree"
+    },
+    "execution_approved": false,
+    "scope": "Research record; exact scenario only",
+    "checked_on": "2026-09-04",
+    "office_ids": [
+      "ka-bengaluru-north-tahsildar"
+    ],
+    "facts": {
+      "issuing_role": {
+        "value": "Deputy Tahsildar",
+        "sources": [
+          "ka-services-fees-aug2025"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "service_fee_inr": {
+        "value": 40,
+        "sources": [
+          "ka-services-fees-aug2025"
+        ],
+        "status": "dated_official_schedule",
+        "note": "Legislative reply 20 August 2025, PDF p4. Do not call it the all-in current price."
+      },
+      "sla_days": {
+        "value": 14,
+        "sources": [
+          "ka-services-fees-aug2025"
+        ],
+        "status": "dated_official_schedule",
+        "note": "Calendar versus working days not established from table."
+      },
+      "fee_alternative": {
+        "value": {
+          "amount": 115,
+          "label": "Application for Attestation For Family Tree",
+          "page": 25
+        },
+        "sources": [
+          "ka-centre-fees-dec2025"
+        ],
+        "status": "channel_specific_unresolved",
+        "note": "December 2025 reply has centre-service rate rows; must establish channel and components rather than add or replace blindly."
+      },
+      "form_fields": {
+        "value": [
+          "Applicant/parents' names",
+          "Address, village, hobli, taluk, district",
+          "E-stamp number/date",
+          "Family-member name, age, relationship, identity document number",
+          "Acknowledgement and issuing Deputy Tahsildar"
+        ],
+        "sources": [
+          "ka-familytree-form"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "scope_restriction": {
+        "value": "Published format states use before Revenue Department for listed inheritance/dispute/pension/survival purposes; not universal bank or court acceptance.",
+        "sources": [
+          "ka-familytree-form"
+        ],
+        "status": "officially_published",
+        "note": null
+      },
+      "legal_heir_conflict": {
+        "value": "District page limits legal-heir certificates to deceased government servants and broadly refers others to civil court. Family-tree attestation is separately listed. Never turn this into a universal succession-certificate prerequisite.",
+        "sources": [
+          "ka-legal-heir-page",
+          "ka-services-fees-aug2025"
+        ],
+        "status": "requires_legal_review",
+        "note": null
+      },
+      "documents": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Form fields are not a complete attachment checklist; stamp denomination, notarisation and identity alternatives require verification."
+      },
+      "submission": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Current service portal registration/upload/payment screens and competent hobli need verification."
+      },
+      "upload_limits": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Not established."
+      },
+      "appeal": {
+        "value": null,
+        "sources": [],
+        "status": "not_verified",
+        "note": "Current Sakala service-specific appeal authorities/deadlines not verified."
+      },
+      "output": {
+        "value": "Digitally signed attestation, verifiable through Nadakacheri",
+        "sources": [
+          "ka-familytree-form"
+        ],
+        "status": "officially_published",
+        "note": null
+      }
+    },
+    "gaps": [
+      "Exact issuing counter/address/hours and incumbent",
+      "Full current attachment checklist",
+      "₹40 versus centre rates and e-stamp component",
+      "Service eligibility and receiving-institution acceptance",
+      "Current filing screens and appeal"
+    ]
+  }
+]

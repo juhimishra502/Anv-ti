@@ -1,0 +1,161 @@
+[
+  {
+    "id": "delhi_mehrauli_survivors",
+    "service": "surviving_member",
+    "applicant_residence": {
+      "state": "DL",
+      "district": "South Delhi",
+      "subdivision": "Mehrauli"
+    },
+    "asset_location": {
+      "state": "TN"
+    },
+    "expected": [
+      "dl-smc"
+    ],
+    "actual": [
+      "dl-smc"
+    ],
+    "passed": true
+  },
+  {
+    "id": "chennai_egmore_heirs",
+    "service": "legal_heir",
+    "deceased_residence": {
+      "state": "TN",
+      "district": "Chennai",
+      "taluk": "Egmore"
+    },
+    "applicant_residence": {
+      "state": "KA"
+    },
+    "expected": [
+      "tn-heir"
+    ],
+    "actual": [
+      "tn-heir"
+    ],
+    "passed": true
+  },
+  {
+    "id": "mumbai_andheri_property_card",
+    "service": "land_mutation",
+    "record_type": "property_card",
+    "asset_location": {
+      "state": "MH",
+      "district": "Mumbai Suburban",
+      "village": "Andheri"
+    },
+    "applicant_residence": {
+      "state": "DL"
+    },
+    "expected": [
+      "mh-epsit"
+    ],
+    "actual": [
+      "mh-epsit"
+    ],
+    "passed": true
+  },
+  {
+    "id": "bengaluru_north_family_tree",
+    "service": "family_tree",
+    "applicant_residence": {
+      "state": "KA",
+      "district": "Bengaluru Urban",
+      "taluk": "Bengaluru North"
+    },
+    "expected": [
+      "ka-familytree"
+    ],
+    "actual": [
+      "ka-familytree"
+    ],
+    "passed": true
+  },
+  {
+    "id": "state_alone_cannot_pick_sdm",
+    "service": "surviving_member",
+    "applicant_residence": {
+      "state": "DL"
+    },
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "id": "wrong_mumbai_district_no_reuse",
+    "service": "land_mutation",
+    "record_type": "property_card",
+    "asset_location": {
+      "state": "MH",
+      "district": "Mumbai City",
+      "village": "Andheri"
+    },
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "id": "unknown_city_survey_area_no_reuse",
+    "service": "land_mutation",
+    "record_type": "property_card",
+    "asset_location": {
+      "state": "MH",
+      "district": "Mumbai Suburban",
+      "village": "Bandra"
+    },
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "id": "patta_uses_asset_not_user_state",
+    "service": "land_mutation",
+    "record_type": "patta",
+    "asset_location": {
+      "state": "TN",
+      "district": "Chennai",
+      "taluk": "Egmore"
+    },
+    "applicant_residence": {
+      "state": "DL"
+    },
+    "expected": [
+      "tn-patta"
+    ],
+    "actual": [
+      "tn-patta"
+    ],
+    "passed": true
+  },
+  {
+    "id": "demat_never_routed_to_land_office",
+    "service": "demat_transmission",
+    "asset_location": {
+      "state": "MH",
+      "district": "Mumbai Suburban",
+      "village": "Andheri"
+    },
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "id": "property_card_not_seven_twelve",
+    "service": "land_mutation",
+    "record_type": "7_12",
+    "asset_location": {
+      "state": "MH",
+      "district": "Mumbai Suburban",
+      "village": "Andheri"
+    },
+    "expected": [
+      "mh-ehakk"
+    ],
+    "actual": [
+      "mh-ehakk"
+    ],
+    "passed": true
+  }
+]

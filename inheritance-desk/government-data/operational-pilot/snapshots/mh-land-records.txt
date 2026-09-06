@@ -1,0 +1,1584 @@
+Land Records | Mumbai Suburban District, Government of Maharashtra | India
+Search
+Search
+Social Media Links
+Site Map
+Accessibility Links
+Accessibility
+                                            Tools
+Color Contrast
+High Contrast
+High Contrast
+Normal Contrast
+Normal Contrast - Selected
+Highlight Links
+Highlight Links - Selected
+Invert
+Invert page colors
+Saturation
+Apply saturation
+Text Size
+Font Size Increase
+Font Size Increase
+Normal Font
+Normal Font - Selected
+Font Size Decrease
+Font Size Decrease
+Text Spacing
+Text Spacing
+Line Height
+Line Height
+Other Controls
+Big Cursor
+Big Cursor
+Hide Image
+Hide Image
+Text to Speech
+महाराष्ट्र शासन
+GOVERNMENT OF MAHARASHTRA
+मुंबई उपनगर जिल्हा
+Mumbai Suburban District
+Menu Toggle
+More
+Home
+About District
+History
+Who’s Who
+Public Representatives
+Map of District
+Organisation Chart
+Administrative Setup
+Collectorate
+Tehsil
+Subdivision & Blocks
+Village
+Police
+Constituencies
+Demography
+Geo-Tagging of Offices
+Aadhaar Center List
+Borivali
+Andheri
+Kurla
+Departments
+Election Branch
+SIR 2026
+How to Register to Vote
+Candidate Expenditure in Election
+How to search voter details
+District Planning
+Sanjay Gandhi Yojana
+Establishment Branch
+Land Records
+Mining Branch
+ULC
+Revenue Branch
+Record Branch
+LRT Branch
+Land Acquisation Branch
+SDO Eastern Branch
+SDO Western Branch
+Upper Chitnis Branch
+Lease Branch
+Recovery Branch
+Accounts Branch
+Internal Audit Branch
+Entertainment Branch
+Registration Branch
+Govt Scemes and Website
+Government Websites
+Various Govt Schemes
+Directory
+Disaster Management
+Helpline
+STD & PIN Codes
+Public Utilities
+Banks
+Colleges/Universities
+Electricity
+Hospitals
+Municipal Coporation
+NGOs
+Postal
+Schools
+RTS Act
+RTI
+100 Days Program
+Tourism
+How to Reach
+Places of Interest
+Tourist Places
+Election 2024
+Documents
+Annual Report
+Office Order
+Census
+Guidelines
+District Profile
+Plan Report
+Statistical Report
+Citizen Charter
+Others
+Notification
+SEO Related
+Forms
+Kunbi Records
+Notices
+Events
+Upcoming Events
+Announcements
+Recruitment
+Tenders/ Auctions
+LAND ACQUISITION
+Publication
+E-GOV Project
+Online Software Projects
+Citizen Services
+Schemes
+Media Gallery
+Photo Gallery
+Video Gallery
+Press Releases
+iRAD Project
+National Informatics Centre
+Modern Setu
+Self Declaration
+Geographic Information System
+More Menu
+Close
+Home
+Departments
+Land Records
+Facebook
+X
+Land Records
+District Superintendent of Land Records, Mumbai Suburban District
+About the department
+Departmental structure
+Service
+For Citizens
+Gallery
+Publications
+About the department
+About the Department
+Survey branch is one of the important branches in the office of Settlement Commissioner and Director of Land Records (Maharashtra State) Pune . This branch regularly monitors, the progress of survey work being carried out in the State. Various types of measurements such as Boundary Confirmation, Sub Division, Non Agriculture, Land Acquisition, Court Commission etc. are carried out by the Department staff working at Taluka level. District Superintendent of Land Records and Deputy Director of Land Records monitor the progress of this work in their District and Division respectively. Various steps are being taken for the modernization of Survey techniques in the Department. Survey branch also works on policy level changes in Survey and related aspects and proposes to the Government.
+Departmental structure
+/* ------------------------------------------------OUR CUSTOME CODE--------------------------------------------------- */
+
+        .slider-container {
+            /* position: relative;
+            width: 80%;
+            max-width: 800px; */
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slide {
+            min-width: 100%;
+            transition: 0.5s;
+        }
+
+        .slide img {
+            width: 100%;
+            display: block;
+        }
+
+        .prev,
+        .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .prev {
+            left: 10px;
+        }
+
+        .next {
+            right: 10px;
+        }
+
+        .container1 {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #1a73e8;
+            padding-bottom: 10px;
+        }
+
+        .title1 {
+            color: #1a73e8;
+            font-size: 20px !important;
+
+            font-weight: 700;
+        }
+
+        .officer-name {
+            color: #2d3748;
+            font-size: 1.4em;
+            font-weight: 600;
+        }
+
+        .address-section {
+            /* margin: 25px 0; */
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .address-item {
+            display: flex;
+            align-items: center;
+            /* margin: 15px 0; */
+            color: #4a5568;
+        }
+
+        .icon {
+            font-size: 1.2em;
+            margin-right: 15px;
+            color: #1a73e8;
+            min-width: 30px;
+            text-align: center;
+        }
+
+        .email-link {
+            color: #1a73e8;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .email-link:hover {
+            color: #1557b0;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+
+            .title {
+                font-size: 1.8em;
+            }
+
+            .officer-name {
+                font-size: 1.2em;
+            }
+        }
+
+        .table-container {
+            margin: 2rem auto;
+            max-width: 1200px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        .custom-table thead {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+        }
+
+        .custom-table th {
+            padding: 1.0rem;
+            font-size: 1.8rem;
+            text-align: left;
+            border-bottom: 2px solid #2980b9;
+        }
+
+        .custom-table td {
+            padding: 1rem;
+            border-bottom: 1px solid #ecf0f1;
+            vertical-align: top;
+            font-size: 1.8rem;
+        }
+
+        .custom-table tbody tr:hover {
+            background-color: #c8f4e4;
+            transition: background-color 0.3s ease;
+        }
+
+        .email-link {
+            color: #3498db;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+            color: #2980b9;
+        }
+
+
+        @media (max-width: 768px) {
+            .table-container {
+                margin: 1rem;
+                border-radius: 8px;
+            }
+
+            .custom-table th,
+            .custom-table td {
+                padding: 0.8rem;
+                font-size: 0.95rem;
+            }
+        }
+
+        /* ------------------------------------------------OUR CUSTOME CODE --------------------------------------------------- */
+Settlement Commissioner and Director of Land Records, Maharashtra State, Pune
+Name :Dr. Suhas Divase, IAS
+Office Address:
+Settlement Commissioner And Director Of Land Records, 2nd Floor, NEW ADMINISTRATIVE BUILDING, opposite Council Hall, Agarkar Nagar, Pune, Maharashtra 411001
+email:
+dlrmah.mah@nic.in
+Telephone:
+020-26050006
+Deputy Director of Land Records, Konkan Region
+Name: Shri. Anil Mane
+Office Address:
+66/68 L, First Floor, Old Custom House, Shahid Bhagat Singh Road, Kala Ghoda, Fort, Mumbai, Maharashtra 400001
+email:
+ddlrmumbai@gmail.com
+Telephone:
+022-22660652
+District Superintendent of Land Records, Mumbai Suburban District
+Name: Shri. Krishnat Kanase
+Office Address:
+10th floor, Administrative building, near Chetana college, Government Colony, Bandra East, Mumbai, Maharashtra 400051
+email:
+dslr.msd@gmail.com
+Telephone:
+022-265010894
+District Superintendent of Land Records, Mumbai Suburban District
+The City Survey work in Mumbai Suburban District was carried out during the period 1963-1970. Mumbai Suburban District comprises a total of 86 villages and the City Survey records of all 86 villages are preserved and maintained through the Land Records Offices. For all the villages, separate property holder-wise property records and maps have been prepared in 1:500 scale.
+This mainly involves various types of property/Land measurement (boundary demarcation, Sub-division, Non -Agriculture land, Land Acquisition, Road Setback, etc.), as well as recording and updating the records of property changes (Purchase Conveyance, Gift Deed, Release Deed,Mortgage deed,Deed of Assignment,Will/Legal Hiership,etc.).
+The District Superintendent of Land Records, Mumbai Suburban District has 10 City Survey Offices and 1 Deputy Superintendent of Land Records Office under its Jurisdiction and works as the Controlling Officer over them. Also, the District Superintendent of Land Records is the technical advisor to the District Collector and the Appellate Officer of theCity Survey Officers.
+There are 3 talukas in Mumbai Suburban District namely Kurla, Andheri, Borivali and the area of ​​Jurisdiction of the City Survey Offices are as follows
+S.No.
+Name of the Office
+Officer Name
+Office Address
+Telephone No and Email id
+Village Area Jurisdiction
+1.
+District Superintendent Land Records,
+Mumbai Suburban District
+Shri. Krishnat Kanase
+10th floor, Administrative building,
+Near Chetana College, Government Colony,
+Bandra East, Mumbai, Maharashtra 400051
+dslr.msd@gmail.com
+022-265010894
+Mumbai Suburban District
+2.
+City Survey Officer, Chembur
+Shri. Milind Bhole
+Topiwala College premises,
+Sarojini Naidu Road,
+Mulund (West), Mumbai-400080
+ctsochembur80@gmail.com
+022-25619876
+Chembur, Borla, Vadhavali, Mahul,
+Anik, Maravali, Turbhe, Mankhurd,
+Mandale,Maan Budruk
+3.
+City Survey Officer, Ghatkopar
+Shri. Sujit Jadhav
+Tehsildar Kurla Office Premises,
+Sarojini Naidu Road,
+Mulund (West), Mumbai-400080
+ctsoghatkopar@gmail.com
+022-25642228
+Tungva, Chandivali, Asalpha, Kirol, Ghatkopar-Kirol, Ghatkopar,  Vikroli, Hariyali, Deonar
+4
+City Survey Officer, Kurla
+Shri. Pankaj Phegde
+Ground Floor,
+Topiwala College Building,
+Sarojini Naidu Road, Mulund (West), Mumbai-400080
+ctsokurla@gmail.com
+022-25695771
+Kurla, Mohili, Saki
+5
+City Survey Officer, Mulund
+Shri. Dinesh Dhokale
+1st Floor, Topiwala College Building,
+Sarojini Naidu Road,
+Mulund (West), Mumbai-400080
+ctsomulund@gmail.com
+022-25619878
+Nahur, Mulund, Bhandup, Kanjur, Tirandaj, Powai, Kopari, Paspoli
+6
+City Survey Officer, Andheri
+Shri. Yogeshwar Savkar
+Sardar Vallabhbhai Patel Nagar,
+Shri Swami Samarth Nagar Road, Vesave,
+Andheri (West), Mumbai-400053
+ctsoandheri@gmail.com
+022-26362674
+Ambivali, Bandivali, Oshivara, Versova, Madh, Majas, Andheri, Ismalia, Mogara.
+7
+City Survey Officer, Bandra
+Shri. Suraj Kavale
+Revenue Building, 4th & 5th Floor,
+Beside Bandra Station, Opposite Bus Depot,
+Bandra (West), Mumbai-400050
+bandractso@gmail.com
+022-26128110
+Bandra, Parighakhadi, Kole-Kalyan
+8
+City Survey Officer, Vile Parle
+Shri. Dattatray Satpute
+1st Floor, Municipal Motor Garage Compound,
+Milan Subway, S. V. Road,
+Santacruz (West) Mumbai 400054
+ctsovileparle@gmail.com
+022-26183202
+Juhu, VileParle, Bramhanwada, Gundavali, Chakala, Kondivata, Bapnala,  Parjapur, Mulgaon, Vyarvali, Sahar, Marol.
+9
+City Survey Officer, Borivali
+Shri. Umesh Zende
+4th Floor Administrative Building,
+Natakwala Lane,
+S. V. Road, Borivali (West) Mumbai 400092
+ctsoborivali@gmail.com
+022-28075045
+Borivali, Kandivali, Manori, Gorai, Kanheri, Magathane, Mandpeshvar, Eksar, Dahisar, Shimpavali, Charkop.
+10
+City Survey Officer, Goregaon
+Shri. Ranjit Deshmukh
+B.E.S.T. Adhikari Colony,
+Dadasaheb Rupavate Road,
+Goregaon (West), Mumbai 400104
+ctsogoregaon@gmail.com
+022-26773435
+Poisar, Valanai, Wadhavan, Darivali,Akurli, Erangal, Malavani, Marve, Aksa, Pahari-Eksar, Pahari-Goregaon
+11
+City Survey Officer, Malad
+Shri. Amar Dhokale
+Administrative Building, 5th Floor,
+Natakwala Lane, S. V. Road,
+Borivali (West), Mumbai-400092
+maladctso@gmail.com
+022-28636397
+Malad, Goregaon, Aarey, Chichavali, Dindoshi, Kurar, Klerabad, Gundgaon, Tulsi,Sai.
+12
+Deputy Superintendent Land Records,
+Mumbai Suburban District
+Shri. Vikas Rane
+5th floor, Administrative building,
+Near Chetana college, Government Colony,
+Bandra East, Mumbai, Maharashtra 400051
+dyslrmsd@gmail.com
+022-26511957
+Mumbai Suburban District
+Service
+Service
+The Land Records Department is an important part of the Revenue administration of the state and this department is responsible for maintaining land related records, measuring land, preserving and conserving land records in urban/rural areas. In order to ensure that the conveniences provided by the department to the people of the state are available immediately and without any hindrance, the website
+https://bhumiabhilekh.maharashtra.gov.in/
+has been developed by the department. The following services are provided to the public through this website
+What’s New
+EPSIT Electronic Property Card System integrated tool Guidence
+DRONE SURVEY PROJECT TO IDENTIFY GOVERNMENT PROPERTIES IN MUMBAI SUBURBAN DISTRICT BY SUPERINTENDENT LAND RECORDS ,MUMBAI SUBURBAN UNDER PM GATI SHAKTI SCHEME
+.gen-card.custom-card {
+            flex: 1;
+            min-width: 250px;
+            /* max-width: 300px; */
+            border: 1px solid #ccc;
+            padding: 0 !important;
+            /* background: #ddfae7; */
+            background: #ade1f6;
+            margin-bottom: 10px;
+            text-align: center;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gen-card.custom-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .gen-card.custom-card h3 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .gen-card.custom-card p {
+            font-size: 1.5rem;
+            color: #666666;
+            margin-bottom: 0px !important;
+            text-align: justify;
+        }
+
+        .gen-card.custom-card .visit-btn {
+            display: inline-block;
+            padding: 8px 15px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .gen-card.custom-card .visit-btn:hover {
+            background: #0056b3;
+        }
+
+        /* Card Image */
+        .card-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Card Content */
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card-content h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card-content p {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .card-text {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.5;
+            height: 10em;
+            /* Fixed height to show 3 lines */
+            overflow: hidden;
+            display: -webkit-box;
+            /* Limits to 3 lines */
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+        }
+
+        /* Visit Button */
+        .visit-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .visit-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Card Footer */
+        .card-footer {
+            /* background: #f8f9fa; */
+            padding: 10px;
+            text-align: center;
+            font-size: 1rem;
+            color: #555;
+            border-top: 1px solid #ddd;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .card-footer a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card-footer a:hover {
+            text-decoration: underline;
+        }
+Download facility for Digitally Signed Property Card
+e-PCIS is a web-based service developed for computerization and digitization of property cards (Urban Rights Records) and  can be updated through online modifications. Online property cards are available for the public on this website.
+Procedure
+Website
+URL:
+https://digitalsatbara.mahabhumi.gov.in/dslr
+.gen-card.custom-card {
+            flex: 1;
+            min-width: 250px;
+            /* max-width: 300px; */
+            border: 1px solid #ccc;
+            padding: 0 !important;
+            /* background: #ddfae7; */
+            background: #ade1f6;
+            margin-bottom: 10px;
+            text-align: center;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gen-card.custom-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .gen-card.custom-card h3 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .gen-card.custom-card p {
+            font-size: 1.5rem;
+            color: #666666;
+            margin-bottom: 0px !important;
+            text-align: justify;
+        }
+
+        .gen-card.custom-card .visit-btn {
+            display: inline-block;
+            padding: 8px 15px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .gen-card.custom-card .visit-btn:hover {
+            background: #0056b3;
+        }
+
+        /* Card Image */
+        .card-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Card Content */
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card-content h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card-content p {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .card-text {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.5;
+            height: 12em;
+            /* Fixed height to show 3 lines */
+            overflow: hidden;
+            display: -webkit-box;
+            /* Limits to 3 lines */
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+        }
+
+        /* Visit Button */
+        .visit-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .visit-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Card Footer */
+        .card-footer {
+            /* background: #f8f9fa; */
+            padding: 10px;
+            text-align: center;
+            font-size: 1rem;
+            color: #555;
+            border-top: 1px solid #ddd;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .card-footer a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card-footer a:hover {
+            text-decoration: underline;
+        }
+BhuNaksha– Digitized Maps of Property
+In this system, the details of the title records are linked to the Village Sample Number 7/12, City Survey Number, Survey Number, Digitized Village Map Group Number / City Survey Number. So that the user will be able to check the area and the name of the occupant in the Land Registry ,Satbara record. On this website, the citizens can access their City Survey Number / Group Number Map of their property online.
+Procedure
+Website
+URL:
+https://mahabhunakasha.mahabhumi.gov.in/27/index.html
+.gen-card.custom-card {
+            flex: 1;
+            min-width: 250px;
+            /* max-width: 300px; */
+            border: 1px solid #ccc;
+            padding: 0 !important;
+            /* background: #ddfae7; */
+            background: #ade1f6;
+            margin-bottom: 10px;
+            text-align: center;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gen-card.custom-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .gen-card.custom-card h3 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .gen-card.custom-card p {
+            font-size: 1.5rem;
+            color: #666666;
+            margin-bottom: 0px !important;
+            text-align: justify;
+        }
+
+        .gen-card.custom-card .visit-btn {
+            display: inline-block;
+            padding: 8px 15px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .gen-card.custom-card .visit-btn:hover {
+            background: #0056b3;
+        }
+
+        /* Card Image */
+        .card-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Card Content */
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card-content h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card-content p {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .card-text {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.5;
+            height: 10em;
+            /* Fixed height to show 3 lines */
+            overflow: hidden;
+            display: -webkit-box;
+            /* Limits to 3 lines */
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+        }
+
+        /* Visit Button */
+        .visit-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .visit-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Card Footer */
+        .card-footer {
+            /* background: #f8f9fa; */
+            padding: 10px;
+            text-align: center;
+            font-size: 1rem;
+            color: #555;
+            border-top: 1px solid #ddd;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .card-footer a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card-footer a:hover {
+            text-decoration: underline;
+        }
+e- Records
+(Old Archived Records)
+The e-Records project has scanned the old land survey records available in the Land Records Department. These include enquiry registers, land records, old property records, etc. The records are available online for the public through the e-Records website.
+Procedure
+Website
+URL:
+https://aapleabhilekh.mahabhumi.gov.in/erecords
+.gen-card.custom-card {
+            flex: 1;
+            min-width: 250px;
+            /* max-width: 300px; */
+            border: 1px solid #ccc;
+            padding: 0 !important;
+            /* background: #ddfae7; */
+            background: #ade1f6;
+            margin-bottom: 10px;
+            text-align: center;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gen-card.custom-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .gen-card.custom-card h3 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .gen-card.custom-card p {
+            font-size: 1.5rem;
+            color: #666666;
+            margin-bottom: 0px !important;
+            text-align: justify;
+        }
+
+        .gen-card.custom-card .visit-btn {
+            display: inline-block;
+            padding: 8px 15px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .gen-card.custom-card .visit-btn:hover {
+            background: #0056b3;
+        }
+
+        /* Card Image */
+        .card-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Card Content */
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card-content h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card-content p {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .card-text {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.5;
+            height: 10em;
+            /* Fixed height to show 3 lines */
+            overflow: hidden;
+            display: -webkit-box;
+            /* Limits to 3 lines */
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+        }
+
+        /* Visit Button */
+        .visit-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .visit-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Card Footer */
+        .card-footer {
+            /* background: #f8f9fa; */
+            padding: 10px;
+            text-align: center;
+            font-size: 1rem;
+            color: #555;
+            border-top: 1px solid #ddd;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .card-footer a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card-footer a:hover {
+            text-decoration: underline;
+        }
+EPSIT
+Electronic Property Card System integrated tool
+Applicants do not need to physically visit the office to make changes in the heir records. Citizens can file for mutation applications through the online system.
+Documents
+Procedure
+Website
+URL:
+https://epsit.mahabhumi.gov.in/#/login
+.gen-card.custom-card {
+            flex: 1;
+            min-width: 250px;
+            /* max-width: 300px; */
+            border: 1px solid #ccc;
+            padding: 0 !important;
+            /* background: #ddfae7; */
+            background: #ade1f6;
+            margin-bottom: 10px;
+            text-align: center;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gen-card.custom-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .gen-card.custom-card h3 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .gen-card.custom-card p {
+            font-size: 1.5rem;
+            color: #666666;
+            margin-bottom: 0px !important;
+            text-align: justify;
+        }
+
+        .gen-card.custom-card .visit-btn {
+            display: inline-block;
+            padding: 8px 15px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .gen-card.custom-card .visit-btn:hover {
+            background: #0056b3;
+        }
+
+        /* Card Image */
+        .card-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Card Content */
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card-content h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card-content p {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .card-text {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.5;
+            height: 10em;
+            /* Fixed height to show 3 lines */
+            overflow: hidden;
+            display: -webkit-box;
+            /* Limits to 3 lines */
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+        }
+
+        /* Visit Button */
+        .visit-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .visit-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Card Footer */
+        .card-footer {
+            /* background: #f8f9fa; */
+            padding: 10px;
+            text-align: center;
+            font-size: 1rem;
+            color: #555;
+            border-top: 1px solid #ddd;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .card-footer a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card-footer a:hover {
+            text-decoration: underline;
+        }
+e-Mojni
+(Land Meaurement Apllication)
+The e-Mojni application has helped citizens to process their land measurement applications accurately. Citizens also get important information like land measurement date, measurement time, name of surveyor, measurement fee etc. as soon as they apply.
+Documents
+Procedure
+Website
+URL:
+https://emojni.mahabhumi.gov.in/emojni/mojani/pgLogin.aspx
+.gen-card.custom-card {
+            flex: 1;
+            min-width: 250px;
+            /* max-width: 300px; */
+            border: 1px solid #ccc;
+            padding: 0 !important;
+            /* background: #ddfae7; */
+            background: #ade1f6;
+            margin-bottom: 10px;
+            text-align: center;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gen-card.custom-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .gen-card.custom-card h3 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .gen-card.custom-card p {
+            font-size: 1.5rem;
+            color: #666666;
+            margin-bottom: 0px !important;
+            text-align: justify;
+        }
+
+        .gen-card.custom-card .visit-btn {
+            display: inline-block;
+            padding: 8px 15px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .gen-card.custom-card .visit-btn:hover {
+            background: #0056b3;
+        }
+
+        /* Card Image */
+        .card-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Card Content */
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card-content h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card-content p {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .card-text {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.5;
+            height: 16em;
+            /* Fixed height to show 3 lines */
+            overflow: hidden;
+            display: -webkit-box;
+            /* Limits to 3 lines */
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+        }
+
+        /* Visit Button */
+        .visit-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .visit-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Card Footer */
+        .card-footer {
+            /* background: #f8f9fa; */
+            padding: 10px;
+            text-align: center;
+            font-size: 1rem;
+            color: #555;
+            border-top: 1px solid #ddd;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .card-footer a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card-footer a:hover {
+            text-decoration: underline;
+        }
+PRATYAY(e-QJCourts V2.0)
+PAPERLESS REVISION AND APPEAL IN A TRANSPARENT WAY
+The concerned parties file an appeal with the District Superintendent of Land Records, Mumbai Suburban District against the alteration records taken by the City Survey Officer, as well as other proceedings, seeking relief. The order passed in the said appeal case is uploaded on this website. The public can view uploaded order on this website. A certified copy of the said uploaded order can be obtained by applying to the respective offices.
+Procedure
+Website
+URL:
+https://pratyay.mahabhumi.gov.in
+.gen-card.custom-card {
+            flex: 1;
+            min-width: 250px;
+			/* max-width: 300px; */
+            border: 1px solid #ccc;
+            padding: 0 !important;
+            /* background: #ddfae7; */
+            background: #ade1f6;
+            margin-bottom: 10px;
+            text-align: center;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gen-card.custom-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .gen-card.custom-card h3 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .gen-card.custom-card p {
+            font-size: 1.5rem;
+            color: #666666;
+            margin-bottom: 0px !important;
+            text-align: justify;
+        }
+
+        .gen-card.custom-card .visit-btn {
+            display: inline-block;
+            padding: 8px 15px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .gen-card.custom-card .visit-btn:hover {
+            background: #0056b3;
+        }
+
+        /* Card Image */
+        .card-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Card Content */
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card-content h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card-content p {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .card-text {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.5;
+            height: 10em;
+            /* Fixed height to show 3 lines */
+            overflow: hidden;
+            display: -webkit-box;
+            /* Limits to 3 lines */
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+        }
+
+        /* Visit Button */
+        .visit-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .visit-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Card Footer */
+        .card-footer {
+            /* background: #f8f9fa; */
+            padding: 10px;
+            text-align: center;
+            font-size: 1rem;
+            color: #555;
+            border-top: 1px solid #ddd;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .card-footer a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card-footer a:hover {
+            text-decoration: underline;
+        }
+Aapli Chawdi
+(Digital Notice Board)
+Digital Notice Board Platform to track the status of all applied applications of services provided by Land Records Department, Government of Maharashtra.
+Website
+URL:
+https://digitalsatbara.mahabhumi.gov.in/aaplichawdi/
+.gen-card.custom-card {
+            flex: 1;
+            min-width: 250px;
+			/* max-width: 300px; */
+            border: 1px solid #ccc;
+            padding: 0 !important;
+            /* background: #ddfae7; */
+            background: #ade1f6;
+            margin-bottom: 10px;
+            text-align: center;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gen-card.custom-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .gen-card.custom-card h3 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .gen-card.custom-card p {
+            font-size: 1.5rem;
+            color: #666666;
+            margin-bottom: 0px !important;
+            text-align: justify;
+        }
+
+        .gen-card.custom-card .visit-btn {
+            display: inline-block;
+            padding: 8px 15px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .gen-card.custom-card .visit-btn:hover {
+            background: #0056b3;
+        }
+
+        /* Card Image */
+        .card-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Card Content */
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card-content h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card-content p {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .card-text {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.5;
+            height: 15em;
+            /* Fixed height to show 3 lines */
+            overflow: hidden;
+            display: -webkit-box;
+            /* Limits to 3 lines */
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+        }
+
+        /* Visit Button */
+        .visit-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .visit-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Card Footer */
+        .card-footer {
+            /* background: #f8f9fa; */
+            padding: 10px;
+            text-align: center;
+            font-size: 1rem;
+            color: #555;
+            border-top: 1px solid #ddd;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .card-footer a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card-footer a:hover {
+            text-decoration: underline;
+        }
+Aaple Sarkar Portal-
+Redressal of Public Grievances
+Citizens can get their grievances redressed online on the “Aaple Sarkar” portal without coming to the office. For any grievances related to the services provided by the Land Records Department of the Government of Maharashtra, citizens can send an email to the concerned District Superintendent of Land Records, Mumbai Suburban District Office and City Survey Offices, Mumbai Suburban District and file their grievances here.
+Website
+URL:
+https://aaplesarkar.mahaonline.gov.in/en
+For Citizens
+Right to Information Act-2005
+Right to Services Act-2015
+Public Grievances Portal
+Aaple Sarkar
+Ease of Living
+Gallery
+कोस्टल रोड जुहू-वर्सोवा -दहिसर  चे मा. जिल्हाधिकारी , मुंबई उपनगर  व मा. जिल्हा अधीक्षक भूमी अभिलेख ,मुंबई उपनगर  यांचे आदेशाने तातडीने  भूसंपादनासाठी आगाऊ ताबा देण्यासाठी मोजणी करताना भूमी अभिलेख कर्मचारी
+कोस्टल रोड जुहू-वर्सोवा -दहिसर  चे मा. जिल्हाधिकारी , मुंबई उपनगर  व मा. जिल्हा अधीक्षक भूमी अभिलेख ,मुंबई उपनगर  यांचे आदेशाने तातडीने  भूसंपादनासाठी आगाऊ ताबा देण्यासाठी मोजणी करताना भूमी अभिलेख कर्मचारी
+कोस्टल रोड जुहू-वर्सोवा -दहिसर  चे मा. जिल्हाधिकारी , मुंबई उपनगर  व मा. जिल्हा अधीक्षक भूमी अभिलेख ,मुंबई उपनगर  यांचे आदेशाने तातडीने  भूसंपादनासाठी आगाऊ ताबा देण्यासाठी मोजणी करताना भूमी अभिलेख कर्मचारी
+दि-२५/०७/२०२५ रोजी एमएसईबी, वांद्रे येथील प्रकाशगड सभागृह येथे मा. जिल्हा अधीक्षक भूमी अभिलेख ,मुंबई उपनगर  यांचे मान्यतेने भूमी अभिलेख अधिकारी व कर्मचारी यांचे  ई- ऑफिस प्रणाली वापर ,नगर भूमापन कामकाज सुलभता ,वेळेचे व आर्थिक व्यवस्थापन करणे बाबत तसेच तणाव मुक्तीसाठी- योग प्रशिक्षण देण्यात आले
+दि-२५/०७/२०२५ रोजी एमएसईबी, वांद्रे येथील प्रकाशगड सभागृह येथे मा. जिल्हा अधीक्षक भूमी अभिलेख ,मुंबई उपनगर  यांचे मान्यतेने भूमी अभिलेख अधिकारी व कर्मचारी यांचे  ई- ऑफिस प्रणाली वापर ,नगर भूमापन कामकाज सुलभता ,वेळेचे व आर्थिक व्यवस्थापन करणे बाबत तसेच तणाव मुक्तीसाठी- योग प्रशिक्षण देण्यात आले
+दि-२५/०७/२०२५ रोजी एमएसईबी, वांद्रे येथील प्रकाशगड सभागृह येथे मा. जिल्हा अधीक्षक भूमी अभिलेख ,मुंबई उपनगर  यांचे मान्यतेने भूमी अभिलेख अधिकारी व कर्मचारी यांचे  ई- ऑफिस प्रणाली वापर ,नगर भूमापन कामकाज सुलभता ,वेळेचे व आर्थिक व्यवस्थापन करणे बाबत तसेच तणाव मुक्तीसाठी- योग प्रशिक्षण देण्यात आले
+दि-२५/०७/२०२५ रोजी एमएसईबी, वांद्रे येथील प्रकाशगड सभागृह येथे मा. जिल्हा अधीक्षक भूमी अभिलेख ,मुंबई उपनगर  यांचे मान्यतेने भूमी अभिलेख अधिकारी व कर्मचारी यांचे  ई- ऑफिस प्रणाली वापर ,नगर भूमापन कामकाज सुलभता ,वेळेचे व आर्थिक व्यवस्थापन करणे बाबत तसेच तणाव मुक्तीसाठी- योग प्रशिक्षण देण्यात आले
+दि-२५/०७/२०२५ रोजी एमएसईबी, वांद्रे येथील प्रकाशगड सभागृह येथे मा. जिल्हा अधीक्षक भूमी अभिलेख ,मुंबई उपनगर  यांचे मान्यतेने भूमी अभिलेख अधिकारी व कर्मचारी यांचे  ई- ऑफिस प्रणाली वापर ,नगर भूमापन कामकाज सुलभता ,वेळेचे व आर्थिक व्यवस्थापन करणे बाबत तसेच तणाव मुक्तीसाठी- योग प्रशिक्षण देण्यात आले
+दि-२५/०७/२०२५ रोजी एमएसईबी, वांद्रे येथील प्रकाशगड सभागृह येथे मा. जिल्हा अधीक्षक भूमी अभिलेख ,मुंबई उपनगर  यांचे मान्यतेने भूमी अभिलेख अधिकारी व कर्मचारी यांचे  ई- ऑफिस प्रणाली वापर ,नगर भूमापन कामकाज सुलभता ,वेळेचे व आर्थिक व्यवस्थापन करणे बाबत तसेच तणाव मुक्तीसाठी- योग प्रशिक्षण देण्यात आले
+दि-२५/०७/२०२५ रोजी एमएसईबी, वांद्रे येथील प्रकाशगड सभागृह येथे मा. जिल्हा अधीक्षक भूमी अभिलेख ,मुंबई उपनगर  यांचे मान्यतेने भूमी अभिलेख अधिकारी व कर्मचारी यांचे  ई- ऑफिस प्रणाली वापर ,नगर भूमापन कामकाज सुलभता ,वेळेचे व आर्थिक व्यवस्थापन करणे बाबत तसेच तणाव मुक्तीसाठी- योग प्रशिक्षण देण्यात आले
+दि-२५/०७/२०२५ रोजी एमएसईबी, वांद्रे येथील प्रकाशगड सभागृह येथे मा. जिल्हा अधीक्षक भूमी अभिलेख ,मुंबई उपनगर  यांचे मान्यतेने भूमी अभिलेख अधिकारी व कर्मचारी यांचे  ई- ऑफिस प्रणाली वापर ,नगर भूमापन कामकाज सुलभता ,वेळेचे व आर्थिक व्यवस्थापन करणे बाबत तसेच तणाव मुक्तीसाठी- योग प्रशिक्षण देण्यात आले
+दि-२५/०७/२०२५ रोजी एमएसईबी, वांद्रे येथील प्रकाशगड सभागृह येथे मा. जिल्हा अधीक्षक भूमी अभिलेख ,मुंबई उपनगर  यांचे मान्यतेने भूमी अभिलेख अधिकारी व कर्मचारी यांचे  ई- ऑफिस प्रणाली वापर ,नगर भूमापन कामकाज सुलभता ,वेळेचे व आर्थिक व्यवस्थापन करणे बाबत तसेच तणाव मुक्तीसाठी- योग प्रशिक्षण देण्यात आले
+दि-२५/०७/२०२५ रोजी एमएसईबी, वांद्रे येथील प्रकाशगड सभागृह येथे मा. जिल्हा अधीक्षक भूमी अभिलेख ,मुंबई उपनगर  यांचे मान्यतेने भूमी अभिलेख अधिकारी व कर्मचारी यांचे  ई- ऑफिस प्रणाली वापर ,नगर भूमापन कामकाज सुलभता ,वेळेचे व आर्थिक व्यवस्थापन करणे बाबत तसेच तणाव मुक्तीसाठी- योग प्रशिक्षण देण्यात आले
+दि-२५/०७/२०२५ रोजी एमएसईबी, वांद्रे येथील प्रकाशगड सभागृह येथे मा. जिल्हा अधीक्षक भूमी अभिलेख ,मुंबई उपनगर  यांचे मान्यतेने भूमी अभिलेख अधिकारी व कर्मचारी यांचे  ई- ऑफिस प्रणाली वापर ,नगर भूमापन कामकाज सुलभता ,वेळेचे व आर्थिक व्यवस्थापन करणे बाबत तसेच तणाव मुक्तीसाठी- योग प्रशिक्षण देण्यात आले
+दि-२५/०७/२०२५ रोजी एमएसईबी, वांद्रे येथील प्रकाशगड सभागृह येथे मा. जिल्हा अधीक्षक भूमी अभिलेख ,मुंबई उपनगर  यांचे मान्यतेने भूमी अभिलेख अधिकारी व कर्मचारी यांचे  ई- ऑफिस प्रणाली वापर ,नगर भूमापन कामकाज सुलभता ,वेळेचे व आर्थिक व्यवस्थापन करणे बाबत तसेच तणाव मुक्तीसाठी- योग प्रशिक्षण देण्यात आले
+दि-१६/०८/२०२५ व १७/०८/२०२५  रोजी  औरोबिंदो सभागृह ,के जे सोमैय्या कॉलेज , विद्याविहार येथे मा.उपसंचालक भूमी अभिलेख ,कोंकण प्रदेश यांचे अधिनस्त अधिकारी वर्ग -१ व २ यांचे e-PCIS,EPSIT, PRATYAY प्रणाली चे प्रशिक्षण देण्यात आले
+दि-१६/०८/२०२५ व १७/०८/२०२५  रोजी  औरोबिंदो सभागृह ,के जे सोमैय्या कॉलेज , विद्याविहार येथे मा.उपसंचालक भूमी अभिलेख ,कोंकण प्रदेश यांचे अधिनस्त अधिकारी वर्ग -१ व २ यांचे e-PCIS,EPSIT, PRATYAY प्रणाली चे प्रशिक्षण देण्यात आले
+दि-१६/०८/२०२५ व १७/०८/२०२५  रोजी  औरोबिंदो सभागृह ,के जे सोमैय्या कॉलेज , विद्याविहार येथे मा.उपसंचालक भूमी अभिलेख ,कोंकण प्रदेश यांचे अधिनस्त अधिकारी वर्ग -१ व २ यांचे e-PCIS,EPSIT, PRATYAY प्रणाली चे प्रशिक्षण देण्यात आले
+दि-१६/०८/२०२५ व १७/०८/२०२५  रोजी  औरोबिंदो सभागृह ,के जे सोमैय्या कॉलेज , विद्याविहार येथे मा.उपसंचालक भूमी अभिलेख ,कोंकण प्रदेश यांचे अधिनस्त अधिकारी वर्ग -१ व २ यांचे e-PCIS,EPSIT, PRATYAY प्रणाली चे प्रशिक्षण देण्यात आले
+दि-१६/०८/२०२५ व १७/०८/२०२५  रोजी  औरोबिंदो सभागृह ,के जे सोमैय्या कॉलेज , विद्याविहार येथे मा.उपसंचालक भूमी अभिलेख ,कोंकण प्रदेश यांचे अधिनस्त अधिकारी वर्ग -१ व २ यांचे e-PCIS,EPSIT, PRATYAY प्रणाली चे प्रशिक्षण देण्यात आले
+दि-१६/०८/२०२५ व १७/०८/२०२५  रोजी  औरोबिंदो सभागृह ,के जे सोमैय्या कॉलेज , विद्याविहार येथे मा.उपसंचालक भूमी अभिलेख ,कोंकण प्रदेश यांचे अधिनस्त अधिकारी वर्ग -१ व २ यांचे e-PCIS,EPSIT, PRATYAY प्रणाली चे प्रशिक्षण देण्यात आले
+Publications
+Maharashtra Land Revenue Code,1966
+MH Regional & Town Planning Act 1966
+Right to Information Act,2005
+MH Right to Services Act,2015
+RFCTLARR Act,2013
+Enviromment Protection Act,1986
+The Indian Succession Act,1925
+The Registration Act,1908
+CITY SURVEY ACTS
+For more information, please contact WhatsApp number
+9137309399
+Website Policies
+Help
+Contact Us
+Feedback
+Visitor Count
+Content Owned by District Administration
+Developed and hosted by
+National Informatics Centre
+,
+Ministry of Electronics & Information Technology
+, Government of India
+Last Updated:
+Sep 02, 2026
+Go to top

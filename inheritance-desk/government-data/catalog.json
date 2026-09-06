@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026-09-05.1",
+  "assembled_on": "2026-09-05",
+  "state_count": 36,
+  "state_codes_are": "Application identifiers, not an assertion of ISO/LGD coding",
+  "refresh_policy": "Recheck substantive changes before review_due. No scheduler is installed by this pack.",
+  "coverage": "All states/UTs have directory or explicit fallback records. Local procedures are partial; no route is certified for execution. Each asset routes only from its own selected state; where a state has no verified procedure, an honest state-specific fallback is shown instead of another state's steps.",
+  "no_live_network_at_lookup": true,
+  "default_review_days": 30
+}

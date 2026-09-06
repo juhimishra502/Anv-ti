@@ -1,0 +1,372 @@
+[
+  {
+    "id": "dl-mehrauli-sdm",
+    "state": "DL",
+    "district": "South Delhi",
+    "jurisdiction": "Mehrauli subdivision",
+    "role": {
+      "value": "SDM",
+      "sources": [
+        "dl-south-directory"
+      ],
+      "status": "officially_published",
+      "note": null
+    },
+    "person": {
+      "value": "Dr. Rahul Rathod",
+      "sources": [
+        "dl-south-directory",
+        "dl-south-organisation"
+      ],
+      "status": "officially_listed",
+      "note": "Not confirmed by telephone or posting order."
+    },
+    "address": {
+      "value": "Old Tehsil Building, Mehrauli, New Delhi",
+      "sources": [
+        "dl-south-directory"
+      ],
+      "status": "officially_published",
+      "note": null
+    },
+    "phone": {
+      "value": "011-26641772",
+      "sources": [
+        "dl-south-directory"
+      ],
+      "status": "officially_published",
+      "note": null
+    },
+    "email": {
+      "value": "sdmmehrauli.delhi@nic.in",
+      "sources": [
+        "dl-south-directory"
+      ],
+      "status": "officially_published",
+      "note": null
+    },
+    "public_hours": {
+      "value": "10:00–13:00 on working days",
+      "sources": [
+        "dl-smc-faq"
+      ],
+      "status": "conflicting",
+      "note": "Service FAQ; separate Revenue page gives 09:30–18:00. Mehrauli counter hours require confirmation."
+    },
+    "appointment": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Appointment/token process and daily intake cut-off not published in checked sources."
+    },
+    "jurisdiction_mapping": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Current village/address-to-subdivision boundary mapping is needed; district selection alone is insufficient."
+    },
+    "last_inspected_on": "2026-09-04",
+    "contact_review_due": "2026-09-11",
+    "review_interval_note": "Product research policy, not government expiry."
+  },
+  {
+    "id": "dl-mehrauli-tehsildar",
+    "state": "DL",
+    "district": "South Delhi",
+    "jurisdiction": "Mehrauli subdivision",
+    "role": {
+      "value": "Tehsildar",
+      "sources": [
+        "dl-south-directory"
+      ],
+      "status": "officially_published",
+      "note": null
+    },
+    "person": {
+      "value": "Praveen Kumar",
+      "sources": [
+        "dl-south-directory"
+      ],
+      "status": "officially_listed",
+      "note": null
+    },
+    "address": {
+      "value": "Old Tehsil Building, Mehrauli, New Delhi",
+      "sources": [
+        "dl-south-directory"
+      ],
+      "status": "officially_published",
+      "note": null
+    },
+    "phone": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Tehsildar direct number absent; SDM office number is separate."
+    },
+    "email": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Not listed."
+    },
+    "public_hours": {
+      "value": "10:00–13:00 on working days",
+      "sources": [
+        "dl-south-mutation"
+      ],
+      "status": "service_page_only",
+      "note": "Not independently confirmed with the office."
+    },
+    "appointment": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Not published."
+    },
+    "jurisdiction_mapping": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Mutation page says applicant residence, while other land guidance says land location; resolve before directing a visit."
+    },
+    "last_inspected_on": "2026-09-04",
+    "contact_review_due": "2026-09-11",
+    "review_interval_note": "Product research policy, not government expiry."
+  },
+  {
+    "id": "tn-egmore-tahsildar",
+    "state": "TN",
+    "district": "Chennai",
+    "jurisdiction": "Egmore taluk",
+    "role": {
+      "value": "Tahsildar",
+      "sources": [
+        "tn-taluk-directory"
+      ],
+      "status": "officially_published",
+      "note": null
+    },
+    "person": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Directory lists designations and numbers, not current incumbent names."
+    },
+    "address": {
+      "value": "No. 88, Mayor Ramanathan Salai, Chetpet, Chennai 600031; near Palimer Hotel",
+      "sources": [
+        "tn-taluk-directory"
+      ],
+      "status": "officially_published",
+      "note": null
+    },
+    "phone": {
+      "value": "044-28361890",
+      "sources": [
+        "tn-taluk-directory"
+      ],
+      "status": "officially_published",
+      "note": null
+    },
+    "official_mobile": {
+      "value": "9445000486",
+      "sources": [
+        "tn-taluk-directory"
+      ],
+      "status": "officially_published",
+      "note": null
+    },
+    "deputy_mobile": {
+      "value": "9384094012",
+      "sources": [
+        "tn-taluk-directory"
+      ],
+      "status": "officially_published",
+      "note": null
+    },
+    "email": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Not established."
+    },
+    "public_hours": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Do not borrow hours of Chennai's education helpline or Collectorate for this counter."
+    },
+    "appointment": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Token, appointment and original-verification arrangement not established."
+    },
+    "jurisdiction_mapping": {
+      "value": [
+        "RI-I: Kilpauk, Shenoy Nagar, Pullapuram, Saraswathi Nagar, Nehru Park",
+        "RI-II: Egmore South, Pudupet, Chetpet",
+        "RI-III: Kodambakkam, Choolaimedu, Vadapalani-I",
+        "RI-IV: Nungambakkam, Thousand Lights"
+      ],
+      "sources": [
+        "tn-taluk-directory"
+      ],
+      "status": "published_directory",
+      "note": "Not an authoritative cadastral boundary lookup; confirm exact address/taluk."
+    },
+    "last_inspected_on": "2026-09-04",
+    "contact_review_due": "2026-09-11",
+    "review_interval_note": "Product research policy, not government expiry."
+  },
+  {
+    "id": "mh-andheri-city-survey",
+    "state": "MH",
+    "district": "Mumbai Suburban",
+    "jurisdiction": "Andheri City Survey Office",
+    "role": {
+      "value": "City Survey Officer",
+      "sources": [
+        "mh-city-survey-directory"
+      ],
+      "status": "officially_published",
+      "note": null
+    },
+    "person": {
+      "value": "Yogeshwar Savkar",
+      "sources": [
+        "mh-city-survey-directory"
+      ],
+      "status": "officially_listed",
+      "note": null
+    },
+    "address": {
+      "value": "Sardar Vallabhbhai Patel Nagar, Shri Swami Samarth Nagar Road, Vesave, Andheri West, Mumbai 400053",
+      "sources": [
+        "mh-city-survey-directory"
+      ],
+      "status": "officially_published",
+      "note": null
+    },
+    "phone": {
+      "value": "022-26362674",
+      "sources": [
+        "mh-land-records"
+      ],
+      "status": "officially_listed",
+      "note": "Published next to Andheri City Survey Officer in downloaded directory; no telephone verification."
+    },
+    "email": {
+      "value": "ctsoandheri@gmail.com",
+      "sources": [
+        "mh-land-records"
+      ],
+      "status": "conflicting",
+      "note": "Newer indexed departmental page lists ctso.andheri-mh@gov.in; retain both claims until direct current snapshot reconciliation."
+    },
+    "public_hours": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Office-specific intake/visiting hours not found; Maharashtra general office hours must not substitute."
+    },
+    "appointment": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Whether originals/appearance are requested after online filing is case-dependent and unverified."
+    },
+    "jurisdiction_mapping": {
+      "value": [
+        "Ambivali",
+        "Bandivali",
+        "Oshivara",
+        "Versova",
+        "Madh",
+        "Majas",
+        "Andheri",
+        "Ismalia",
+        "Mogara"
+      ],
+      "sources": [
+        "mh-city-survey-directory"
+      ],
+      "status": "published_directory",
+      "note": null
+    },
+    "last_inspected_on": "2026-09-04",
+    "contact_review_due": "2026-09-11",
+    "review_interval_note": "Product research policy, not government expiry."
+  },
+  {
+    "id": "ka-bengaluru-north-tahsildar",
+    "state": "KA",
+    "district": "Bengaluru Urban",
+    "jurisdiction": "Bengaluru North taluk",
+    "role": {
+      "value": "Tahsildar office; family-tree issuing designation is Deputy Tahsildar",
+      "sources": [
+        "ka-officer-directory",
+        "ka-services-fees-aug2025"
+      ],
+      "status": "officially_published",
+      "note": null
+    },
+    "person": {
+      "value": "Balakrishna",
+      "sources": [
+        "ka-officer-directory"
+      ],
+      "status": "officially_listed_unconfirmed",
+      "note": "Directory does not provide posting date; this is the Tahsildar, not necessarily the issuing Deputy Tahsildar."
+    },
+    "issuing_officer_name": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Hobli-specific Deputy Tahsildar must be identified after jurisdiction selection."
+    },
+    "address": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Kandaya Bhavan/K.G. Road appears in older records; exact current issuing counter address not established."
+    },
+    "phone": {
+      "value": "080-22232050",
+      "sources": [
+        "ka-officer-directory"
+      ],
+      "status": "officially_listed_unconfirmed",
+      "note": null
+    },
+    "email": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Not published in selected directory row."
+    },
+    "public_hours": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Current hobli/Nadakacheri counter hours not established."
+    },
+    "appointment": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Not established."
+    },
+    "jurisdiction_mapping": {
+      "value": null,
+      "sources": [],
+      "status": "not_verified",
+      "note": "Need current village/ward→hobli→Nadakacheri mapping; do not direct all Bengaluru residents to DC headquarters."
+    },
+    "last_inspected_on": "2026-09-04",
+    "contact_review_due": "2026-09-11",
+    "review_interval_note": "Product research policy, not government expiry."
+  }
+]

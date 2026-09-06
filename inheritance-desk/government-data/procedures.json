@@ -1,0 +1,1481 @@
+[
+  {
+    "id": "death-registration-in",
+    "version": 1,
+    "title": "Start with death registration",
+    "service": "death_registration",
+    "location_basis": "deathState",
+    "match": {},
+    "needed_context": [
+      "deathState",
+      "deathDistrict",
+      "deathRegistrationStatus"
+    ],
+    "source_ids": [
+      "crs-faq"
+    ],
+    "evidence_locator": "FAQ questions 1–5; pages 1–2",
+    "last_source_reviewed": "2026-09-03",
+    "review_due": "2026-10-03",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "summary": "The event is registered where the death occurred. Normal reporting is within 21 days; delayed registration has a separate procedure.",
+    "steps": [
+      "Confirm whether the hospital or responsible informant has already reported the death.",
+      "Locate the registrar for the place of occurrence.",
+      "Obtain the civil death certificate through that registrar; confirm local forms and any delayed-registration requirements."
+    ],
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "limits": "Source-based orientation only; not a complete verified execution checklist."
+  },
+  {
+    "id": "tn-chennai-heirs",
+    "version": 1,
+    "title": "Chennai legal-heir certificate: authority routing",
+    "service": "legal_heir_certificate",
+    "location_basis": "deceasedState",
+    "match": {
+      "deceasedState": "TN",
+      "deceasedDistrict": "Chennai"
+    },
+    "needed_context": [
+      "deceasedState",
+      "deceasedDistrict"
+    ],
+    "source_ids": [
+      "chennai-heirs"
+    ],
+    "evidence_locator": "Certificate issuing authority table, row 1",
+    "last_source_reviewed": "2026-09-03",
+    "review_due": "2026-10-03",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "summary": "The district lists a CSC → VAO → Revenue Inspector → Headquarters Deputy Tahsildar → Tahsildar workflow, based on the deceased’s residence before death.",
+    "steps": [
+      "Confirm that the deceased resided in Chennai before death.",
+      "Ask the relevant CSC for the current application and supporting-document checklist.",
+      "The published approval chain ends with the Tahsildar."
+    ],
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "limits": "This page verifies the authority chain, not required documents, fees, eligibility or a state-wide checklist."
+  },
+  {
+    "id": "dl-south-land",
+    "version": 1,
+    "title": "South Delhi land mutation: published service information",
+    "service": "property_mutation",
+    "location_basis": "assetState",
+    "match": {
+      "assetState": "DL",
+      "assetDistrict": "South Delhi",
+      "recordType": "revenue_land"
+    },
+    "needed_context": [
+      "assetState",
+      "assetDistrict",
+      "recordType"
+    ],
+    "source_ids": [
+      "south-delhi-mutation"
+    ],
+    "evidence_locator": "Mutation service: numbered requirements and Where to Apply",
+    "last_source_reviewed": "2026-09-03",
+    "review_due": "2026-10-03",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "summary": "The district lists an application to the concerned Tehsildar with residence/ownership evidence and affidavits from surviving members for a death case.",
+    "steps": [
+      "Confirm the responsible Tehsildar and land-record jurisdiction.",
+      "Request the current death-case checklist and check existing ownership records.",
+      "Submit through the confirmed authority and retain an acknowledgement."
+    ],
+    "document_examples": [
+      "Proof of residence",
+      "Existing land ownership evidence",
+      "Surviving-member affidavits listed by this source; substantive drafting needs professional review"
+    ],
+    "fees": null,
+    "published_processing_time": {
+      "value": 30,
+      "unit": "days",
+      "condition": "Published district service target, not observed completion time or a guarantee."
+    },
+    "application_url": null,
+    "limits": "Office wording refers to residence; confirm the property’s actual jurisdiction. Do not apply this route to all Delhi flats or municipal tax records."
+  },
+  {
+    "id": "dl-mcd-tax",
+    "version": 1,
+    "title": "MCD taxpayer-name change: source and scope",
+    "service": "property_mutation",
+    "location_basis": "assetState",
+    "match": {
+      "assetState": "DL",
+      "authority": "MCD",
+      "recordType": "municipal_tax"
+    },
+    "needed_context": [
+      "assetState",
+      "authority",
+      "recordType"
+    ],
+    "source_ids": [
+      "mcd-mutation"
+    ],
+    "evidence_locator": "Page 1 purpose and general requirements; pages 2–3 death-case branches",
+    "last_source_reviewed": "2026-09-03",
+    "review_due": "2026-10-03",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "summary": "MCD’s name-change policy concerns municipal property-tax records. The policy states that this change does not confer legal title.",
+    "steps": [
+      "Confirm that the property falls within MCD and that the requested change is to its tax record.",
+      "Review the policy’s will/intestacy branch and resolve certificate terminology with the authority.",
+      "Obtain a reviewed case-specific checklist before preparing the application."
+    ],
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "limits": "Not NDMC, Cantonment Board, DDA or revenue-land mutation. Some succession-certificate terminology needs review. No universal document list is approved."
+  },
+  {
+    "id": "bank-claim-in",
+    "version": 1,
+    "title": "Bank deposits: identify the bank’s death-claim route",
+    "service": "bank_claim",
+    "location_basis": "institution",
+    "match": {},
+    "needed_context": [
+      "institution",
+      "nomineeStatus",
+      "holdingMode",
+      "willStatus"
+    ],
+    "source_ids": [
+      "bank-claims",
+      "rbi-deceased-claims"
+    ],
+    "evidence_locator": "Central Bank policy chapters II–III; use only as an institution-specific example",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "detailed_orientation",
+    "summary": "The route depends on holding and nomination. On a valid survivor/nominee account, RBI directs banks NOT to demand a succession certificate, probate, letters of administration, or an indemnity/surety, and to settle within 15 days of the claim (subject to proof of death and identification). Where there is no survivor/nominee, banks use a simplified legal-heir procedure that may set a threshold and take a letter of indemnity. The exact claim form is bank-specific.",
+    "steps": [
+      "Identify the bank, the affected deposits, and the holding arrangement (sole/joint), survivorship clause, nomination and any lien or unclaimed status.",
+      "Notify the bank of the death and ask for its current deceased-customer claim form.",
+      "Choose the route: (a) survivor/nominee, or (b) legal-heir where there is no nomination/survivor.",
+      "Submit the claim form with proof of death and identification (plus the bank's legal-heir document set on the no-nomination route).",
+      "Track settlement; on a valid survivor/nominee claim, RBI's 15-day settlement direction applies.",
+      "Handle any future credits (e.g., interest, refunds) to the account."
+    ],
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "limits": "Source-based orientation only; not a complete verified execution checklist.",
+    "detail": {
+      "purpose": "Claim or transfer a deceased person's bank deposit through the correct route — survivor/nominee, or legal-heir where there is no nomination.",
+      "applicability": "Savings, current and term deposits held by the deceased at a bank in India.",
+      "who_may_apply": "The named survivor or nominee; otherwise the legal heir(s). A survivor/nominee receives payment as a trustee for the legal heirs (RBI).",
+      "prerequisites": [
+        "Death certificate.",
+        "Identification of the claimant.",
+        "Account/deposit details (account or FD numbers, branch)."
+      ],
+      "actions": [
+        "Survivor / nominee route: submit the bank's claim form, death certificate and identification. RBI directs the bank to desist from demanding a succession certificate, probate, letters of administration, or any indemnity/surety, irrespective of the amount.",
+        "Legal-heir route (no nomination / no survivor): the bank follows a simplified procedure; it may fix a minimum threshold and settle against a letter of indemnity, and may seek legal-heir evidence above the threshold.",
+        "In every case, obtain and keep the acknowledgement and any confirmation that the document set is complete."
+      ],
+      "online_channel": null,
+      "offline_channel": "Submit the bank's current deceased-claim form at the branch.",
+      "form": "Each bank's own deceased-depositor claim form — obtain the current version from the specific bank.",
+      "documents": [
+        "Death certificate.",
+        "Claimant identification (and, on the legal-heir route, the bank's required legal-heir evidence).",
+        "The bank's completed deceased-claim form."
+      ],
+      "documents_note": "The bank's current form governs the exact set. On a valid survivor/nominee account, RBI bars additional demands (succession certificate/probate/LoA/indemnity/surety).",
+      "office": null,
+      "fees": null,
+      "fees_note": "No RBI-prescribed fee. On a valid survivor/nominee account the bank may not demand an indemnity or surety.",
+      "timeline": "RBI direction: settle the claim and release payment to the survivor/nominee within 15 days of receiving the claim, subject to proof of death of the depositor and suitable identification.",
+      "outcome": "Balance released to the survivor/nominee (as trustee for the legal heirs) or, on the no-nomination route, to the legal heir(s).",
+      "evidence": "RBI/2005-06/48, RPCD.CO.RF.BC.No.12/07.38.01/2005-06, 12 July 2005 — 'Settlement of claims in respect of deceased depositors – Simplification of Procedure'.",
+      "last_verified": "2026-09-05",
+      "unresolved": [
+        "The exact deceased-claim form and any bank-specific document set are institution-specific — confirm with the specific bank.",
+        "The verified circular is addressed to State/District Central Co-operative Banks; the equivalent instrument for scheduled commercial banks embodies the same principles but must be cited specifically before execution."
+      ]
+    }
+  },
+  {
+    "id": "central-bank-nominee",
+    "version": 1,
+    "title": "Central Bank of India: nominee/survivor document example",
+    "service": "bank_claim",
+    "location_basis": "institution",
+    "match": {
+      "institution": "Central Bank of India",
+      "nomineeStatus": "registered"
+    },
+    "needed_context": [
+      "institution",
+      "nomineeStatus",
+      "holdingMode",
+      "courtOrderStatus"
+    ],
+    "source_ids": [
+      "bank-claims"
+    ],
+    "evidence_locator": "Chapter II, paragraphs 2.1–2.2; pages 8–9",
+    "last_source_reviewed": "2026-09-03",
+    "review_due": "2026-10-03",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "summary": "For claims meeting the policy’s nominee/survivor conditions, chapter II lists the claim form, death certificate and an officially valid identity/address document.",
+    "steps": [
+      "Confirm the claimant meets all chapter II conditions and that there is no restraining court order.",
+      "Obtain and complete the bank’s current claim form.",
+      "Submit the required evidence and retain acknowledgement."
+    ],
+    "document_examples": [
+      "Bank claim form",
+      "Death certificate",
+      "Officially valid identity/address document"
+    ],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "limits": "This is an orientation extract; not all chapter 2.1 conditions are evaluated by this lookup. Do not mark the claimant eligible or infer final beneficial ownership."
+  },
+  {
+    "id": "securities-in",
+    "version": 1,
+    "title": "Shares, ETFs and demat bonds: transmission routing",
+    "service": "securities_transmission",
+    "location_basis": "institution",
+    "match": {},
+    "needed_context": [
+      "institution",
+      "holdingMode",
+      "nomineeStatus"
+    ],
+    "source_ids": [
+      "sebi-transmission",
+      "sebi-nomination-2025"
+    ],
+    "evidence_locator": "SEBI FAQs 67–72 and depository sections",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "detailed_orientation",
+    "summary": "Transmission depends on holding (joint/sole), nomination, and whether the securities are in demat or physical form. SEBI directs that on death of a joint holder the assets pass to the surviving holder(s) by NAME DELETION, and that the survivor's KYC is not a precondition for such transmission. Where there is no nomination and no joint holder, a legal-heir transmission applies through the DP/RTA — the exact documents and monetary thresholds are set by the SEBI RTA master circular and are not yet verified here.",
+    "steps": [
+      "Identify each holding: demat or physical, sole or joint, nominee status, the DP (for demat) or company/RTA (for physical), and any IEPF transfer.",
+      "Joint holding: apply transmission by deletion of the deceased joint holder's name (survivor's KYC is not a precondition; survivor may also move assets to another/new account or folio).",
+      "Nominee (no surviving joint holder): apply nominee transmission to the recorded nominee.",
+      "No nomination and no joint holder: apply the legal-heir transmission route via the DP/RTA (documents/thresholds per the RTA master circular — confirm current requirements).",
+      "Obtain the updated demat statement or company/RTA records confirming the transfer."
+    ],
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "limits": "The FAQ’s old section-213 probate answer is excluded. Physical-securities and demat forms are not interchangeable.",
+    "detail": {
+      "purpose": "Transmit the deceased's shares/securities to the correct recipient (surviving joint holder, nominee, or legal heir).",
+      "applicability": "Listed shares, ETFs and bonds held in demat or physical form, and units where a depository/RTA maintains the record.",
+      "who_may_apply": "Surviving joint holder(s); otherwise the nominee; otherwise the legal heir(s).",
+      "prerequisites": [
+        "Death certificate.",
+        "Holding details (demat account/DP or physical certificate + company/RTA)."
+      ],
+      "actions": [
+        "Joint holding: transmission by name deletion of the deceased holder to the survivor(s); the regulated entity shall NOT reject it for non-submission of the survivor's KYC (unless previously sought and not provided), and shall offer to move assets to another/new account or folio; credit transactions remain permitted in such accounts.",
+        "Nominee route: transmit to the recorded nominee per the nomination on file.",
+        "No nomination / no joint holder: legal-heir transmission through the DP (demat) or company/RTA (physical) using the transmission request form and the currently-required legal documents."
+      ],
+      "online_channel": null,
+      "offline_channel": "Submit the transmission request form and documents to the DP (demat) or company/RTA (physical).",
+      "form": "Transmission Request Form of the DP/RTA (obtain the current version).",
+      "documents": [
+        "Death certificate.",
+        "Transmission Request Form.",
+        "Client Master List / holding proof.",
+        "(No-nomination route) the legal documents the RTA master circular currently requires — to be confirmed."
+      ],
+      "documents_note": "Joint-holder and nominee routes are simplified per the SEBI circular. The no-nomination document set and its monetary thresholds are governed by the RTA master circular and are not yet verified here.",
+      "office": null,
+      "fees": null,
+      "fees_note": null,
+      "timeline": null,
+      "outcome": "Securities transmitted; updated demat statement or company/RTA record issued.",
+      "evidence": "SEBI/HO/OIAE/OIAE_IAD-3/P/ON/2025/0027, 28 February 2025 (clauses 2.1, 2.4, 2.5).",
+      "last_verified": "2026-09-05",
+      "unresolved": [
+        "No-nomination transmission: exact document set and the monetary thresholds (physical per listed company; demat aggregate) are in the SEBI RTA master circular, which served only a JS viewer to the fetcher — not yet text-verified.",
+        "IEPF transfer path for long-unclaimed shares is a separate procedure (not yet built).",
+        "Processing timeline not stated in the verified circular."
+      ]
+    }
+  },
+  {
+    "id": "mutual-funds-in",
+    "version": 1,
+    "title": "Mutual funds: transmission/claim routing",
+    "service": "mutual_fund_claim",
+    "location_basis": "institution",
+    "match": {},
+    "needed_context": [
+      "institution",
+      "holdingMode",
+      "nomineeStatus"
+    ],
+    "source_ids": [
+      "amfi-transmission",
+      "amfi-transmission-page",
+      "sebi-nomination-2025"
+    ],
+    "evidence_locator": "Transmission Documents Matrix – August 2026 and forms list",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "detailed_orientation",
+    "summary": "Mutual fund units pass to the surviving joint holder, the nominee, or the legal heir(s). AMFI provides standard transmission forms (Forms 1–4) and annexures (Bond of Indemnity, Affidavit-cum-NOC, bank attestation). SEBI directs that on death of a joint holder units transmit by name deletion and the survivor's KYC is not a precondition. The exact document-by-value thresholds are in AMFI's Ready Reckoner and must be confirmed before execution.",
+    "steps": [
+      "Identify the AMC, RTA (e.g. CAMS/KFintech) and folio, and the holding — joint / nominee / neither.",
+      "Surviving joint holder: file Form-2 (transmission by surviving joint holder) — SEBI: name deletion, survivor KYC not a precondition.",
+      "Nominee: file the nominee transmission form with death certificate, KYC and bank details.",
+      "No nomination / no joint holder: file the legal-heir transmission form with the documents AMFI's Ready Reckoner requires for the claim value (Bond of Indemnity / Affidavit-cum-NOC / legal evidence).",
+      "Complete KYC and bank/signature verification; obtain the updated folio confirmation."
+    ],
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "limits": "AMFI is an industry association. The linked matrix and applicable institution checklist require review before execution.",
+    "detail": {
+      "purpose": "Transmit mutual fund units to the surviving joint holder, nominee, or legal heir(s).",
+      "applicability": "Open-ended and closed-ended mutual fund folios held by the deceased.",
+      "who_may_apply": "Surviving joint holder(s); otherwise the nominee; otherwise the legal heir(s).",
+      "prerequisites": [
+        "Death certificate.",
+        "Folio number(s) and AMC/RTA identification.",
+        "Claimant KYC and bank details."
+      ],
+      "actions": [
+        "Surviving joint holder: AMFI Form-2 (transmission by surviving joint holder). SEBI: transmission by name deletion; the survivor's KYC is not a precondition; option to move units to another/new folio.",
+        "Nominee: nominee transmission form with death certificate, claimant KYC and bank verification.",
+        "No nomination / no joint holder: legal-heir transmission form with the AMFI-required set — which may include the Bond of Indemnity (Annexure-1), Affidavit-cum-No-Objection (Annexure-2), bank attestation (Annexures 3–4), and legal evidence depending on claim value."
+      ],
+      "online_channel": null,
+      "offline_channel": "Submit the AMFI/AMC transmission form set to the AMC or its RTA (CAMS/KFintech).",
+      "form": "AMFI transmission Forms 1–4 (Form-2 = surviving joint holder); annexures: Bond of Indemnity, Affidavit-cum-NOC, bank attestation.",
+      "documents": [
+        "Death certificate.",
+        "Claimant KYC.",
+        "Bank details / cancelled cheque with attestation.",
+        "The applicable AMFI transmission form + annexures for the case and claim value."
+      ],
+      "documents_note": "The exact document set per claim value is defined by AMFI's 'Transmission Documents Matrix – Ready Reckoner' — confirm the current matrix before execution.",
+      "office": null,
+      "fees": null,
+      "fees_note": null,
+      "timeline": null,
+      "outcome": "Units transmitted; updated folio statement issued.",
+      "evidence": "AMFI 'Death of Unit Holder' transmission page (verified 2026-09-05); SEBI/HO/OIAE/OIAE_IAD-3/P/ON/2025/0027, 28 Feb 2025.",
+      "last_verified": "2026-09-05",
+      "unresolved": [
+        "Exact document-by-value thresholds are in AMFI's 'Transmission Documents Matrix – Ready Reckoner' PDF (not yet text-verified).",
+        "Processing timeline not stated on the verified sources.",
+        "Minor / HUF folio specifics not yet verified."
+      ]
+    }
+  },
+  {
+    "id": "life-insurance-in",
+    "version": 1,
+    "title": "Life insurance: death-claim routing",
+    "service": "insurance_claim",
+    "location_basis": "institution",
+    "match": {},
+    "needed_context": [
+      "institution",
+      "policyStatus",
+      "nomineeStatus"
+    ],
+    "source_ids": [
+      "lic-death",
+      "irdai-ppi-2002"
+    ],
+    "evidence_locator": "LIC Claims Settlement Requirements: Death Claims",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "detailed_orientation",
+    "summary": "A life insurance death claim goes to the insurer that issued the policy. IRDAI regulation requires the insurer to raise any document queries all at once within 15 days of the claim, and to pay or dispute the claim within 30 days of receiving all papers; where an investigation is warranted it must finish within 6 months. The primary documents are those stated in the policy. The exact claim form is insurer-specific.",
+    "steps": [
+      "Locate the insurer and policy (policy document, premium records, or insurer search).",
+      "Notify the insurer and obtain its death-claim form.",
+      "Submit the claim with the death certificate, claimant KYC, bank details and the documents the policy requires.",
+      "Respond to any insurer query — IRDAI requires these to be raised all at once within 15 days.",
+      "Track the decision — pay/dispute within 30 days of all papers; investigation (if any) within 6 months.",
+      "If delayed or rejected, use the insurer's grievance mechanism and then the Insurance Ombudsman."
+    ],
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "limits": "LIC is a specific insurer example. Do not apply its complete checklist to other insurers or decide policy coverage automatically.",
+    "detail": {
+      "purpose": "Claim the sum assured / benefit under the deceased's life insurance policy.",
+      "applicability": "Life insurance policies issued in India by an IRDAI-regulated insurer.",
+      "who_may_apply": "The nominee/appointee; otherwise the legal heir(s) or assignee as the policy provides.",
+      "prerequisites": [
+        "Death certificate.",
+        "Policy details.",
+        "Claimant KYC and bank details."
+      ],
+      "actions": [
+        "Notify the insurer and obtain the death-claim form.",
+        "Submit the claim with the policy's stated primary documents (Reg 8(1)/6(1)(n)).",
+        "Provide medical/police records only where the cause/circumstances make them applicable.",
+        "Respond to a single consolidated document request (Reg 8(2): all at once, within 15 days of the claim)."
+      ],
+      "online_channel": null,
+      "offline_channel": "Submit the insurer's death-claim form and documents to the insurer/branch.",
+      "form": "The insurer's own death-claim form (obtain the current version from the specific insurer).",
+      "documents": [
+        "Death certificate.",
+        "Claim form.",
+        "Policy document.",
+        "Claimant KYC and bank details.",
+        "Medical/police records only where applicable."
+      ],
+      "documents_note": "The policy states the primary documents (IRDA PPI Regulations 2002, Reg 8(1) / 6(1)(n)).",
+      "office": null,
+      "fees": null,
+      "fees_note": null,
+      "timeline": "IRDA PPI Regulations 2002: queries raised all at once within 15 days of the claim (Reg 8(2)); claim paid or disputed within 30 days of receiving all relevant papers (Reg 8(3)); any warranted investigation completed not later than 6 months from lodging.",
+      "outcome": "Sum assured / benefit paid to the nominee or legal heir(s).",
+      "evidence": "IRDA (Protection of Policyholders' Interest) Regulations, 2002, Regs 5, 8(1)–8(3).",
+      "last_verified": "2026-09-05",
+      "unresolved": [
+        "The 2002 regulation has been consolidated (2017, and later) — confirm the current in-force version and its exact timelines before execution.",
+        "Insurer-specific claim form and document list vary by insurer/policy."
+      ]
+    }
+  },
+  {
+    "id": "epfo-in",
+    "version": 1,
+    "title": "EPFO: provident fund, pension and EDLI claim orientation",
+    "service": "epfo_claim",
+    "location_basis": "scheme",
+    "match": {},
+    "needed_context": [
+      "scheme",
+      "employmentStatus"
+    ],
+    "source_ids": [
+      "epfo-death"
+    ],
+    "evidence_locator": "Composite Claim Form in Death Cases, form heading",
+    "last_source_reviewed": "2026-09-03",
+    "review_due": "2026-10-03",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "summary": "EPFO publishes a composite death-claim form covering the applicable provident-fund, pension and EDLI claims.",
+    "steps": [
+      "Identify the deceased’s employer, membership and relevant scheme coverage.",
+      "Confirm eligible benefits and the current submission channel with EPFO/employer.",
+      "Use the applicable composite form and track each benefit separately."
+    ],
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "limits": "No eligibility, benefit amount or payout guarantee is inferred."
+  },
+  {
+    "id": "nps-in",
+    "version": 1,
+    "title": "NPS: death-withdrawal routing",
+    "service": "nps_claim",
+    "location_basis": "scheme",
+    "match": {},
+    "needed_context": [
+      "scheme",
+      "sector",
+      "institution"
+    ],
+    "source_ids": [
+      "nps-death",
+      "pfrda-exit-nps"
+    ],
+    "evidence_locator": "NPS Trust: Unfortunate Death of Subscriber",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "detailed_orientation",
+    "summary": "On a subscriber's death the NPS exit is processed through the nodal office/POP and the CRA. The claimant (nominee or legal heir) submits the death certificate, withdrawal form and KYC/bank documents; a legal-heir certificate is required where applicable. Whether the corpus is paid as lump sum or partly as annuity depends on sector and corpus rules in the PFRDA Exits Regulations 2015 — to be confirmed.",
+    "steps": [
+      "Identify the PRAN, sector (government / all-citizen / corporate) and the CRA and POP/nodal office.",
+      "Notify the POP/nodal office; the claimant or the nodal office initiates the online exit request.",
+      "Submit the death-withdrawal form with death certificate (original), PRAN card, KYC, bank proof and direct-credit mandate.",
+      "Provide a legal-heir certificate where applicable (no nominee) and guardianship documents for a minor.",
+      "Track CRA processing and receive the proceeds (lump sum and/or annuity per the applicable rule)."
+    ],
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "limits": "No corpus threshold, annuity calculation or entitlement is encoded.",
+    "detail": {
+      "purpose": "Withdraw / exit the deceased subscriber's NPS corpus to the nominee or legal heir.",
+      "applicability": "NPS accounts (government, all-citizen and corporate sectors) held by the deceased.",
+      "who_may_apply": "The nominee; otherwise the legal heir(s); a guardian for a minor claimant.",
+      "prerequisites": [
+        "Death certificate (original).",
+        "PRAN.",
+        "Claimant KYC and bank details."
+      ],
+      "actions": [
+        "Notify the POP/nodal office; the online exit is initiated by the claimant or by the nodal office based on the claimant's documents.",
+        "Submit the death-withdrawal form and supporting documents.",
+        "Add a legal-heir certificate where there is no nominee; add guardianship documents for a minor."
+      ],
+      "online_channel": "Online exit initiated via the POP/nodal office and processed through the CRA.",
+      "offline_channel": "Submit the death-withdrawal form and documents to the POP/nodal office.",
+      "form": "NPS death-withdrawal form (via the CRA/POP).",
+      "documents": [
+        "Death certificate in original.",
+        "Legal heir certificate wherever applicable.",
+        "Withdrawal form, PRAN card, photo ID, residence proof.",
+        "Cancelled cheque + direct-credit mandate; annuity form where applicable."
+      ],
+      "documents_note": "Document list per the PFRDA exit page (verified 2026-09-05).",
+      "office": null,
+      "fees": null,
+      "fees_note": null,
+      "timeline": null,
+      "outcome": "NPS corpus paid to the nominee/legal heir (lump sum and/or annuity per the applicable rule).",
+      "evidence": "PFRDA 'Exit from NPS' page (verified 2026-09-05); PFRDA (Exits and Withdrawals under NPS) Regulations, 2015.",
+      "last_verified": "2026-09-05",
+      "unresolved": [
+        "Lump-sum vs annuity split and any corpus threshold differ by sector — set by the PFRDA Exits Regulations 2015, not verified here.",
+        "Processing timeline not stated on the verified page."
+      ]
+    }
+  },
+  {
+    "id": "postal-in",
+    "version": 1,
+    "title": "Post-office savings: death-claim routing",
+    "service": "postal_claim",
+    "location_basis": "institution",
+    "match": {},
+    "needed_context": [
+      "scheme",
+      "nomineeStatus"
+    ],
+    "source_ids": [
+      "post-office"
+    ],
+    "evidence_locator": "Savings page: Death Claim",
+    "last_source_reviewed": "2026-09-03",
+    "review_due": "2026-10-03",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "summary": "The Department of Posts distinguishes nomination, legal-evidence and other eligible claim routes.",
+    "steps": [
+      "Identify the scheme, account office and nomination status.",
+      "Request the current scheme-specific death-claim checklist.",
+      "Retain acknowledgement and verify settlement."
+    ],
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "limits": "The page has inconsistent checklist wording. Thresholds, waiting periods and mandatory court documents are not encoded."
+  },
+  {
+    "id": "up-varasat-mutation",
+    "version": 1,
+    "title": "Uttar Pradesh: succession mutation of agricultural/revenue land (Varasat / नामांतरण)",
+    "service": "property_mutation",
+    "location_basis": "assetState",
+    "match": {
+      "assetState": "UP",
+      "recordType": "revenue_land"
+    },
+    "needed_context": [
+      "assetState",
+      "assetDistrict",
+      "recordType"
+    ],
+    "source_ids": [
+      "up-revenue-code",
+      "up-bhulekh",
+      "up-vaad-rccms",
+      "up-lucknow-tehsil-dir"
+    ],
+    "evidence_locator": "U.P. Revenue Code 2006, Chapter V — s.33 (succession → Revenue Inspector), s.34 (transfer incl. family settlement → Tahsildar; s.34(2) fee scale), s.35 (mutation).",
+    "last_source_reviewed": "2026-09-04",
+    "review_due": "2026-10-05",
+    "review_status": "source_checked_detailed",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "detailed_orientation",
+    "summary": "When someone dies owning agricultural/revenue land in Uttar Pradesh, the heirs report the succession so the record of rights (khatauni) is updated to their names. This is 'mutation' (dakhil-kharij / नामांतरण); the succession route is commonly called varasat. It updates the revenue record — it does not by itself decide or prove final ownership/title.",
+    "steps": [
+      "Confirm the property is recorded as agricultural/revenue land and identify the tehsil and revenue circle where it lies (view the current khatauni on upbhulekh.gov.in).",
+      "Report the succession for that circle (U.P. Revenue Code s.33). In practice the Lekhpal records it and it proceeds to the Revenue Inspector and Tahsildar.",
+      "Submit the succession/mutation application with the supporting documents through the tehsil, or online where the tehsil offers it via the RCCMS (vaad.up.nic.in); keep the acknowledgement/case number.",
+      "The case is verified and a notice/objection step follows; if unopposed the Tahsildar orders the mutation.",
+      "After the order, obtain a fresh khatauni from upbhulekh.gov.in showing the heirs and check every name/share is correct."
+    ],
+    "document_examples": [
+      "Death certificate of the deceased",
+      "Proof of relationship of the heirs (e.g. family register / parivar register extract) or a legal-heir/succession document where required",
+      "Copy of the current khatauni for the land",
+      "Identity/address proof of the applicant heir(s)",
+      "Will or court order, only where one applies to the case"
+    ],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": "https://vaad.up.nic.in/",
+    "limits": "Detailed orientation, not a certified execution checklist. Exact document list, official fee and processing time are set at the tehsil/district level and must be confirmed there. Mutation updates the revenue record only; it does not conclusively establish title, decide shares, or resolve disputes. Do not assume a succession or legal-heir certificate is always required — it depends on the case and what the tehsil asks for.",
+    "detail": {
+      "purpose": "Update the Uttar Pradesh revenue record of rights (khatauni) so the deceased owner's agricultural/revenue land is recorded in the heirs' names, so they can deal with the land in the records.",
+      "applicability": "Applies when the deceased held agricultural/revenue land in Uttar Pradesh. It does not apply to purely urban flats recorded only in municipal tax records, and it is not a determination of legal title or of who ultimately inherits.",
+      "who_may_apply": "A person who obtains possession of the land by succession (an heir), reporting for the circle in which the land lies (U.P. Revenue Code s.33).",
+      "prerequisites": [
+        "The death should be registered and the death certificate obtained (used as evidence).",
+        "Know the tehsil and revenue circle of the land and its current khatauni details."
+      ],
+      "actions": [
+        "View the current khatauni on upbhulekh.gov.in and note the tehsil/circle.",
+        "Report the succession for that circle (recorded via the Lekhpal; proceeds to the Revenue Inspector and Tahsildar).",
+        "File the succession/mutation application with documents at the tehsil, or online via RCCMS where offered; retain the acknowledgement/case number.",
+        "Respond to the verification and any objection during the notice period.",
+        "After the Tahsildar's order, download the updated khatauni and verify the entries."
+      ],
+      "online_channel": {
+        "label": "RCCMS – Revenue Court Computerised Management System",
+        "url": "https://vaad.up.nic.in/",
+        "note": "Used for revenue/mutation (incl. varasat) cases and status. Whether online filing is available for a specific tehsil should be confirmed on the portal or at the tehsil."
+      },
+      "offline_channel": "Apply at the tehsil (Tahsildar's office) having jurisdiction over the land; the Lekhpal of the circle assists with the record entry.",
+      "form": {
+        "name": null,
+        "note": "The exact current form/format is prescribed at the tehsil/district level and was not confirmed from a primary published form; confirm at the tehsil or on RCCMS."
+      },
+      "documents": [
+        {
+          "name": "Death certificate of the deceased",
+          "required": "required",
+          "note": "Primary evidence of the death."
+        },
+        {
+          "name": "Proof of relationship of the heirs (e.g. family/parivar register extract)",
+          "required": "required",
+          "note": "Establishes who the heirs are; the exact acceptable proof is confirmed by the tehsil."
+        },
+        {
+          "name": "Copy of the current khatauni for the land",
+          "required": "required"
+        },
+        {
+          "name": "Identity/address proof of the applicant heir(s)",
+          "required": "required"
+        },
+        {
+          "name": "Will or court order",
+          "required": "conditional",
+          "note": "Only where a will or a court order applies to the case."
+        },
+        {
+          "name": "Succession / legal-heir certificate",
+          "required": "conditional",
+          "note": "Not universally required; depends on the case and what the tehsil asks for."
+        }
+      ],
+      "documents_note": "This is a typical set drawn from the statutory scheme and common district practice; it is NOT a certified, complete checklist. Confirm the exact current requirements for your tehsil before filing.",
+      "office": {
+        "authority_chain": "Lekhpal (records the entry) → Revenue Inspector (circle) → Tahsildar (orders the mutation).",
+        "responsible": "Tahsildar of the tehsil in which the land is situated.",
+        "jurisdiction_rule": "Determined by the location of the land (tehsil/circle), not by where the applicant or the deceased lived.",
+        "address": {
+          "value": null,
+          "status": "to_be_confirmed",
+          "note": "The specific tehsil office address depends on the land's district/tehsil; identify it from the khatauni and confirm locally."
+        },
+        "officer_name": {
+          "value": null,
+          "status": "to_be_confirmed",
+          "note": "Current incumbent name is jurisdiction-specific and was not verified from a primary source."
+        },
+        "phone": {
+          "value": null,
+          "status": "to_be_confirmed",
+          "note": "Use the relevant district's official contact directory; not verified here."
+        },
+        "hours": {
+          "value": null,
+          "status": "to_be_confirmed",
+          "note": "Public counter hours were not confirmed from a primary source."
+        },
+        "grievance": "Revenue grievances/appeals lie under the U.P. Revenue Code (e.g. to the SDM/Additional Collector); confirm the current appellate authority for your district.",
+        "examples": [
+          {
+            "label": "Sadar (Lucknow) tehsil, Lucknow district — one verified example",
+            "address": {
+              "value": null,
+              "status": "to_be_confirmed",
+              "note": "The official district directory lists a contact number and email but not a street address."
+            },
+            "officer": {
+              "value": null,
+              "status": "to_be_confirmed",
+              "note": "Current incumbent Tahsildar name is not published in the district directory."
+            },
+            "phone": {
+              "value": "9454416505",
+              "status": "published",
+              "source_id": "up-lucknow-tehsil-dir",
+              "note": "Sadar tehsil office contact, per the Lucknow district directory (checked 2026-09-04)."
+            },
+            "email": {
+              "value": "tehsadar.lu-up@gov.in",
+              "status": "published",
+              "source_id": "up-lucknow-tehsil-dir",
+              "note": "Sadar tehsil office email, per the Lucknow district directory (checked 2026-09-04)."
+            },
+            "hours": {
+              "value": null,
+              "status": "to_be_confirmed",
+              "note": "Public counter hours are not published in the district directory."
+            }
+          }
+        ]
+      },
+      "fees": [
+        {
+          "label": "Government mutation/record-entry fee",
+          "amount": null,
+          "status": "to_be_confirmed",
+          "basis": "U.P. Revenue Code s.34(2) empowers the State to fix a fee scale for record entries on transfer.",
+          "source_id": "up-revenue-code",
+          "note": "Checked on 2026-09-04: no primary government order stating the current fee was located, and RCCMS (vaad.up.nic.in) does not publish it. Secondary web sources quote conflicting figures (e.g. ₹5,000 for inheritance, ₹10,000 for sale, or 1% of value) — these are NOT authoritative and are not used here. Confirm the current fee at the tehsil."
+        }
+      ],
+      "fees_note": "Government/tehsil charges are separate from any platform or professional fee. An unknown fee is not zero — it is unconfirmed.",
+      "timeline": {
+        "published": null,
+        "notice_objection": "The process includes verification and a notice/objection step before the Tahsildar's order; an opposed case takes longer and may go to a revenue court.",
+        "delay_help": "If it stalls, check the case status on RCCMS (vaad.up.nic.in) using your case number and follow up with the tehsil; use the district grievance channel if needed.",
+        "status": "to_be_confirmed"
+      },
+      "outcome": {
+        "result": "An updated khatauni (record of rights) recording the heirs' names for the land.",
+        "how_to_check": "Download the current khatauni from upbhulekh.gov.in and confirm the names/shares.",
+        "unlocks": "Lets the heirs deal with the land in the revenue records; it does not by itself prove title or settle disputes.",
+        "correction_appeal": "Errors can be corrected through the revenue authorities; a rejected or disputed case can be pursued/appealed under the U.P. Revenue Code."
+      },
+      "evidence": [
+        {
+          "source_id": "up-revenue-code",
+          "page_section": "Chapter V, ss. 33–35 (succession report, transfer incl. family settlement, mutation; s.34(2) fee scale)"
+        },
+        {
+          "source_id": "up-bhulekh",
+          "page_section": "Khatauni view / updated record of rights"
+        },
+        {
+          "source_id": "up-vaad-rccms",
+          "page_section": "Revenue/mutation (varasat) case filing and status"
+        },
+        {
+          "source_id": "up-lucknow-tehsil-dir",
+          "page_section": "Sadar (Lucknow) tehsil office phone 9454416505 and email tehsadar.lu-up@gov.in"
+        }
+      ],
+      "last_verified": "2026-09-04",
+      "unresolved": [
+        "Exact current official mutation fee for succession — searched on 2026-09-04; no primary government order located and RCCMS does not publish it (secondary figures conflict).",
+        "Prescribed application form name/number.",
+        "Sadar (Lucknow) tehsil office street address, incumbent officer name and public counter hours (phone and email are confirmed from the district directory).",
+        "Whether online filing via RCCMS is available for every tehsil.",
+        "Any published statewide processing-time target."
+      ]
+    }
+  },
+  {
+    "id": "succession-certificate-in",
+    "version": 1,
+    "title": "Succession certificate for debts & securities (Indian Succession Act, ss. 370–379)",
+    "service": "succession_certificate",
+    "location_basis": "court",
+    "match": {},
+    "needed_context": [
+      "deceasedState",
+      "deceasedDistrict",
+      "willStatus"
+    ],
+    "source_ids": [
+      "isa-succession-cert"
+    ],
+    "evidence_locator": "Indian Succession Act 1925, Part X, ss. 370–379",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_fetch_blocked",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "summary": "A succession certificate is granted by a civil court to collect a deceased person's debts and securities where there is no nomination/survivor route and no probate. It is NOT proof of ownership of property. The section-by-section procedure (jurisdiction, petition, notice, hearing, security, court fee) is defined by ss. 370–379 of the Indian Succession Act 1925.",
+    "steps": [
+      "Confirm the asset actually needs a succession certificate (many bank/securities routes do not — check the survivor/nominee route first).",
+      "Identify the competent court by the deceased's ordinary residence (or where the property is), per the Act.",
+      "Prepare and file the petition with the required particulars.",
+      "Complete the court's notice, hearing and any security requirement.",
+      "Obtain the certificate and present it to the debtor/institution."
+    ],
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "limits": "Statutory route identified and cited, but NOT verified for execution: automated fetch of the official Act (indiacode) returned HTTP 403 on 2026-09-05, so section-level wording, the exact petition contents and the state-specific court fee are unconfirmed.",
+    "detail": {
+      "purpose": "Obtain court authority to collect the deceased's debts and securities.",
+      "applicability": "Debts and securities (e.g. bank deposits without nomination, some shares/bonds) where the holder requires a court certificate.",
+      "who_may_apply": "A person claiming to be entitled to the debts/securities (to be confirmed against the Act).",
+      "prerequisites": [
+        "Death certificate.",
+        "Details of the debts and securities.",
+        "Details of heirs."
+      ],
+      "actions": [],
+      "online_channel": null,
+      "offline_channel": "File the petition in the competent civil court.",
+      "form": null,
+      "documents": [],
+      "documents_note": "Exact petition contents to be confirmed against ss. 372 of the Act.",
+      "office": null,
+      "fees": null,
+      "fees_note": "Court fee is state-specific and NOT yet verified.",
+      "timeline": null,
+      "outcome": "Grant of a succession certificate for the specified debts/securities.",
+      "evidence": "Indian Succession Act 1925, ss. 370–379 (source fetch blocked; confirm wording).",
+      "last_verified": null,
+      "unresolved": [
+        "Section-by-section wording of ss. 370–379 to be confirmed against the cited Act (indiacode fetch returned HTTP 403 on 2026-09-05).",
+        "State-specific court fee not verified.",
+        "Not yet wired into the roadmap engine's Phase-2 asset-routing."
+      ]
+    }
+  },
+  {
+    "id": "bank-locker-in",
+    "version": 1,
+    "title": "Safe deposit locker: access / return of articles on death",
+    "service": "locker_access",
+    "location_basis": "institution",
+    "match": {},
+    "needed_context": [
+      "institution",
+      "nomineeStatus",
+      "holdingMode"
+    ],
+    "source_ids": [
+      "rbi-locker-access"
+    ],
+    "evidence_locator": "RBI Master Circular on Customer Service in Banks, paras 21.1–21.5",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "detailed_orientation",
+    "summary": "On death of a locker-hirer, a nominee or surviving joint hirer is given access / the articles are returned after the bank prepares an inventory of the contents. Where there is no nominee and no survivor, a legal-heir route applies. Access to the locker is separate from final beneficial ownership of the contents.",
+    "steps": [
+      "Notify the bank of the death and identify the locker and its holding (sole/joint), nomination and survivor status.",
+      "Nominee / surviving joint hirer: seek access / return of articles; the bank prepares an inventory of contents (Annex IV format).",
+      "No nominee / no survivor: follow the legal-heir route with succession documentation.",
+      "Attend the inventory and take a copy; collect the contents.",
+      "Treat access as custody only — final ownership of the contents follows separate succession rules."
+    ],
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "limits": "Regulator-verified baseline (2015 master circular). Bank-specific locker forms and the revised 2021/2022 locker norms must be confirmed before execution.",
+    "detail": {
+      "purpose": "Obtain access to, and an inventory of, a deceased person's safe deposit locker.",
+      "applicability": "Safe deposit lockers hired by the deceased at a bank in India.",
+      "who_may_apply": "Nominee or surviving joint hirer; otherwise the legal heir(s).",
+      "prerequisites": [
+        "Death certificate.",
+        "Locker details.",
+        "Claimant identification."
+      ],
+      "actions": [
+        "Nominee/survivor: access/return of articles after the bank prepares an inventory of contents.",
+        "No nominee/survivor: legal-heir route via succession documentation.",
+        "Inventory of contents prepared in the bank's Annex IV format."
+      ],
+      "online_channel": null,
+      "offline_channel": "Apply at the branch holding the locker.",
+      "form": "The bank's locker access / claim form (obtain the current version).",
+      "documents": [
+        "Death certificate.",
+        "Claimant identification.",
+        "Nomination/survivorship or legal-heir evidence as applicable."
+      ],
+      "documents_note": "RBI directs simplified procedures — no unnecessary documentary burden on a nominee/survivor.",
+      "office": null,
+      "fees": null,
+      "fees_note": null,
+      "timeline": null,
+      "outcome": "Access granted and contents released after inventory (custody, not a determination of ownership).",
+      "evidence": "RBI/2015-16/59, Master Circular on Customer Service in Banks, paras 21.1–21.5.",
+      "last_verified": "2026-09-05",
+      "unresolved": [
+        "Revised RBI locker guidelines (2021, effective 2022) to be confirmed against current norms.",
+        "Bank-specific locker access/claim form varies.",
+        "No explicit timeline stated in the referenced sections."
+      ]
+    }
+  },
+  {
+    "id": "unclaimed-deposits-in",
+    "version": 1,
+    "title": "Unclaimed bank deposits: search on UDGAM, then claim from the bank",
+    "service": "unclaimed_deposit",
+    "location_basis": "institution",
+    "match": {},
+    "needed_context": [
+      "institution"
+    ],
+    "source_ids": [
+      "rbi-udgam"
+    ],
+    "evidence_locator": "RBI UDGAM FAQs",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "detailed_orientation",
+    "summary": "RBI's UDGAM portal lets you SEARCH for unclaimed deposits across banks in one place; each unclaimed account has a UDRN. UDGAM only locates the deposit — the claim itself is filed with, and settled by, the respective bank following its deceased-claim process.",
+    "steps": [
+      "Search UDGAM with the account holder's name, the bank name(s) and one identifier (PAN / driving licence / voter ID / passport / date of birth, or the address).",
+      "Save the search result and any UDRN (unique reference for the unclaimed account).",
+      "Go to the responsible bank and follow its deceased-depositor claim process (see the bank-deposit branch).",
+      "File the claim with the bank and track settlement."
+    ],
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": "https://udgam.rbi.org.in/",
+    "limits": "UDGAM verifies search/UDRN only; the deceased/legal-heir claim mechanics are the responsible bank's (see bank-deposit branch). The FAQ gives no legal-heir-specific steps.",
+    "detail": {
+      "purpose": "Locate a deceased person's unclaimed bank deposits and route the claim to the correct bank.",
+      "applicability": "Deposits transferred to the RBI DEA fund / classified unclaimed and searchable on UDGAM.",
+      "who_may_apply": "A depositor or their legal heir (the FAQ does not give heir-specific mechanics).",
+      "prerequisites": [
+        "Account holder's name, bank name(s) and one identifier (PAN/DL/Voter ID/Passport/DOB) or address."
+      ],
+      "actions": [
+        "Search UDGAM to identify the unclaimed deposit and its UDRN.",
+        "Approach the responsible bank and follow its deceased-claim process."
+      ],
+      "online_channel": "UDGAM portal (search only).",
+      "offline_channel": "Claim filed with the responsible bank.",
+      "form": null,
+      "documents": [
+        "UDGAM search result / UDRN.",
+        "The responsible bank's deceased-claim documents."
+      ],
+      "documents_note": "The claim document set is the bank's — see the bank-deposit branch (RBI deceased-depositor rules).",
+      "office": null,
+      "fees": null,
+      "fees_note": null,
+      "timeline": null,
+      "outcome": "Unclaimed deposit located and claimed from the responsible bank.",
+      "evidence": "RBI UDGAM FAQs (verified 2026-09-05).",
+      "last_verified": "2026-09-05",
+      "unresolved": [
+        "Deceased/legal-heir-specific claim steps not given in the FAQ — follow the responsible bank's process."
+      ]
+    }
+  },
+  {
+    "id": "government-securities-in",
+    "version": 1,
+    "title": "Government securities (e.g. RBI Floating Rate Savings Bonds): transmission on death",
+    "service": "gsec_transmission",
+    "location_basis": "institution",
+    "match": {},
+    "needed_context": [
+      "institution",
+      "nomineeStatus"
+    ],
+    "source_ids": [
+      "rbi-frsb-2020"
+    ],
+    "evidence_locator": "RBI FRSB 2020 (T) Operational Guidelines; Government Securities Act 2006, ss. 7–8; GS Regulations 2007, Reg 6",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "detailed_orientation",
+    "summary": "For government savings bonds such as RBI's Floating Rate Savings Bonds 2020 (T): where there is a nomination, the nominee's claim is recognized under the Government Securities Act 2006 (if unmatured, the nominee is substituted as holder and a fresh Certificate of Holding issued). Without a nomination, recognition follows ss.7–8 of the GS Act 2006 with the Receiving Office able to require a bond of indemnity. No monetary threshold is stated in the source.",
+    "steps": [
+      "Identify the security (e.g. FRSB 2020 T), the Receiving Office/agent and whether a nomination exists.",
+      "With nomination: apply for recognition of the nominee's claim; if unmatured, the nominee is substituted as holder and a fresh Certificate of Holding issued.",
+      "Without nomination: apply under ss.7–8 GS Act 2006 / Reg 6 GS Regs 2007; the Receiving Office may require documents and a bond of indemnity.",
+      "Submit the death certificate and the documents/declarations the Receiving Office requires.",
+      "Receive the transferred security or its proceeds; doubtful cases are referred by the RO to RBI IDMD."
+    ],
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "limits": "Verified for FRSB 2020 (T) and the GS Act 2006 no-nomination framework. Corporate bonds and Sovereign Gold Bonds follow distinct processes and are NOT covered here.",
+    "detail": {
+      "purpose": "Transmit a deceased holder's government savings bond to the nominee or legal claimant.",
+      "applicability": "Government savings bonds held with a Receiving Office (verified for FRSB 2020 (T)).",
+      "who_may_apply": "The registered nominee; otherwise the person entitled under the GS Act 2006.",
+      "prerequisites": [
+        "Death certificate.",
+        "Bond / Certificate of Holding details."
+      ],
+      "actions": [
+        "With nomination: nominee's claim recognized (GS Act 2006); unmatured bond → nominee substituted as holder, fresh COH issued.",
+        "Without nomination: recognition under ss.7–8 GS Act 2006 + Reg 6 GS Regs 2007; RO may require documents/declarations and a bond of indemnity."
+      ],
+      "online_channel": null,
+      "offline_channel": "Apply to the Receiving Office / agent that issued the bond.",
+      "form": null,
+      "documents": [
+        "Death certificate.",
+        "Documents/declarations the Receiving Office requires.",
+        "Bond of indemnity where the RO requires it."
+      ],
+      "documents_note": "The Receiving Office may call for any other document or declaration it considers necessary.",
+      "office": null,
+      "fees": null,
+      "fees_note": null,
+      "timeline": null,
+      "outcome": "Nominee substituted as holder (unmatured) or proceeds paid to the entitled claimant.",
+      "evidence": "RBI/2019-2020/262 (FRSB 2020 T Operational Guidelines); Government Securities Act 2006, ss.7–8; GS Regulations 2007, Reg 6.",
+      "last_verified": "2026-09-05",
+      "unresolved": [
+        "Only FRSB 2020 (T) verified; RBI Retail Direct dated securities, SGBs and corporate bonds follow distinct processes — confirm per instrument.",
+        "No definitive document list or timeline stated in the source (Receiving Office discretion)."
+      ]
+    }
+  },
+  {
+    "version": 1,
+    "location_basis": "institution_or_scheme",
+    "match": {},
+    "needed_context": [
+      "institution"
+    ],
+    "evidence_locator": "CBIC Circular 96/15/2019",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "id": "sole-proprietorship-succession-in",
+    "service": "sole_proprietorship_succession",
+    "title": "Sole proprietorship: succession on death of proprietor",
+    "source_ids": [
+      "cbic-gst-96"
+    ],
+    "evidence": "CBIC Circular 96/15/2019",
+    "summary": "When a sole proprietor who ran a GST-registered business dies and the business continues, the successor registers afresh (REG-01), transfers input tax credit (ITC-02) and then the old registration is cancelled (REG-16). Non-GST licences, bank current account and trade licences transfer separately. This is orientation only.",
+    "steps": [
+      "Confirm whether the business will continue or be wound up; identify GST registration and other licences.",
+      "Successor obtains fresh GST registration (Form REG-01) as transferee.",
+      "File ITC-02 to transfer unutilised input tax credit to the successor before cancellation.",
+      "Apply to cancel the deceased's registration (Form REG-16).",
+      "Transfer the current account, trade licence and any sector licences per each authority's death procedure."
+    ],
+    "limits": "Sequencing per CBIC Circular 96; exact current forms, timelines and non-GST licence steps require confirmation."
+  },
+  {
+    "version": 1,
+    "location_basis": "institution_or_scheme",
+    "match": {},
+    "needed_context": [
+      "institution"
+    ],
+    "evidence_locator": "Indian Partnership Act, 1932",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "id": "partnership-interest-succession-in",
+    "service": "partnership_interest_succession",
+    "title": "Partnership firm: interest of a deceased partner",
+    "source_ids": [
+      "partnership-act"
+    ],
+    "evidence": "Indian Partnership Act, 1932",
+    "summary": "A partnership is dissolved on a partner's death subject to a contrary contract between the partners; where the firm continues, the deceased partner's estate is entitled to the value of their share as settled under the partnership deed. Read the deed first. Orientation only.",
+    "steps": [
+      "Obtain and read the partnership deed — it governs whether the firm continues and how the share is settled.",
+      "Notify the surviving partners and any registrar of firms of the death.",
+      "Have the estate's entitlement (capital + share of profits/goodwill as per deed) determined.",
+      "Settle the estate's share and record any reconstitution of the firm."
+    ],
+    "limits": "Entitlement depends on the deed and the Act; no share value or settlement is computed here."
+  },
+  {
+    "version": 1,
+    "location_basis": "institution_or_scheme",
+    "match": {},
+    "needed_context": [
+      "institution"
+    ],
+    "evidence_locator": "LLP Act 2008; MCA Form 4 kit",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "id": "llp-interest-succession-in",
+    "service": "llp_interest_succession",
+    "title": "LLP: cessation of a deceased partner and estate rights",
+    "source_ids": [
+      "llp-act",
+      "llp-form4"
+    ],
+    "evidence": "LLP Act 2008; MCA Form 4 kit",
+    "summary": "A partner ceases to be a partner of an LLP on death. Cessation is recorded with MCA in Form 4 (and Form 3 where the LLP agreement changes). The estate's rights (to capital contribution and profit share) depend on the LLP Act and the LLP agreement. Orientation only.",
+    "steps": [
+      "Read the LLP agreement — it governs the estate's financial entitlement and any continuation.",
+      "File Form 4 with MCA to record the partner's cessation (with Form 3 if the agreement is amended).",
+      "Have the estate's entitlement determined and settled per the agreement and the Act."
+    ],
+    "limits": "Current e-form rules must be checked at filing; no entitlement is computed here."
+  },
+  {
+    "version": 1,
+    "location_basis": "institution_or_scheme",
+    "match": {},
+    "needed_context": [
+      "institution"
+    ],
+    "evidence_locator": "Companies Act 2013, s.56",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "id": "private-company-share-transmission-in",
+    "service": "private_company_share_transmission",
+    "title": "Private company shares: transmission by operation of law",
+    "source_ids": [
+      "companies-act-56"
+    ],
+    "evidence": "Companies Act 2013, s.56",
+    "summary": "Companies Act 2013 s.56 recognises transmission of shares by operation of law; on intimation with proper evidence the company registers the transmission and delivers certificates within the statutory period, subject to the articles and any lawful restriction. Private-company articles often add pre-emption/board approval. Orientation only.",
+    "steps": [
+      "Read the company's articles for transmission restrictions and pre-emption rights.",
+      "Intimate the company/RTA with the death certificate, succession evidence (will/probate/LoA/succession certificate) and transmission request.",
+      "The company registers the transmission and issues share certificates within the s.56 timeline."
+    ],
+    "limits": "Subject to the articles and lawful restrictions; exact evidence threshold and any board approval require confirmation."
+  },
+  {
+    "version": 1,
+    "location_basis": "institution_or_scheme",
+    "match": {},
+    "needed_context": [
+      "institution"
+    ],
+    "evidence_locator": "Companies Act 2013, s.56",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "id": "unlisted-share-transmission-in",
+    "service": "unlisted_share_transmission",
+    "title": "Unlisted company shares: transmission",
+    "source_ids": [
+      "companies-act-56"
+    ],
+    "evidence": "Companies Act 2013, s.56",
+    "summary": "Transmission of unlisted shares follows Companies Act 2013 s.56 and is processed by the company or its RTA. Where held in demat, the depository transmission process applies; where in physical form, the company registers the transmission on evidence. Orientation only.",
+    "steps": [
+      "Establish whether the shares are in physical or demat form and identify the company/RTA.",
+      "Submit the transmission request with death certificate and succession evidence.",
+      "The company/RTA (or DP for demat) registers the transmission."
+    ],
+    "limits": "Depository vs physical route and evidence threshold require confirmation for the specific company."
+  },
+  {
+    "version": 1,
+    "location_basis": "institution_or_scheme",
+    "match": {},
+    "needed_context": [
+      "institution"
+    ],
+    "evidence_locator": "CMVR / Parivahan (Form 31)",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "id": "vehicle-transmission-in",
+    "service": "vehicle_transmission",
+    "title": "Motor vehicle: transfer of ownership on death of owner",
+    "source_ids": [
+      "morth-vehicle"
+    ],
+    "evidence": "CMVR / Parivahan (Form 31)",
+    "summary": "On the death of a registered owner, the person succeeding to possession applies to the registering authority to transfer ownership (commonly Form 31 with the registration certificate, death certificate and succession evidence) within the period prescribed under the Central Motor Vehicles Rules. Orientation only.",
+    "steps": [
+      "Identify the registering authority (RTO) where the vehicle is registered.",
+      "Apply to transfer ownership (Form 31) with the RC, death certificate and succession evidence.",
+      "Complete insurance transfer separately with the insurer."
+    ],
+    "limits": "Current form, fee, timeline and state-specific steps require confirmation at the RTO."
+  },
+  {
+    "version": 1,
+    "location_basis": "institution_or_scheme",
+    "match": {},
+    "needed_context": [
+      "institution"
+    ],
+    "evidence_locator": "Payment of Gratuity Act, 1972",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "id": "gratuity-death-claim-in",
+    "service": "gratuity_death_claim",
+    "title": "Gratuity: death claim by nominee / legal heir",
+    "source_ids": [
+      "gratuity-act"
+    ],
+    "evidence": "Payment of Gratuity Act, 1972",
+    "summary": "Under the Payment of Gratuity Act 1972, on an employee's death gratuity is payable to the nominee (Form F) or, if none, the legal heirs, on application to the employer; the vesting-service condition does not apply on death. Public-sector/CDA-rule gratuity follows separate service rules. Orientation only.",
+    "steps": [
+      "Confirm the employer and whether the Gratuity Act or service (CDA/CCS) rules apply.",
+      "Nominee applies to the employer (Form F route); legal heirs apply where there is no nominee.",
+      "Employer computes and pays the gratuity; escalate to the Controlling Authority on dispute/delay."
+    ],
+    "limits": "Employer-specific forms, timeline and amount are not encoded; confirm with the employer/authority."
+  },
+  {
+    "version": 1,
+    "location_basis": "institution_or_scheme",
+    "match": {},
+    "needed_context": [
+      "institution"
+    ],
+    "evidence_locator": "SEBI transmission norms",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "id": "corporate-bond-transmission-in",
+    "service": "corporate_bond_transmission",
+    "title": "Corporate bonds/debentures: transmission",
+    "source_ids": [
+      "sebi-transmission"
+    ],
+    "evidence": "SEBI transmission norms",
+    "summary": "Corporate bonds/debentures held in demat are transmitted through the depository (NSDL/CDSL) via the depository participant, following SEBI transmission norms; physical holdings are transmitted by the issuer/RTA. Orientation only.",
+    "steps": [
+      "Establish demat vs physical holding and identify the DP or issuer/RTA.",
+      "Submit the transmission request with death certificate and succession evidence per SEBI norms.",
+      "The DP/RTA registers the transmission to the nominee or legal heir."
+    ],
+    "limits": "Value-threshold documents and issuer-specific steps require confirmation."
+  },
+  {
+    "version": 1,
+    "location_basis": "institution_or_scheme",
+    "match": {},
+    "needed_context": [
+      "institution"
+    ],
+    "evidence_locator": "Depository transmission (SGB in demat)",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "id": "sgb-transmission-in",
+    "service": "sovereign_gold_bond_transmission",
+    "title": "Sovereign Gold Bonds: transmission",
+    "source_ids": [
+      "sebi-transmission"
+    ],
+    "evidence": "Depository transmission (SGB in demat)",
+    "summary": "Sovereign Gold Bonds held in demat are transmitted through the depository/DP like other demat securities; bonds held in RBI's Retail Direct / physical certificate form follow the RBI/receiving-office transmission process. Orientation only.",
+    "steps": [
+      "Establish where the SGB is held (demat via DP, or RBI Retail Direct / receiving office).",
+      "Submit the transmission request with death certificate and succession evidence to the DP or receiving office.",
+      "The holding is transmitted to the nominee or legal heir."
+    ],
+    "limits": "RBI Retail Direct vs depository route and exact forms require confirmation."
+  },
+  {
+    "version": 1,
+    "location_basis": "institution_or_scheme",
+    "match": {},
+    "needed_context": [
+      "institution"
+    ],
+    "evidence_locator": "Government savings / PPF (post office & bank)",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "id": "ppf-death-claim-in",
+    "service": "ppf_death_claim",
+    "title": "PPF: claim on death of the account holder",
+    "source_ids": [
+      "post-office"
+    ],
+    "evidence": "Government savings / PPF (post office & bank)",
+    "summary": "On the death of a PPF account holder the balance is paid to the nominee, or to the legal heirs where there is no nomination, on application at the operating post office or bank branch; the account is not continued by the claimant. Orientation only.",
+    "steps": [
+      "Identify the operating branch (post office or bank) and whether a nomination exists.",
+      "Nominee applies with the prescribed claim form, death certificate and identity/bank proof.",
+      "Where there is no nominee, legal heirs apply with succession evidence (thresholds apply)."
+    ],
+    "limits": "Current claim form, thresholds for legal-heir claims and processing time require confirmation at the branch."
+  },
+  {
+    "version": 1,
+    "location_basis": "institution_or_scheme",
+    "match": {},
+    "needed_context": [
+      "institution"
+    ],
+    "evidence_locator": "EPS family pension (EPFO)",
+    "last_source_reviewed": "2026-09-05",
+    "review_due": "2026-12-05",
+    "review_status": "source_checked_orientation",
+    "legal_review_status": "not_approved_for_execution",
+    "execution_available": false,
+    "completeness": "orientation_only",
+    "document_examples": [],
+    "fees": null,
+    "published_processing_time": null,
+    "application_url": null,
+    "id": "family-pension-claim-in",
+    "service": "family_pension_claim",
+    "title": "Family pension: claim by eligible family member",
+    "source_ids": [
+      "epfo-death"
+    ],
+    "evidence": "EPS family pension (EPFO)",
+    "summary": "EPS family pension is claimed from EPFO by the eligible family member (spouse, then children) with the death certificate and claim forms; government-service and other employer family pensions follow separate DoPPW/employer rules. Orientation only.",
+    "steps": [
+      "Confirm the pension type (EPS via EPFO, government service pension, or other employer pension).",
+      "Eligible family member submits the family-pension claim with death certificate and forms.",
+      "For government service pension, apply through the pension-sanctioning authority per DoPPW rules."
+    ],
+    "limits": "Non-EPS (government/employer) family pension rules, forms and eligibility require separate confirmation."
+  }
+]

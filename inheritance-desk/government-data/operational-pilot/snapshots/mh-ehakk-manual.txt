@@ -1,0 +1,2120 @@
+
+PAGE 1
+Help file link for creating a citizen user for data entry into 7/12 Mutations  
+Link :- https://pdeigr.maharashtra.gov.in/Helpfile.aspx 
+ 
+• For Creating new user account 
+Click on ‘proceed to Login’ button to go for Login Page 
+ 
+Fill All the Required Details and click on Save. 
+Please remember your Credentials i.e. Username and Password. 
+
+
+PAGE 2
+Please Remember: 7/12 Mutation entry is not be available without Login. 
+Login Screen: 
+ 
+Enter Your Login Details and captcha then click on Login button to Proceed. 
+Landing Page: 
+After Login Click on 7/12 Mutations Button to go for 7/12 Mutations entry 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 3
+Please Select Your District, Taluka and Village in which you have to take a 
+Mutation Data entry 
+ 
+After Selecting District, taluka, village screen will be 
+Select Appropriate Mutation Type  
+ 
+ 
+ 
+
+
+PAGE 4
+इकरार फ े रफार अर्ज : (Ikrar Mutation Type ) 
+You will be on first Tab   
+अर्जदाराची   माहिती: 
+ 
+Please fill all the details 
+Fields with * are Mandatory. Please enter correct working mobile number 
+.Your application will be saved Using OTP. 
+ Click on पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 5
+ 
+खातेदाराची माहिती : 
+You will get massage that your application has saved as draft  click on ok 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 6
+ 
+ 
+Search for khatedar by first name or khata number .Select the Khatedar 
+from खातेदार निवडा  : , 
+After selecting Khatedar survey numbers against that khata will be shown 
+below, 
+Select surveys you want to proceed. 
+ 
+Enter the Other details about Mutation and  
+Click पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 7
+ 
+ 
+ 
+ 
+कागदपत्रे र्ोडा : 
+Attach the Required .PDF files and click on का गदपत्रे अपलोड करा button. 
+Remember: .pdf file size should be 1Mb. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 8
+ 
+ 
+ 
+ 
+After uploading the documents check on सहमत आहे/Agree, if you agree to 
+continue further .Click on ओ.टी.पी.पाठवा  wait to receive four digit OTP on 
+your Mobile number .Enter the Correct OTP in ओ.टी.पी.भरा  and click on 
+Preview button to Save the Application. You will get the 11 digit Application 
+id For your Application .Keep the Same with you for further Communication 
+Process. 
+After entering OTP click on preview to see your application, so if you find 
+anything wrong then you can go back and edit the application.  
+ 
+ 
+ 
+ 
+
+
+PAGE 9
+ 
+ 
+ 
+ 
+ 
+ 
+This is the preview of the application. 
+
+PAGE 10
+ 
+ 
+After that go to  कागदपत्रे र्ोडा   tab and click on  माहिती साठवा  . 
+
+
+PAGE 11
+ 
+Click on ok 
+ 
+You will get massage that application has saved successfully for  इकरार फ े रफार अर्ज    
+
+
+PAGE 12
+ 
+ 
+ 
+Click on अर्ााची प्रत 
+ 
+ 
+ 
+ 
+
+
+PAGE 13
+Click on PDF to get receipt As PDF file .You can download and print your 
+receipt. 
+ 
+ 
+
+
+PAGE 14
+बोर्ा चढहवणे / गिाणखत:  
+Select Appropriate Mutation Type 
+ 
+ 
+You will be on first Tab  
+ अर्जदाराची   माहिती:  Please fill all the details 
+Fields with * are Mandatory. Please enter correct working mobile number 
+.Your application will be saved Using OTP. 
+ 
+ 
+Click पुढे र्ा  >>> 
+
+
+PAGE 15
+ 
+Second Tab: – 
+खातेदाराची माहिती : 
+You will get massage that your application has saved as draft click on ok 
+ 
+ 
+ 
+Search by khata number or khatedar first name. 
+Select for व्यक्तिगत बोर्ा- for single name khatedar or सामाईक बोर्ा-khata 
+with multiple names, accordingly. 
+ 
+ 
+ 
+
+
+PAGE 16
+ 
+Select the correct name and select niwada in  
+खातेदाराच्या िावी असल े ल े  खाता क्र . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 17
+ 
+after selecting survey click on समानवष्ट करा button to add surveys into 
+Mutation entry .After that selected survey with respective area will be 
+shown in gird like below .If want to change the बोर्ा क्षेत्र, click on संपादि and 
+change the area in बोर्ा क्षेत्र field and save it.  
+ 
+Click पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 18
+ 
+ 
+Search by khata number for सामाईक बोर्ा-khata with multiple names - 
+select for सामाईक बोर्ा, check for the names in खातेदाराच्या िावी असल े ल े  खाता 
+क्र. select the names and select surveys as in Mutation entry  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 19
+ 
+ 
+ 
+After selecting survey click on समानवष्ट करा button to add surveys into 
+Mutation entry .After that selected survey with respective area will be 
+shown in gird like below.  
+ 
+ 
+If want to change the बोर्ा क्षेत्र, click on संपादि and change the area in बोर्ा 
+क्षेत्र field and save it. Click पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+
+
+PAGE 20
+ 
+ 
+ 
+ 
+ 
+बँक े ची  माहिती : 
+Select बोर्ा प्रकार and fill the other bank details correctly  
+ 
+ 
+Click पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 21
+ 
+ 
+ 
+ 
+ 
+कागदपत्रे र्ोडा : 
+Attach the Required .PDF files and click on का गदपत्रे अपलोड करा button. 
+Remember:  .pdf file size should be 1 Mb. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 22
+ 
+ 
+ 
+ 
+ 
+After uploading the documents check on सहमत आहे/Agree, if you agree to 
+continue further .Click on ओ.टी.पी.पाठवा  wait to receive four digit OTP on 
+your Mobile number .Enter the Correct OTP in ओ.टी.पी.भरा  and click on 
+Preview button to Save the Application. You will get the 11 digit Application 
+id for your Application .Keep the same with you for further Communication 
+Process. 
+After entering OTP click on preview to see your application, so if you find 
+anything wrong then you can go back and edit the application.  
+ 
+ 
+ 
+
+
+PAGE 23
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This is the preview of the application. 
+
+PAGE 24
+ 
+ 
+ 
+After that go to  कागदपत्रे र्ोडा   tab and click on  माहिती साठवा . 
+
+
+PAGE 25
+ 
+Click on ok 
+ 
+ 
+
+
+PAGE 26
+You will get massage that application has saved successfully for   बोर्ा फ े रफार अर्ज   
+ 
+ 
+ 
+Click on अर्ााची प्रत 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 27
+ 
+Click on PDF to get receipt As PDF file .You can download and print your 
+receipt. 
+ 
+
+
+PAGE 28
+ 
+ 
+बोर्ा कमी करणे: 
+Select Appropriate Mutation Type  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 29
+ 
+ 
+ 
+अर्ादाराची  मानहती: 
+Please fill all the details 
+Fields with * are mandatory. Please enter correct working mobile number .Your 
+application will be saved Using OTP. 
+ 
+ 
+Click पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 30
+ 
+ 
+ 
+ 
+खातेदाराची माहिती : 
+You will get massage that your application has saved as draft click on ok 
+ 
+ 
+Enter mutation number in फ े रफार क्रमांक and click on फ े रफार शोधा . 
+ 
+ 
+
+
+PAGE 31
+ 
+ 
+ 
+ 
+ 
+After selecting survey click on समानवष्ट करा  .After that selected survey with 
+respective information will be shown in gird like below . After that Please 
+enter correct information in given fields fields with * are mandatory. 
+ 
+Click पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 32
+ 
+ 
+ 
+ 
+ 
+हवत्तीय संस्थेची माहिती : 
+Fill the all bank details correctly  
+ 
+ 
+Click पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 33
+ 
+ 
+ 
+ 
+ 
+कागदपत्रे र्ोडा : 
+Attach the Required .PDF files and click on  कागदपत्रे अपलोड करा button . 
+Remember: .pdf file size should be 1 Mb. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 34
+ 
+ 
+ 
+ 
+ 
+ 
+After uploading the documents check on सहमत आहे/Agree, if you agree to 
+continue further .Click on ओ.टी.पी.पाठवा  wait to receive four digit OTP on 
+your Mobile number .Enter the Correct OTP in ओ.टी.पी.भरा and click on 
+Preview button to save the application. You will get the 11 digit Application 
+id for your Application .Keep the same with you for further Communication 
+Process. 
+After entering   OTP click on preview to see your application, so if you find 
+anything wrong then you can go back and edit the application.  
+ 
+ 
+
+PAGE 35
+ 
+ 
+ 
+ 
+ 
+This is the preview of the application. 
+
+
+PAGE 36
+ 
+ 
+ 
+After that go to  कागदपत्रे र्ोडा   tab and click on  माहिती साठवा  . 
+
+
+PAGE 37
+ 
+Click on ok  
+ 
+ 
+ 
+
+
+PAGE 38
+You will get massage that application has saved successfully for   बोर्ा कमी करणे     
+ 
+Click on अर्ााची प्रत 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 39
+Click on PDF to get receipt As PDF file .You can download and print Your 
+receipt . 
+ 
+ 
+ 
+
+
+PAGE 40
+ 
+वारस िोंद : 
+Select Appropriate Mutation Type  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 41
+ 
+You will be on first Tab  
+ अर्जदाराची   माहिती:  
+ Please fill all the details, fields with * are mandatory. Please enter correct 
+working mobile number .Your application will be saved Using OTP. 
+ 
+Click पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 42
+ 
+ 
+ 
+खातेदाराची माहिती : 
+You will get massage that your application has saved as draft click on ok 
+ 
+Search by khata number or khatedar first name. 
+
+
+PAGE 43
+ 
+ 
+ 
+ 
+Select correct khatedar name in खातेदार निवडा   option. Khata numbers 
+belonging to the selected name will be shown in grid .select the khata 
+numbers you want and click समानवष्ट करा (mutation effect will be applied 
+only to the selected khata nos in that village) 
+
+
+PAGE 44
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+After this if applicant person/name is a waras then check होय in अर्ादार हा 
+वारसांपैकी आहे का  ?Alredy Filled Details will be added automatically in add 
+waras screen fill other details and click साठवा .  
+
+
+PAGE 45
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 46
+if no then click  वारसांची िावे भरा   . Then in  वारस हा हयात आहे का  ? Click on  होय 
+ 
+Added waras names will be shown in grid like below .you can delete and 
+edit the same. 
+ 
+ 
+After filling all required details click on Click on  पुढे र्ा  >>> 
+
+
+PAGE 47
+कागदपत्रे र्ोडा : 
+Attach the Required .PDF files using select file. 
+Remember: .pdf file size should be 1Mb. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 48
+ 
+After uploading the documents check on सहमत आहे/Agree, if you agree to 
+continue further .Click on ओ.टी.पी.पाठवा  wait to receive four digit OTP on 
+your Mobile number .Enter the Correct OTP in ओ.टी.पी.भरा  and click on 
+मानहती साठवा  button to Save the Application. You will get the 11 digit 
+Application id   for your Application .Keep the same with you for further 
+Communication Process. 
+After entering   OTP click on preview to see your application, so if you find 
+anything wrong then you can go back and edit the application.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 49
+ 
+ 
+ 
+This is the preview of the application. 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 50
+ 
+ 
+ 
+After that go to  कागदपत्रे र्ोडा   tab and click on  माहिती साठवा  . 
+ 
+Click on ok 
+
+
+PAGE 51
+ 
+ 
+You will get massage that application has saved successfully for   वारस फ े रफार अर्ज  
+ 
+
+
+PAGE 52
+ 
+Click on अर्ााची प्रत 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 53
+Click on PDF to get receipt As PDF file .You can download and print Your 
+receipt . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 54
+मयताचे  िाव कमी करणे : 
+Select Appropriate Mutation Type  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 55
+You will be on first Tab  
+ अर्जदाराची   माहिती:  Please fill all the details 
+Fields with * are mandatory. Please enter correct working mobile number 
+.Your application will be saved Using OTP. 
+ 
+Click पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 56
+खातेदाराची माहिती : 
+You will get massage that your application has saved as draft click on ok 
+ 
+Search by मयत खातेदारचे िाव/खाता क्रमांक   
+ 
+ 
+
+
+PAGE 57
+Search by khata number or khatedar first  name , select correct khatedar 
+name in खातेदार निवडा  option. After selecting खातेदार   click on   मयताच्या 
+मृत्यूचा नदिांक select date.  After selecting survey click on समानवष्ट करा  .After 
+that selected survey with respective information will be shown in gird like 
+below . After that select  मयत व्यिीशी िाते . 
+ 
+Click पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 58
+ 
+कागदपत्रे र्ोडा : 
+Attach the Required .PDF files using select file. 
+Remember: .pdf file size should be 1Mb. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 59
+ 
+After uploading the documents check on सहमत आहे/Agree, if you agree to 
+continue further .Click on ओ.टी.पी.पाठवा  wait to receive four digit OTP on 
+your Mobile number .Enter the Correct OTP in ओ.टी.पी.भरा  and click on 
+मानहती साठवा  button to Save the Application. You will get the 11 digit 
+Application id for your Application .Keep the same with you for further 
+Communication Process. 
+After entering   OTP click on preview to see your application, so if you find 
+anything wrong then you can go back and edit the application.  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 60
+ 
+ 
+ 
+This is the preview of the application. 
+
+PAGE 61
+ 
+ 
+After that go to  कागदपत्रे र्ोडा   tab and click on  माहिती साठवा  . 
+
+
+PAGE 62
+ 
+You will get massage that application has saved successfully for  मयताचे नाव कमी करणे    
+ 
+ 
+Click on अर्ााची प्रत 
+
+
+PAGE 63
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 64
+Click on PDF to get receipt As PDF file .You can download and print your 
+receipt. 
+ 
+ 
+
+
+PAGE 65
+ 
+ 
+ अ.पा.क.शेरा कमी करणे: 
+ Select Appropriate Mutation Type  
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 66
+ 
+You will be on first Tab  
+ अर्जदाराची   माहिती:  Please fill all the details 
+fields with * are mandatory . Please enter correct working mobile number 
+.Your application will be saved Using OTP. 
+ 
+Click पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 67
+ 
+खातेदाराची माहिती : 
+You will get massage that your application has saved as draft click on ok 
+Search by खातेदाराचे िाव / खाता क्रमांक   
+ 
+
+
+PAGE 68
+Khata numbers belonging to the selected name will be shown in grid .select 
+the khata numbers you want and click समानवष्ट करा (mutation effect will be 
+applied only to the selected khata nos in that village). Fields with * are 
+Mandetory. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 69
+ 
+After this if you want applicant person/name is on 7/12 then check होय in 
+खातेदाराची नाव ७/१२ वर िवे आिे का? Already Filled Details will be added 
+automatically in add in fields then fill other details and click मा नहती  साठवा .  
+fields with * are mandatory. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 70
+ 
+ 
+After clicking on मानहती   साठवा   selected khatedar  with respective 
+information will be shown in gird like below .  
+ 
+ 
+ 
+Click पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 71
+ 
+If you don’t want applicant person/name is on 7/12 then check  नािी then fill  अज्ञाि 
+खातेदाराची र्न्मतारीख and  अ.पा.क.तपशील  . fields with * are mandatory 
+ 
+Click पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 72
+ 
+कागदपत्रे र्ोडा : 
+Attach the Required .PDF files and click on  कागदपत्रे अपलोड करा button . 
+Remember: .pdf file size should be 1Mb. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 73
+ 
+After uploading the documents check on सहमत आहे/Agree, if you agree to 
+continue further .Click on ओ.टी.पी.पाठवा  wait to receive four digit OTP on 
+your Mobile number .Enter the Correct OTP in ओ.टी.पी.भरा  and click on 
+मानहती साठवा  button to Save the Application. You will get the 11 digit 
+Application id for your Application .Keep the same with you for further 
+Communication Process. 
+After entering   OTP click on preview to see your application, so if you find 
+anything wrong then you can go back and edit the application.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 74
+ 
+ 
+ 
+This is the preview of the application. 
+
+PAGE 75
+ 
+ 
+ 
+
+
+PAGE 76
+After that go to  कागदपत्रे र्ोडा   tab and click on  माहिती साठवा   
+You will get massage that application has saved successfully for  अ.पा.क.शेरा कमी करणे    
+ 
+ 
+
+
+PAGE 77
+Click on अर्ााची प्रत 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+
+PAGE 78
+Click on PDF to get receipt As PDF file .You can download and print your 
+receipt. 
+  
+
+
+PAGE 79
+ए. कु. मॅ. िोंद कमी करणे : 
+Select Appropriate Mutation Type  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 80
+You will be on first Tab  
+ अर्जदाराची   माहिती:  Please fill all the details 
+Fields with * are mandatory. Please enter correct working mobile number 
+.Your application will be saved Using OTP. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 81
+ 
+खातेदाराची माहिती : 
+You will get massage that your application has saved as draft click on ok 
+ 
+Search by खातेदाराचे िाव / खाता क्रमांक   
+ 
+ 
+ 
+
+
+PAGE 82
+Khata numbers belonging to the selected name will be shown in grid .select 
+the khata numbers you want and click समानवष्ट करा (mutation effect will be 
+applied only to the selected khata nos in that village). Fields with * are 
+mandatory. 
+ 
+After this if you want applicant person/name is on 7/12 then check होय in खातेदाराची नाव ७/१२ वर 
+िवे आिे का?  And enter  ए. क ु .मे. दाखल झाल े ला फ े रफार क्रमांक  fiels with * are 
+Mandetory. 
+
+
+PAGE 83
+ 
+Click पुढे र्ा  >>> 
+If you don’t want applicant person/name is on 7/12 then check  नािी then fill  ए. क ु .मे. 
+दाखल झाल े ला फ े रफार क्रमांक 
+ 
+  
+Click पुढे र्ा  >>> 
+
+
+PAGE 84
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+फ े रफार मधील िावे : 
+Fields with * are Mandatory. Please enter correct details. After entering 
+details click on   मानहती साठवा .
+ 
+  Saved   name will be shown in grid. 
+
+
+PAGE 85
+ 
+Click पुढे र्ा  >>> 
+ 
+ 
+ 
+If you want to edit the name click on check box and the click on  दुरु स्त्या 
+करा. 
+ 
+
+
+PAGE 86
+If you want to add new waras in ferfar then click on  िवीि  fill all fields and 
+click on   मानहती साठवा .  Saved name will be shown in grid. 
+ 
+Click पुढे र्ा  >>> 
+ 
+ 
+ 
+कागदपत्रे र्ोडा : 
+Attach the Required .PDF files using select file. 
+Remember: .pdf file size should be 1Mb. 
+
+
+PAGE 87
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+After uploading the documents check on सहमत आहे/Agree, if you agree to 
+continue further .Click on ओ.टी.पी.पाठवा  wait to receive four digit OTP on 
+your Mobile number .Enter the Correct OTP in ओ.टी.पी.भरा  and click on 
+मानहती साठवा  button to Save the Application. You will get the 11 digit 
+
+
+PAGE 88
+Application id for your Application .Keep the same with you for further 
+Communication Process. 
+After entering   OTP click on preview to see your application, so if you find 
+anything wrong then you can go back and edit the application.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This is the preview of the application. 
+
+
+PAGE 89
+ 
+ 
+After that go to  कागदपत्रे र्ोडा   tab and click on  माहिती साठवा   
+
+
+PAGE 90
+ 
+Click on ok 
+ 
+ 
+You will get massage that application has saved successfully for   ए. कु. मॅ. िोंद कमी करणे. 
+
+
+PAGE 91
+ 
+Click on अर्ााची प्रत 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 92
+Click on PDF to get receipt As PDF file .You can download and print your 
+receipt. 
+ 
+
+
+PAGE 93
+ 
+     हवश्वस्ताचे नाव बदलणे : 
+Select Appropriate Mutation Type  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 94
+ 
+ 
+You will be on first Tab  
+ अर्जदाराची   माहिती:  Please fill all the details 
+Fields with * are mandatory. Please enter correct working mobile number 
+.Your application will be saved Using OTP. 
+ 
+click  पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 95
+ 
+ 
+खातेदाराची माहिती : 
+You will get massage that your application has saved as draft click on ok 
+ 
+Search by नवश्वस्ांचे िाव(पनहल े  िाव)/खाता क्र. 
+
+
+PAGE 96
+ 
+ 
+ 
+Khata numbers belonging to the selected name will be shown in grid .select 
+the khata numbers you want and click समानवष्ट करा (mutation effect will be 
+applied only to the selected khata nos in that village). Fields with * are 
+mandatory. 
+
+
+PAGE 97
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 98
+After this if you want applicant person/name is on 7/12 then check  होय  in खातेदाराची नाव 
+७/१२ वर िवे आिे का?  And then fill  धमादाय आयुिांचा आदेश क्रमांक   and  आदेश 
+नदिांक.  Fields with * are mandatory. 
+ 
+Click पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 99
+ 
+If  you don’t want  applicant person/name is on 7/12 then check  नािी then fill  धमादाय 
+आयुिांचा आदेश क्रमांक   and  आदेश हदनांक. fields with * are mandatory. 
+ 
+click  पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 100
+ 
+िवीि नवश्वस्ांची िावे : 
+fields with * are Mandatory . Please enter correct details. After entering 
+details click on   मानहती साठवा .  Saved   name will be shown in grid . 
+ 
+If you want to edit the name click on check box and the click on दुरु स्त्या 
+करा. 
+ 
+
+
+PAGE 101
+click  पुढे र्ा  >>> 
+ 
+If you want to add new waras in ferfar then click on  िवीि  fill all fields and click 
+on   मानहती साठवा .  Saved  name will be shown in grid 
+ 
+click  पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 102
+ 
+ 
+कागदपत्रे र्ोडा : 
+Attach the Required .PDF files using select file. 
+Remember : .pdf file size should be 1Mb. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 103
+ 
+After uploading the documents check on सहमत आहे/Agree ,if you agree to 
+continue further .Click on ओ.टी.पी.पाठवा  wait to receive four digit OTP on 
+your Mobile number .Enter the Correct OTP in ओ.टी.पी.भरा  and click on 
+मानहती साठवा  button to Save the Application . You will get the 11 digit 
+Application id For your Application .Keep the Same with you for further 
+Communication Process. 
+After  entering   OTP  click on preview to see your application, so if you find 
+anything wrong then you can go back and edit the application.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 104
+ 
+ 
+ 
+ 
+This is the preview of the application . 
+
+PAGE 105
+ 
+After that go to  कागदपत्रे र्ोडा   tab and click on  माहिती साठवा   
+
+
+PAGE 106
+ 
+Click on ok 
+ 
+ 
+You will get massage that application has saved successfully for  हवश्वस्ताचे नाव बदलणे      
+
+
+PAGE 107
+ 
+Click on अर्ााची प्रत 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 108
+Click on PDF to get receipt As PDF file .You can download and print Your 
+receipt . 
+ 
+
+
+PAGE 109
+ 
+ 
+खातेदारांची   माहिती भरणे  : 
+
+
+PAGE 110
+Select Appropriate Mutation Type  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 111
+खातेदाराची माहिती : 
+Search by  खातेदाराचे नाव(पहिल े  नाव)/खाता क्र. Select the Khatedar from 
+खातेदार निवडा  .  After selecting  Khatedar . If your entering  permanent 
+address  then select  होय  from  आपण हनवडले ल् या गावातील रहिवाशी आिात 
+काय.  If you’re not entering your permanent address then select िाही . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 112
+ 
+After  that add your permanent address correctly.  fields  with * are 
+Mandatory 
+ 
+click  पुढे र्ा  >>> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 113
+ 
+ 
+You will get massage that your application has saved as draft  click on ok. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 114
+ 
+कागदपत्रे र्ोडा : 
+Attach the Required .PDF files using select file. 
+Remember : .pdf file size should be 1Mb. 
+Select your identity proof and address prof from dropdown. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 115
+ 
+After uploading the documents check on सहमत आहे/Agree ,if you agree to 
+continue further .Click on ओ.टी.पी.पाठवा  wait to receive four digit OTP on 
+your Mobile number .Enter the Correct OTP in ओ.टी.पी.भरा  and click on 
+मानहती साठवा  button to Save the Application . You will get the 11 digit 
+Application id For your Application .Keep the Same with you for further 
+Communication Process. 
+After  entering   OTP  click on preview to see your application, so if you find 
+anything wrong then you can go back and edit the application.  
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 116
+ 
+ 
+ 
+This is the preview of the application . 
+
+
+PAGE 117
+ 
+ 
+After that go to  कागदपत्रे र्ोडा   tab and click on  माहिती साठवा   
+
+
+PAGE 118
+ 
+Click on ok  
+ 
+You will get massage that application has saved successfully for  खातेदारांची   मानहती  भरणे   
+
+
+PAGE 119
+ 
+Click on अर्ााची प्रत 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 120
+Click on PDF to get receipt As PDF file .You can download and print Your 
+receipt . 
+ 
+
+
+PAGE 121
+ 
+हस्नलक्तखत व संगणकीक ृ त सातबारा  मध्ये तफावत दुरुस्ी 
+करावयाचा अर्ा: 
+Select Appropriate Mutation Type  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 122
+ 
+ 
+You will be on first Tab  
+ अर्जदाराची   माहिती:  Please fill all the details 
+fiels with * are Mandetory . Please enter correct Working mobile number 
+.Your application will be saved Using OTP . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 123
+ 
+ 
+खातेदाराची माहिती : 
+You will get massage that your application has saved as draft  click on ok 
+ 
+1. नावात दुरूस्ती:- 
+If you want to do correction in name on 7/12 then select  िावात दुरूस्ी.  Select 
+appropriate survey number  and click on  खातेदार शोधा . 
+
+
+PAGE 124
+ 
+ 
+ 
+Select survey from उपनवभाग/पोटनहस्सा निवडा  after  selecting survey select 
+khatedar from खातेदार निवडा:  selected name will be shown in grid. 
+ 
+If you want to change name then click on दुरुस्त्या करा. After that fill all fields enter correct name 
+and click on सुधारणा करा . fiels with * are Mandetory. 
+ 
+
+
+PAGE 125
+ 
+ 
+The original name and revised name will be shown in grid. After that 
+recheck name and click on मानहती साठवा . 
+ 
+After that you will get massage that changes are saved successfully. 
+
+
+PAGE 126
+ 
+click  पुढे र्ा  >>> 
+ 
+2. क्षेत्रात दुरु स्ती: 
+You will get massage that your application has saved as draft  click on 
+ok 
+  
+If you want to do correction in Area on 7/12 then select  क्षेत्रात दुरुस्ी.  Select 
+appropriate survey number  and click on  खातेदार शोधा . 
+
+
+PAGE 127
+ 
+ 
+ 
+  
+
+
+PAGE 128
+Select survey from उपनवभाग/पोटनहस्सा निवडा  after  selecting survey select 
+khatedar from खातेदार निवडा:  respective area will be shown in gird like 
+below . If you want to change name then click on दुरुस्त्या करा. 
+ 
+After that enter correct  area and click on सुधारणा करा . 
+ 
+ 
+
+
+PAGE 129
+The original area  and revised area  will be shown in grid. After that recheck 
+area and click on मानहती साठवा  . 
+  
+After that you will get massage that changes are saved successfully. 
+ 
+ 
+  
+
+
+PAGE 130
+3. ७/१२ मधील इतर भागातील दुरुस्ी:  
+You will get massage that your application has saved as draft  click on 
+ok. 
+ 
+If you want to do other corrections on 7/12 then select  ७/१२ मधील इतर भागातील 
+दुरुस्ी.  Select appropriate survey number  and click on  खातेदार शोधा . 
+ 
+ 
+ 
+ 
+  
+
+
+PAGE 131
+Select survey from उपनवभाग/पोटनहस्सा निवडा  after  selecting survey select 
+khatedar from खातेदार निवडा  You will get one text box as दुरुस्त्या  तपशील. Enter 
+the details about correction in that text box. Afetr that click on मानहती साठवा . 
+  
+After that you will get massage that changes are saved successfully. 
+   
+
+
+PAGE 132
+कागदपत्रे र्ोडा : 
+Attach the Required .PDF files using select file. 
+Remember : .pdf file size should be 1Mb. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 133
+ 
+After uploading the documents check on सहमत आहे/Agree ,if you agree to 
+continue further .Click on ओ.टी.पी.पाठवा  wait to receive four digit OTP on 
+your Mobile number .Enter the Correct OTP in ओ.टी.पी.भरा  and click on 
+मानहती साठवा  button to Save the Application . You will get the 11 digit 
+Application id For your Application .Keep the Same with you for further 
+Communication Process. 
+After  entering   OTP  click on preview to see your application, so if you find 
+anything wrong then you can go back and edit the application.  
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 134
+ 
+ 
+ 
+This is the preview of the application . 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 135
+ 
+ 
+ 
+After that go to  कागदपत्रे र्ोडा   tab and click on  माहिती साठवा   
+ 
+Click on ok 
+ 
+
+
+PAGE 136
+ 
+You will get massage that application has saved successfully for  हस्नलक्तखत व संगणकीक ृ त 
+सातबारा  मध्ये तफावत दुरुस्ी करावयाचा अर्ा 
+
+
+PAGE 137
+ 
+Click on अर्ााची प्रत 
+ 
+ 
+ 
+ 
+ 
+Click on PDF to get receipt As PDF file .You can download and print Your 
+receipt . 
+
+
+PAGE 138
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 139
+मयत क ु ळांची वारस िोंद: 
+Select Appropriate Mutation Type  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 140
+You will be on first Tab  
+ अर्जदाराची   माहिती:  Please fill all the details 
+fiels with * are Mandetory . Please enter correct Working mobile number 
+.Your application will be saved Using OTP . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 141
+मयत क ु ळांची माहिती : 
+You will get massage that your application has saved as draft  click on ok 
+ 
+ 
+Enter mutation number in फ े रफार क्रमांक  and click on फ े रफार शोधा . 
+ 
+ 
+
+
+PAGE 142
+Select  मृत्यू नदिांक . select survey  number from list and click on समानवष्ट करा  
+.After that selected survey with respective information will be shown in gird 
+like below . fields with * are Mandetory . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 143
+ 
+After this if applicant /person name is in  waras then check होय from अर्ादार हा 
+क ु ळाच्या वारसांपैकी आहे का ? Alredy Filled Details will be added automatically 
+in add waras screen. fill other details and click साठवा . 
+ 
+Added waras names will be shown in grid like below .you can delete and 
+edit the same . If you want to add next waras click on पुढील 
+वारस  
+
+
+PAGE 144
+ 
+After that fill other details and click on  साठवा . Respective information will be 
+shown in gird like below. 
+ 
+
+
+PAGE 145
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+कागदपत्रे र्ोडा : 
+Attach the Required .PDF files using select file. 
+Remember : .pdf file size should be 1Mb. 
+ 
+
+PAGE 146
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+After uploading the documents check on सहमत आहे/Agree ,if you agree to 
+continue further .Click on ओ.टी.पी.पाठवा  wait to receive four digit OTP on 
+your Mobile number .Enter the Correct OTP in ओ.टी.पी.भरा  and click on 
+मानहती साठवा  button to Save the Application . You will get the 11 digit 
+
+
+PAGE 147
+Application id For your Application .Keep the Same with you for further 
+Communication Process. 
+After  entering   OTP  click on preview to see your application, so if you find 
+anything wrong then you can go back and edit the application.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This is the preview of the application . 
+
+
+PAGE 148
+ 
+ 
+ 
+ 
+ 
+After that go to  कागदपत्रे र्ोडा   tab and click on  माहिती साठवा   
+
+
+PAGE 149
+ 
+Click on ok 
+ 
+You will get massage that application has saved successfully for  मयत क ु ळांची वारस िोंद 
+
+
+PAGE 150
+ 
+Click on अर्ााची प्रत 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+PAGE 151
+Click on PDF to get receipt As PDF file .You can download and print Your 
+receipt . 
+ 
+ 
+ 
+ 
+
+
+PAGE 152
+ 
+पूवी सादर क े ल े ल े  अर्ा:- 
+  If You want to see past form then click on पूवी सादर क े ल े ल े  अर्ा. 
+ 
+ 
+In this tab you can see all forms details like फ े रफार प्रकार, अर्ा नदिांक, अर्ा क्तस्थी , 
+कागदपत्रे, etc., 
+  
+
+
+PAGE 153
+अर्ााचा मसुदा:- 
+If you want to see draft then click on अर्ााचा मसुदा. 
+ 
+ 
+In this tab you can see all draft forms and can edit also , For edit the form click on 
+अर्ा दुरुस् करा. 
+ 
+  
+
+
+PAGE 154
+अर्ा दुरुस्ी:- 
+If you want to edit the form then click on अर्ा दुरुस्ी- 
+ 
+In this tab you can edit the form and you can see all forms details like फ े रफार 
+प्रकार, अर्ा नदिांक, अर्ा क्तस्थी , कागदपत्रे, etc., 
+ 
+  
+
+
+PAGE 155
+व्यपगत अर्ा:- 
+If you want to know logn pending form then click on व्यपगत अर्ा. 
+ 
+ 
+In this tab can see the long pending form and you can view the form . 
+ 
+  
+
+
+PAGE 156
+ 
+  
+
+PAGE 157
+ 
+ 
+ 

@@ -1,0 +1,33 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# local runtime database (created on first run)
+/data/*.db
+/data/*.db-*
+
+# env
+.env.local
+.env*.local
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+next-env.d.ts.timestamp
+/tsconfig.tsbuildinfo
+/public/_ref.mp4
+/public/sky.jpg
+/public/grass.jpg
+/public/landscape.jpg
+/data/uploads/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

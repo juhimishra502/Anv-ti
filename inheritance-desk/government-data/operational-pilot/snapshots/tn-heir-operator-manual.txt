@@ -1,0 +1,478 @@
+
+PAGE 1
+ 
+  
+ 
+ 
+ 
+ 
+Tamil Nadu  e-District 
+Application Training 
+Manual 
+Legal Heir Certificate (REV-114) 
+Revenue Department
+ 
+ 
+ 
+ 
+
+
+PAGE 2
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+Table of Content 
+Table of Contents 
+1. Project Overview ............................................................................................................................................................. 3 
+2. General Information ....................................................................................................................................................... 3 
+2.1. Tools Required ........................................................................................................................................................ 3 
+2.2. Starting your Computer .......................................................................................................................................... 3 
+3. Purpose ........................................................................................................................................................................... 4 
+4. Scope ............................................................................................................................................................................... 4 
+5. Getting Started ................................................................................................................................................................ 4 
+6. Services Offered under Revenue Department ................................................................................................................ 4 
+7. Legal Heir Certificate ....................................................................................................................................................... 5 
+7.1. Registering for CAN (Citizen Access Number) ......................................................................................................... 8 
+7.2. Applying for Legal Heir Certificate ........................................................................................................................ 10 
+7.2.1. Filling up Legal Heir Certificate form ................................................................................................................. 11 
+7.3. Downloading Certificate ....................................................................................................................................... 19 
+8. Disclaimer ...................................................................................................................................................................... 22 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 3
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+E-DISTRICTTAMIL NADU USER MANUAL 
+(Government of Tamil Nadu) 
+1. Project Overview 
+Districts are the de facto front -end of government where most Government -to-Consumer or G2C interaction 
+takes place.  
+The e -District project was conceptualized to improve this experience by creating an automated workflow 
+system for the district administrat ion and help in providing the citizen efficient department services through 
+Common Service Centers (CSCs), the primary front end channels envisaged under the National e -Governance 
+Plan by Department of Information Technology (DIT), Ministry of Communicatio n and Information Technology 
+(MCIT), Government of India. 
+2. General Information 
+Let’s Start!! 
+2.1. Tools Required         
+You will be provided with the following basic infrastructure: 
+ Computer    (CPU, Monitor, Keyboard & Mouse) 
+ Network Connection  (as per requirement) 
+ Peripherals   (as per requirement)  
+ Browser    (Google chrome, Version 37) 
+ Uninterrupted Power Supply (UPS) 
+ 
+2.2. Starting your Computer 
+Steps 
+1. Ensure all cables are connected between the computer, network connection, peripherals & UPS 
+2. Plug the UPS to the electrical socket  
+3. Switch ‘ON’ the electrical socket 
+4. Switch ‘ON’ the UPS 
+5. Press the  (power button) on the computer 
+6. Allow the system to boot up. 
+ 
+ 
+ 
+ 
+1. Switch ‘ON’ the UPS only after you have switched ‘ON’ the power socket 
+2. Switch ‘ON’ the computer only after you have switched ‘’ON’ the UPS 
+3. Switch ‘OFF’ the power socket in there is an electrical spark in the socket 
+
+
+PAGE 4
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+ 
+ 
+4. Do not start the computer in case the UPS is not fully charged  
+5. Do not start the computer in case any of the wires are in contact wi th water sources / 
+moisture 
+ 
+ 
+6. In case you are not sure whether the computer is connected in the right way – please 
+contact the system engineer 
+ 
+3. Purpose 
+This document is an integral part of e -District application user manuals. The objective of this document is to 
+provide step-by-step assistance to the user on how to apply forLegal Heir Certificatethrough the e-District Portal.   
+4. Scope 
+The scope of this document covers the‘Legal Heir Certificate’ service offered under the Revenue Department. 
+5. Getting Started 
+Following points and guidelines may be referred while accessing the e-Sevai/e-District application: 
+ User must have valid username and password 
+ Make relevant and correct entries only 
+ Recheck the entries before clicking on Submit button 
+ Mandatory fields cannot be left blank 
+ Mandatory/Optional documents should be attached as per requirement 
+ Do not make false entries 
+6. Services Offered under Revenue Department 
+Following services areoffered under the Revenue Department:  
+1. REV-101 Community Certificate 
+2.  REV-102 Nativity Certificate 
+3.  REV-103 Income Certificate 
+4.  REV-104 First Graduate Certificate 
+5.  REV-105 Deserted Woman Certificate 
+6.  REV-106 Agricultural Income Certificate 
+7.  REV-107 Family Migration Certificate 
+8.  REV-108 Unemployment Certificate 
+9.  REV-109 Widow Certificate 
+10.  REV-111 Certificate for Loss of Educational Records due to Disaster 
+
+
+PAGE 5
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+11.  REV-113 Inter Caste Marriage Certificate 
+12.  REV-114 Legal Heir Certificate 
+13.  REV-115 Other Backward Classes (OBC) Certificate 
+14.  REV-116 Residence Certificate 
+15.  REV-117 Small / Marginal Farmer Certificate 
+16.  REV-118 Solvency Certificate 
+17.  REV-119 No Male Child Certificate 
+18.  REV-120 Unmarried Certificate 
+19.  REV-401 Licence under Pawn Broker Act 
+20.  REV-402 Money Lender's Licence 
+7. Legal Heir Certificate 
+Following steps describe how to apply for the Legal Heir Certificatethrough the e-District Portal: 
+ 
+STEP1:  Go to the e-Sevai(Government of Tamil Nadu) Web Portal. 
+ 
+STEP 2:Enter the login credentials. 
+ 
+Make sure ‘Operator’ is selected in the Operator Typefield. 
+ 
+STEP 3:Enter Captcha code. 
+ 
+STEP 4:Click on Login. 
+ 
+Enter Login ID and 
+Password 
+Enter Captcha 
+Click on Login 
+
+PAGE 6
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+e-Sevai Dashboard will appear. 
+ 
+STEP 5:Click on Serviceson the left panel. 
+ 
+ 
+ 
+Department Wise service listing will appear.  
+ 
+STEP 6:Click on Revenue Department. 
+ 
+You can also switch to the Service Wise listing, or switch to Search and search a particular service using keywords. 
+ 
+ 
+ 
+STEP 7:Click onREV-114 Legal Heir Certificate. 
+ 
+Click on Services 
+Click on the 
+Department Name 
+
+PAGE 7
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+ 
+You will be redirected to the service page on the Tamil Nadu e-District Web Portal.  
+ 
+STEP 8:Click on Proceed to continue. 
+ 
+ 
+ 
+Click on the Service 
+Name 
+Click on Proceed 
+
+PAGE 8
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+Applicant Search form will appear. Search can be performed using the following options: 
+ 
+ Applicants CAN Number 
+ Applicant Name 
+ Applicant Father Name 
+ Applicant Mobile Number 
+ Applicant Email Id 
+ Applicant Date Of Birth 
+ 
+The green asterisksignifies that the available search options are optional mandatory. 
+ 
+An applicant can apply for the Legal HeirCertificate provided he/she is having a unique CAN number. 
+ 
+If the applicant doesn’t have a unique CAN Number, he must register for CAN to access the application form forLegal 
+HeirCertificate.  
+7.1. Registering for CAN (Citizen Access Number) 
+STEP 1:Click on the ‘Register CAN’ buttonto apply for CAN Registration. 
+ 
+ 
+ 
+The below figure shows the CAN Registration form.  
+ 
+STEP 2:Fill up all mandatory details in the form prescribed format.  
+ 
+ 
+Click to apply for CAN 
+Registration 
+
+PAGE 9
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+ 
+STEP 3:Click on Register to submit form. 
+Fill up the CAN 
+Registration form 
+Click to 
+submit form 
+
+PAGE 10
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+ 
+Note: You would be required to generate and verify OTP before submitting the form. 
+ 
+ 
+ 
+On successful CAN Registration, the CAN Number will be shown. 
+ 
+ 
+The applicant may now proceed with applying for the Legal Heir Certificate by clicking on the Proceed button. 
+7.2. Applying for Legal Heir Certificate 
+If the applicant is having a unique CAN Number his/her record will be shown in the search results. 
+ 
+Click to apply for the 
+Certificate 
+
+PAGE 11
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+ 
+STEP 1:Select the record by clicking on the option button against the desired record. 
+ 
+STEP 2:Click on Proceed. 
+ 
+CAN details of the applicant may be modified by clicking on the Edit CAN Detail button. 
+ 
+The Save as New option allows you to save the same CAN Number with different applicant details. 
+ 
+ 
+7.2.1. Filling upLegal Heir Certificate form 
+SECTION1:Applicant Details 
+ 
+Select Category of Applicant. Based on the selected category, you would be required to provide required details 
+within the application. 
+ 
+Applicant details will appear pre-filled in the form. These details are non-editable. 
+ 
+Search results 
+Click to select record Click to proceed 
+
+PAGE 12
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+You may enter/edit Aadhar Card details. 
+ 
+ 
+ 
+SECTION 2: Current Address 
+ 
+Applicant’s current address details will appear pre-filled in the form. These details are non-editable. 
+ 
+ 
+ 
+SECTION 3: Permanent Address 
+ 
+Applicant’s permanent address details will appear pre-filled in the form. These details are non-editable. 
+ 
+ 
+ 
+SECTION 4: Contact Details 
+
+
+PAGE 13
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+Applicant’s contact details will appear pre-filled in the form. These details are non-editable. 
+ 
+ 
+ 
+SECTION 5:Deceased Details  
+ 
+Enter details of the deceased (dead person). 
+ 
+ 
+ 
+SECTION 6: Address of the deceased where ordinarily resided at the time of death 
+ 
+Enter address details of the deceased (dead person). 
+ 
+ 
+ 
+SECTION 7:Legal Heirs of the Deceased 
+ 
+Specify details of the nominees/ legal heirs (e.g. Mother, Father, Son, Wife, and Husband) of the deceased. Enter 
+details using the available fields. Click on the ‘Add’ button to add a record. Added records will be show on the top. 
+ 
+
+
+PAGE 14
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+ 
+SECTION 8:Other Details 
+ 
+Specify other required details.  
+ 
+Click on Submit. The ‘Cancel’ button closes the application form. 
+ 
+ 
+Next screen will show a list of required documents.  
+ 
+Attach the documents in prescribed file size and file type. Uploaded documents will be shown at the bottom.You 
+may remove any uploaded document using the cross sign. 
+ 
+Please note that the ‘Upload’ button will appear once you browse and add a document. 
+ 
+Click to add record 
+Added record 
+Click to submit 
+formdetails 
+
+PAGE 15
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+ 
+After uploading the documents, click on ‘Make Payment’. 
+ 
+ 
+Payments page will appear. Amount payable (Total Fees) will be shown on screen. Click on Confirm Payment. 
+ 
+Select a document 
+Enter document no. 
+Browse and upload 
+document Uploaded documents 
+Click to make payment 
+
+PAGE 16
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+ 
+Acknowledgement receipt will be shown. 
+ 
+Click on Print Receipt to download/print the receipt. 
+ 
+ 
+ 
+ 
+The below figure shows the preview of the acknowledgement receipt. 
+ 
+Click to confirm 
+payment 
+Click to print receipt 
+
+PAGE 17
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+ 
+
+
+PAGE 18
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+Please Note: 
+ 
+After submission (clicking on the Submit button), the application will be saved as draft. You can find draft 
+applications under the Saved Application section and upload documents or make payment as required. 
+ 
+ 
+ 
+Submitted applications can be viewed under the Submitted Application section. 
+ 
+ 
+ 
+The current status of an application can be checked from the Check Status section. 
+ 
+
+
+PAGE 19
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+ 
+Acknowledgement receipts can be re-printed from the Reprint Receipt section. 
+ 
+ 
+7.3. Downloading Certificate 
+Once the application is approved and digitally signed, the legal heir certificate can be downloaded from the 
+Operator’s desk and handed over to the applicant. 
+ 
+STEP 1:Click on Check Status. 
+ 
+STEP 2:Enter Application Number. 
+ 
+STEP 3:Click on Search. 
+ 
+
+
+PAGE 20
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+ 
+The application will show up. 
+ 
+STEP 4:Click on Download certificate link. 
+ 
+ 
+ 
+ 
+The certificate will be downloaded. 
+ 
+The below figure shows the preview of the Legal Heir Certificate. 
+ 
+Click to download 
+certificate 
+Click on Search 
+Enter Application 
+No. 
+Click on Check Status 
+
+PAGE 21
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+ 
+
+
+PAGE 22
+Tamil Nadu e-District Application User Manual  
+ © 2017. Government of Tamil Nadu. All rights reserved.  
+8. Disclaimer 
+This User manual is prepared as per the existing application; however actual screen shots may vary for few cases. 
+ 

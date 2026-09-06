@@ -1,0 +1,597 @@
+[
+  {
+    "code": "AN",
+    "name": "Andaman and Nicobar Islands",
+    "type": "ut",
+    "aliases": [
+      "Andaman & Nicobar Islands",
+      "ANDAMAN & NICOBAR ISLANDS"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 1,
+    "portal_as_published": "https://dweepbhoomi.andamannicobar.gov.in/process/html/index.php",
+    "portal_url": "https://dweepbhoomi.andamannicobar.gov.in/process/html/index.php",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "AP",
+    "name": "Andhra Pradesh",
+    "type": "state",
+    "aliases": [
+      "ANDHRA PRADESH"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 2,
+    "portal_as_published": "https://meebhoomi.ap.gov.in/",
+    "portal_url": "https://meebhoomi.ap.gov.in/",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "AR",
+    "name": "Arunachal Pradesh",
+    "type": "state",
+    "aliases": [
+      "ARUNACHAL PRADESH"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 3,
+    "portal_as_published": null,
+    "portal_url": null,
+    "portal_status": "not_listed_by_directory",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "AS",
+    "name": "Assam",
+    "type": "state",
+    "aliases": [
+      "ASSAM"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 4,
+    "portal_as_published": "https://ilrms.assam.gov.in/dhar/index.php/Welcome/SelectLOC",
+    "portal_url": "https://ilrms.assam.gov.in/dhar/index.php/Welcome/SelectLOC",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "BR",
+    "name": "Bihar",
+    "type": "state",
+    "aliases": [
+      "BIHAR"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 5,
+    "portal_as_published": "https://biharbhumi.bihar.gov.in/Biharbhumi/",
+    "portal_url": "https://biharbhumi.bihar.gov.in/Biharbhumi/",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "CH",
+    "name": "Chandigarh",
+    "type": "ut",
+    "aliases": [
+      "CHANDIGARH"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 6,
+    "portal_as_published": "https://revenue.chd.gov.in/",
+    "portal_url": "https://revenue.chd.gov.in/",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "CG",
+    "name": "Chhattisgarh",
+    "type": "state",
+    "aliases": [
+      "Chattisgarh",
+      "CHATTISGARH"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 7,
+    "portal_as_published": "https://bhuiyan.cg.nic.in/",
+    "portal_url": "https://bhuiyan.cg.nic.in/",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "GA",
+    "name": "Goa",
+    "type": "state",
+    "aliases": [
+      "GOA"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 8,
+    "portal_as_published": "https://dslr.goa.gov.in/",
+    "portal_url": "https://dslr.goa.gov.in/",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "GJ",
+    "name": "Gujarat",
+    "type": "state",
+    "aliases": [
+      "GUJARAT"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 9,
+    "portal_as_published": "https://anyror.gujarat.gov.in/",
+    "portal_url": "https://anyror.gujarat.gov.in/",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "HR",
+    "name": "Haryana",
+    "type": "state",
+    "aliases": [
+      "HARYANA"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 10,
+    "portal_as_published": "https://jamabandi.nic.in/defaultpages/default",
+    "portal_url": "https://jamabandi.nic.in/defaultpages/default",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "HP",
+    "name": "Himachal Pradesh",
+    "type": "state",
+    "aliases": [
+      "HIMACHAL PRADESH"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 11,
+    "portal_as_published": "https://himbhoomilmk.nic.in/viewlandrecords.aspx",
+    "portal_url": "https://himbhoomilmk.nic.in/viewlandrecords.aspx",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "JK",
+    "name": "Jammu and Kashmir",
+    "type": "ut",
+    "aliases": [
+      "Jammu & Kashmir",
+      "JAMMU & KASHMIR"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 12,
+    "portal_as_published": "https://jkrevenue.nic.in/",
+    "portal_url": "https://jkrevenue.nic.in/",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "JH",
+    "name": "Jharkhand",
+    "type": "state",
+    "aliases": [
+      "JHARKHAND"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 13,
+    "portal_as_published": "https://jharbhoomi.jharkhand.gov.in/",
+    "portal_url": "https://jharbhoomi.jharkhand.gov.in/",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "KA",
+    "name": "Karnataka",
+    "type": "state",
+    "aliases": [
+      "KARNATAKA"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 14,
+    "portal_as_published": "https://rdservices.karnataka.gov.in/",
+    "portal_url": "https://rdservices.karnataka.gov.in/",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "KL",
+    "name": "Kerala",
+    "type": "state",
+    "aliases": [
+      "KERALA"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 15,
+    "portal_as_published": "https://revenue.kerala.gov.in/",
+    "portal_url": "https://revenue.kerala.gov.in/",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "LA",
+    "name": "Ladakh",
+    "type": "ut",
+    "aliases": [
+      "LADAKH"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 16,
+    "portal_as_published": "https://landrecords.ladakh.gov.in/lalr",
+    "portal_url": "https://landrecords.ladakh.gov.in/lalr",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "LD",
+    "name": "Lakshadweep",
+    "type": "ut",
+    "aliases": [
+      "LAKSHADWEEP"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 17,
+    "portal_as_published": "https://land.utl.gov.in/Process/Login-Page",
+    "portal_url": "https://land.utl.gov.in/Process/Login-Page",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "MP",
+    "name": "Madhya Pradesh",
+    "type": "state",
+    "aliases": [
+      "MADHYA PRADESH"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 18,
+    "portal_as_published": "https://mpbhulekhrecords.com/",
+    "portal_url": null,
+    "portal_status": "url_needs_validation",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "MH",
+    "name": "Maharashtra",
+    "type": "state",
+    "aliases": [
+      "Maharastra",
+      "MAHARASTRA"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 19,
+    "portal_as_published": "https://mahabhumi.gov.in/mahabhumilink",
+    "portal_url": "https://mahabhumi.gov.in/mahabhumilink",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "MN",
+    "name": "Manipur",
+    "type": "state",
+    "aliases": [
+      "MANIPUR"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 20,
+    "portal_as_published": "https://louchapathap.nic.in/egras/frmPayTax.aspx",
+    "portal_url": "https://louchapathap.nic.in/egras/frmPayTax.aspx",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "ML",
+    "name": "Meghalaya",
+    "type": "state",
+    "aliases": [
+      "MEGHALAYA"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 21,
+    "portal_as_published": null,
+    "portal_url": null,
+    "portal_status": "not_listed_by_directory",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "MZ",
+    "name": "Mizoram",
+    "type": "state",
+    "aliases": [
+      "MIZORAM"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 22,
+    "portal_as_published": null,
+    "portal_url": null,
+    "portal_status": "not_listed_by_directory",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "NL",
+    "name": "Nagaland",
+    "type": "state",
+    "aliases": [
+      "NAGALAND"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 23,
+    "portal_as_published": null,
+    "portal_url": null,
+    "portal_status": "not_listed_by_directory",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "DL",
+    "name": "Delhi",
+    "type": "ut",
+    "aliases": [
+      "NCT of Delhi",
+      "New Delhi",
+      "Delhi NCT",
+      "National Capital Territory of Delhi",
+      "NCT OF DELHI"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 24,
+    "portal_as_published": "https://dlrc.delhi.gov.in/Default.aspx",
+    "portal_url": "https://dlrc.delhi.gov.in/Default.aspx",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "partial_information",
+    "execution_available": false
+  },
+  {
+    "code": "OD",
+    "name": "Odisha",
+    "type": "state",
+    "aliases": [
+      "Orissa",
+      "OR",
+      "ODISHA"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 25,
+    "portal_as_published": "https://bhulekh.ori.nic.in/RoRView.aspx",
+    "portal_url": "https://bhulekh.ori.nic.in/RoRView.aspx",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "PY",
+    "name": "Puducherry",
+    "type": "ut",
+    "aliases": [
+      "Pondicherry",
+      "PUDUCHERRY"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 26,
+    "portal_as_published": "agal.py.gov.in/",
+    "portal_url": null,
+    "portal_status": "url_needs_validation",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "PB",
+    "name": "Punjab",
+    "type": "state",
+    "aliases": [
+      "PUNJAB"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 27,
+    "portal_as_published": "https://revenue.punjab.gov.in/",
+    "portal_url": "https://revenue.punjab.gov.in/",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "RJ",
+    "name": "Rajasthan",
+    "type": "state",
+    "aliases": [
+      "RAJASTHAN"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 28,
+    "portal_as_published": "http://apnakhata.raj.nic.in/LRCLogin.aspx",
+    "portal_url": null,
+    "portal_status": "url_needs_validation",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "SK",
+    "name": "Sikkim",
+    "type": "state",
+    "aliases": [
+      "SIKKIM"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 29,
+    "portal_as_published": "https://ilrms.sikkim.gov.in/",
+    "portal_url": "https://ilrms.sikkim.gov.in/",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "TN",
+    "name": "Tamil Nadu",
+    "type": "state",
+    "aliases": [
+      "Tamilnadu",
+      "TAMILNADU"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 30,
+    "portal_as_published": "https://eservices.tn.gov.in/eservicesnew/home.html",
+    "portal_url": "https://eservices.tn.gov.in/eservicesnew/home.html",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "partial_information",
+    "execution_available": false
+  },
+  {
+    "code": "TS",
+    "name": "Telangana",
+    "type": "state",
+    "aliases": [
+      "TG",
+      "TELANGANA"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 31,
+    "portal_as_published": "https://bhubharati.telangana.gov.in/",
+    "portal_url": "https://bhubharati.telangana.gov.in/",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "DH",
+    "name": "Dadra and Nagar Haveli and Daman and Diu",
+    "type": "ut",
+    "aliases": [
+      "The Dadra and Nagar Haveli and Daman and Diu",
+      "Dadra & Nagar Haveli and Daman & Diu",
+      "Dadra and Nagar Haveli",
+      "Daman and Diu",
+      "THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 32,
+    "portal_as_published": "https://sugam.dddgov.in/",
+    "portal_url": null,
+    "portal_status": "url_needs_validation",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "TR",
+    "name": "Tripura",
+    "type": "state",
+    "aliases": [
+      "TRIPURA"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 33,
+    "portal_as_published": "https://jami.tripura.gov.in/site/index_eng.htm",
+    "portal_url": "https://jami.tripura.gov.in/site/index_eng.htm",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "UK",
+    "name": "Uttarakhand",
+    "type": "state",
+    "aliases": [
+      "Uttaranchal",
+      "UT",
+      "UTTARAKHAND"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 34,
+    "portal_as_published": "https://bhulekh.uk.gov.in",
+    "portal_url": "https://bhulekh.uk.gov.in",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "UP",
+    "name": "Uttar Pradesh",
+    "type": "state",
+    "aliases": [
+      "UTTAR PRADESH"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 35,
+    "portal_as_published": "https://upbhulekh.gov.in/#/home",
+    "portal_url": "https://upbhulekh.gov.in/#/home",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  },
+  {
+    "code": "WB",
+    "name": "West Bengal",
+    "type": "state",
+    "aliases": [
+      "WEST BENGAL"
+    ],
+    "directory_source_id": "dolr-directory",
+    "directory_row": 36,
+    "portal_as_published": "https://banglarbhumi.gov.in/BanglarBhumi/Home.action",
+    "portal_url": "https://banglarbhumi.gov.in/BanglarBhumi/Home.action",
+    "portal_status": "listed_not_individually_checked",
+    "fallback_url": "https://dolr.gov.in/en/citizen-centric-services/",
+    "procedure_coverage": "directory_only",
+    "execution_available": false
+  }
+]

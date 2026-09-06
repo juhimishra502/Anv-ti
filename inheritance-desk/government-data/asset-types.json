@@ -1,0 +1,134 @@
+[
+  {
+    "id": "property",
+    "service": "property_mutation"
+  },
+  {
+    "id": "bank_deposit",
+    "service": "bank_claim"
+  },
+  {
+    "id": "shares",
+    "service": "securities_transmission"
+  },
+  {
+    "id": "etf",
+    "service": "securities_transmission"
+  },
+  {
+    "id": "demat_bond",
+    "service": "securities_transmission"
+  },
+  {
+    "id": "mutual_fund",
+    "service": "mutual_fund_claim"
+  },
+  {
+    "id": "life_insurance",
+    "service": "insurance_claim"
+  },
+  {
+    "id": "epf",
+    "service": "epfo_claim"
+  },
+  {
+    "id": "eps",
+    "service": "epfo_claim"
+  },
+  {
+    "id": "edli",
+    "service": "epfo_claim"
+  },
+  {
+    "id": "nps",
+    "service": "nps_claim"
+  },
+  {
+    "id": "post_office_savings",
+    "service": "postal_claim"
+  },
+  {
+    "id": "ppf",
+    "service": "ppf_death_claim"
+  },
+  {
+    "id": "government_bond",
+    "service": "gsec_transmission"
+  },
+  {
+    "id": "corporate_bond",
+    "service": "corporate_bond_transmission"
+  },
+  {
+    "id": "sovereign_gold_bond",
+    "service": "sovereign_gold_bond_transmission"
+  },
+  {
+    "id": "vehicle",
+    "service": "vehicle_transmission"
+  },
+  {
+    "id": "bank_locker",
+    "service": "locker_access"
+  },
+  {
+    "id": "business_interest",
+    "service": "sole_proprietorship_succession"
+  },
+  {
+    "id": "private_shares",
+    "service": "private_company_share_transmission"
+  },
+  {
+    "id": "partnership",
+    "service": "partnership_interest_succession"
+  },
+  {
+    "id": "valuables",
+    "service": "specialist_review"
+  },
+  {
+    "id": "unclaimed_assets",
+    "service": "unclaimed_deposit"
+  },
+  {
+    "id": "overseas_assets",
+    "service": "overseas_asset_succession"
+  },
+  {
+    "id": "digital_assets",
+    "service": "digital_account_legacy"
+  },
+  {
+    "id": "liability",
+    "service": "estate_liability_resolution"
+  },
+  {
+    "id": "family_pension",
+    "service": "family_pension_claim"
+  },
+  {
+    "id": "gratuity",
+    "service": "gratuity_death_claim"
+  },
+  {
+    "id": "employer_benefit",
+    "service": "employer_benefit_claim"
+  },
+  {
+    "id": "other",
+    "service": "specialist_review"
+  },
+  {
+    "id": "llp_interest",
+    "service": "llp_interest_succession"
+  },
+  {
+    "id": "unlisted_shares",
+    "service": "unlisted_share_transmission"
+  },
+  {
+    "id": "cryptoasset",
+    "service": "cryptoasset_recovery"
+  }
+]

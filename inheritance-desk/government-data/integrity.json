@@ -1,0 +1,19 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "catalog.json": "ce5e257174035865903bbddeebc03b5db3155789e9e9e3f134d65fe3eb3e99cb",
+    "states.json": "b4e644d668f43c32323342844d878aa5c633d883d88881e9e8d149a203d32a39",
+    "sources.json": "c011a2c0ecef148d2a292896a590d9a8c64e5db3d190796f62e6fa1c8da7c531",
+    "procedures.json": "6b4392a2559c2207a3ff8c252494635dc254965b2cb215a7d54e16ce64c1759b",
+    "asset-types.json": "1e20e6d7bc8259a3431e20d231fabe9d9bd8d9852f2c64f711e0a536d9e22261",
+    "source-documents/dolr-directory.html": "a94a73a240495b2373b6b8d914d342c10cf710d8cf531494b733e24e47b35012",
+    "source-documents/crs-faq.pdf": "68e6b0c8fc37291858d39221d78744ed7239661830ceeaad9f8cf6474d73f0be",
+    "source-documents/chennai-heirs.html": "807f7a5bc70e556f9e2b70f1aaeb2514ba3827fcb9a6be8c9ca3c00ce84d85c3",
+    "source-documents/south-delhi-mutation.html": "7bfd86875730cd542aa6fad3cfa82b50099cebfd32da0878bcbe08f4e3c8c1d9",
+    "source-documents/mcd-mutation.pdf": "359ab39a7749fddebc7a70e3cddb01d42b4f5a9b1ffd92e3b2e4292b6a21ecde",
+    "source-documents/bank-claims.pdf": "d41148405de320828987000063b11044427c18b184bcfacc9577c268b37cfc02",
+    "source-documents/lic-death.html": "8e86e0839b01c24a705c67da44096dc652e1d1670b87cc3b1e881d35c969e794",
+    "source-documents/post-office.html": "937232f176e58bd6570a93aa8310e946186c8ec371f4ab61082ad321c32ec405",
+    "source-documents/serviceplus.html": "ffc95b3acee3f723ea72729e13a9f57894d3b0ef3abe4abd5eaa53a72f39b647"
+  }
+}

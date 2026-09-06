@@ -1,0 +1,9 @@
+id,address,usageDeclared,floorsDeclared,builtUpAreaDeclaredSqft,annualValueDeclared,taxPaidLastYear,yearsSinceAssessment,usageObserved,floorsObserved,builtUpAreaObservedSqft,observationNote
+P-2001,"14 Fort Lane",Commercial,2,2100,90000,18000,14,Commercial,2,2100,"Prime market frontage; annual value unrevised since 2011."
+P-2002,"48 Market Street",Commercial,2,2000,260000,52000,6,Commercial,4,4100,"Imagery shows 4 storeys; two upper floors let out to offices."
+P-2003,"3 Banyan Cross",Residential,2,1800,120000,18000,4,Commercial,2,1800,"Ground floor is a running coaching centre."
+P-2004,"2 Riverside Plot",Commercial,3,5000,600000,0,3,Commercial,3,5000,"Occupied showroom; zero collection recorded."
+P-2005,"12 Tilak Marg",Residential,2,1400,96000,14400,2,Residential,2,1400,
+P-2006,"1 Grand Junction",Residential,2,2000,132000,19800,9,Commercial,5,6800,"Now a 5-storey commercial complex; roll still shows a 2-storey house."
+P-2007,"7 Nehru Lane",Residential,1,850,54000,8100,3,Residential,1,850,
+P-2008,"33 Ashok Nagar",Residential,2,1400,90000,13500,5,Residential,2,2100,"Rear + setback extension; footprint ~50% larger than roll."
