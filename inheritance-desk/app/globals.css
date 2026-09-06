@@ -1005,7 +1005,15 @@ ul.clean li { margin-bottom: 0.25rem; }
 .glass { justify-self: center; align-self: end; width: min(960px, 60vw); margin: 0 auto 0.6rem;
   background: rgba(255,252,245,0.42); backdrop-filter: blur(24px) saturate(1.1);
   border: 1px solid rgba(255,255,255,0.6); border-radius: 26px; padding: clamp(1.2rem, 2.6vw, 1.9rem);
-  box-shadow: 0 24px 60px rgba(20,33,15,0.22); display: grid; gap: 0.9rem; transform: perspective(1300px) rotateX(calc(var(--landing-y) * -1.15deg)) rotateY(calc(var(--landing-x) * 1.4deg)) translateZ(48px); }
+  box-shadow: 0 24px 60px rgba(20,33,15,0.22); display: grid; gap: 0.9rem; position: relative; transform: perspective(1300px) rotateX(calc(var(--landing-y) * -1.15deg)) rotateY(calc(var(--landing-x) * 1.4deg)) translateZ(48px); }
+/* Slow glass reflection: a soft diagonal light band drifting across the card surface,
+   sitting on the glass (z-index:-1) behind the controls so inputs stay fully crisp. It
+   also leans a little toward the pointer light via --landing-x. */
+.glass::before { content: ""; position: absolute; inset: 0; z-index: -1; border-radius: inherit; pointer-events: none;
+  background: linear-gradient(115deg, transparent 34%, rgba(255,255,255,0.34) 46%, rgba(255,255,255,0.06) 55%, transparent 68%);
+  background-size: 240% 240%; mix-blend-mode: screen; opacity: 0.7;
+  transform: translateX(calc(var(--landing-x) * 10px)); animation: glassSheen 15s ease-in-out infinite alternate; }
+@keyframes glassSheen { from { background-position: 12% 0%; } to { background-position: 88% 100%; } }
 .glass-h { font-family: var(--serif, Georgia, serif); font-weight: 400; font-size: clamp(1.15rem, 2.2vw, 1.6rem); color: #14210f; margin: 0; text-align: center; }
 .glass-fields { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; align-items: end; }
 .gf { display: grid; gap: 0.3rem; min-width: 0; }
@@ -1067,7 +1075,12 @@ ul.clean li { margin-bottom: 0.25rem; }
    static. Disabled entirely under reduced-motion.
    ========================================================================== */
 :root { --mx: 0; --my: 0; }
-.glass, .card {
+/* Pointer tilt is applied ONLY to the landing glass panel. It is deliberately NOT
+   applied to .card: cards carry interactive forms (the onboarding questionnaire,
+   sign-in, modals), and a card/button that tilts and scales under the pointer moves
+   between mousedown and mouseup, so the browser drops the click ("Next" does nothing).
+   Keep functional cards static and reliably clickable. */
+.glass {
   transform: perspective(1100px)
     rotateX(calc(var(--my, 0) * -1.3deg))
     rotateY(calc(var(--mx, 0) * 1.7deg));
@@ -1075,7 +1088,7 @@ ul.clean li { margin-bottom: 0.25rem; }
   transition: transform 0.3s cubic-bezier(0.22, 0.61, 0.36, 1), box-shadow 0.3s ease;
   will-change: transform;
 }
-.glass:hover, .card:hover {
+.glass:hover {
   transform: perspective(1100px)
     rotateX(calc(var(--my, 0) * -1.3deg))
     rotateY(calc(var(--mx, 0) * 1.7deg))
@@ -1114,4 +1127,5 @@ ul.clean li { margin-bottom: 0.25rem; }
   .meadow-frame, .meadow .glass, .meadow .glass:hover, .meadow-hero,
   .meadow .meadow-cta:hover, .meadow .glass-continue:hover { transform: none; transition: none; }
   .meadow-heading span { animation: none; }
+  .glass::before { display: none; }
 }

@@ -67,11 +67,17 @@ export default function SignInPage() {
     e.preventDefault();
     setErr(null);
     setBusy(true);
+    // Timeout so a hung request (e.g. a cold-start on the server) always settles and the
+    // button never spins forever. Kept as a raw fetch because we read the error body
+    // (remaining_attempts) on non-2xx, which the throwing api client would discard.
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 20_000);
     try {
       const res = await fetch("/api/auth/aadhaar/verify", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ txnId, otp }),
+        signal: ctrl.signal,
       });
       const data = await res.json();
       if (res.ok && data.ok) {
@@ -80,9 +86,14 @@ export default function SignInPage() {
       }
       if (typeof data.remaining_attempts === "number") setRemaining(data.remaining_attempts);
       setErr(data.error || "Verification failed.");
-    } catch {
-      setErr("Verification failed.");
+    } catch (err) {
+      setErr(
+        err instanceof DOMException && err.name === "AbortError"
+          ? "The request timed out (the server may be waking up). Please try again."
+          : "Verification failed.",
+      );
     } finally {
+      clearTimeout(timer);
       setBusy(false);
     }
   }
