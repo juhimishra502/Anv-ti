@@ -1,0 +1,10 @@
+# Trim the upload sent to Railway's builder. Node/build artifacts are already
+# gitignored; these large binary reference docs are NOT read at runtime (the app
+# reads only government-data/**/*.json, see lib/guidance/catalog.ts).
+node_modules
+.next
+.git
+government-data/operational-pilot/snapshots
+government-data/source-documents
+test-results
+playwright-report

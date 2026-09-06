@@ -1,0 +1,16 @@
+# Keep secrets and host-built artifacts out of the build context and image layers.
+.env
+.env.*
+node_modules
+.next
+out
+build
+.git
+test-results
+playwright-report
+blob-report
+*.log
+.DS_Store
+# Large reference PDFs/HTML not read at runtime (app reads government-data/**/*.json).
+government-data/operational-pilot/snapshots
+government-data/source-documents
