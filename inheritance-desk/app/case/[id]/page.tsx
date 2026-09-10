@@ -85,7 +85,7 @@ export default function CasePage({ params }: { params: Promise<{ id: string }> }
         </Link>
       </FloatingNav>
 
-      <main id="main" className="container container-wide">
+      <main id="main" className="container container-wide app-phone-shell">
         {loading && <p className="muted">{t("loading")}</p>}
         {err && <div className="notice notice-danger">{err}</div>}
 
@@ -132,7 +132,6 @@ export default function CasePage({ params }: { params: Promise<{ id: string }> }
                       <RoadmapStep
                         key={selectedStep.id}
                         step={selectedStep}
-                        index={0}
                         jurisdiction={selectedAsset?.location?.state_code ?? undefined}
                         institution={selectedAsset?.institution ?? undefined}
                         caseDocs={docs}

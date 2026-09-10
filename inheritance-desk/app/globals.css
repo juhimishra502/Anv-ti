@@ -1,7 +1,7 @@
 /* Font import must come before the tailwindcss import: `@import "tailwindcss"`
    expands inline during the Tailwind v4 transform, so any @import placed after it
    lands mid-file in the generated CSS and is rejected ("@import must precede all rules"). */
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&display=swap");
 @import "tailwindcss";
 
 /* Inheritance Desk — calm "glass over nature" design system.
@@ -10,47 +10,47 @@
    Palette: white, cream, blue, green. Calm motion, reduced-motion aware, accessible. */
 
 :root {
-  --sky-top: #bfe0ff;
-  --sky-mid: #e4f2ff;
-  --meadow-1: #dcefd0;
-  --meadow-2: #a9d69a;
-  --cream: #fbf9f3;
+  --sky-top: #f7f1df;
+  --sky-mid: #e7e0bf;
+  --meadow-1: #c9d1ad;
+  --meadow-2: #9aa984;
+  --cream: #fbf7ed;
 
-  --ink: #1a2230;
-  --ink-soft: #43506a;
-  --muted: #5f6b82;
+  --ink: #332b29;
+  --ink-soft: #625248;
+  --muted: #837367;
 
-  --primary: #1f6feb;      /* clear blue for links/accents */
-  --primary-ink: #0b3c86;
-  --leaf: #2f7d4f;         /* green accents */
-  --cta: #14181f;          /* near-black primary button */
+  --primary: #b77a2e;
+  --primary-ink: #8c581d;
+  --leaf: #b77a2e;
+  --cta: #b77a2e;
   --cta-ink: #ffffff;
 
-  --ok: #1a7a4c;
-  --warn: #8a5a00;
-  --danger: #a32020;
-  --info: #1f6feb;
-  --focus: #0b63d6;
+  --ok: #a87235;
+  --warn: #9a6a25;
+  --danger: #b9675f;
+  --info: #a78bb3;
+  --focus: #b77a2e;
 
-  --glass: rgba(255, 255, 255, 0.72);
-  --glass-strong: rgba(255, 255, 255, 0.88);
-  --glass-border: rgba(255, 255, 255, 0.8);
-  --hairline: rgba(20, 30, 50, 0.10);
-  --shadow: 0 24px 60px -24px rgba(20, 40, 80, 0.35);
-  --shadow-soft: 0 10px 30px -12px rgba(20, 40, 80, 0.28);
+  --glass: rgba(255, 253, 247, 0.72);
+  --glass-strong: rgba(255, 253, 247, 0.88);
+  --glass-border: rgba(255, 255, 255, 0.72);
+  --hairline: rgba(99, 76, 61, 0.14);
+  --shadow: 0 24px 60px -24px rgba(66, 44, 31, 0.3);
+  --shadow-soft: 0 10px 30px -12px rgba(66, 44, 31, 0.22);
 
   --radius: 22px;
   --radius-lg: 30px;
 
-  --font-serif: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
   --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   /* Keep the calm daylight palette; only deepen text contrast surfaces slightly. */
   :root {
-    --ink: #121a26;
-    --muted: #4a5568;
+    --ink: #332b29;
+    --muted: #837367;
   }
 }
 
@@ -67,7 +67,7 @@ body {
   min-height: 100vh;
   position: relative;
   overflow-x: hidden;
-  background: linear-gradient(180deg, #7fc0f2 0%, #a9d6f5 40%, #7cbf6a 72%, #3f8f2c 100%); /* sky→meadow fallback */
+  background: #e9e4ce;
 }
 
 /* ---- GLOBAL environmental scene: blue sky + cumulus clouds + grass/clover meadow.
@@ -79,10 +79,14 @@ body {
    reference video's calm parallax. Motion is disabled under reduced-motion. */
 .se-photo-sky {
   position: absolute; inset: 0;
-  /* The landing's real clover-meadow photograph is used as the background on EVERY
-     page (rendered behind all routes by <Environment/>). Static — no animation. */
-  background: url("/images/clover-meadow.jpg") center center / cover no-repeat;
-  filter: saturate(1.05) contrast(1.02);
+  background: url("/images/anviti-botanical-hero-v2.png") center / cover no-repeat;
+  filter: saturate(0.88) contrast(0.96);
+  animation: product-botanical-drift 22s ease-in-out infinite alternate;
+}
+
+@keyframes product-botanical-drift {
+  from { transform: scale(1.05) translate3d(-0.8%, 0.5%, 0); }
+  to { transform: scale(1.12) translate3d(0.9%, -0.8%, 0); }
 }
 
 /* Very light daylight haze so glass panels stay readable over the photo. */
@@ -1057,6 +1061,26 @@ ul.clean li { margin-bottom: 0.25rem; }
   border: 1px solid rgba(255,255,255,0.7); background: rgba(255,255,255,0.72); color: #14210f;
   backdrop-filter: blur(18px); box-shadow: 0 12px 30px rgba(20,33,15,0.25); }
 .mp-reopen:hover, .mp-reopen:focus-visible { background: #fff; }
+.mp-sound-toggle {
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  z-index: 85;
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border: 1px solid rgba(255,255,255,0.82);
+  border-radius: 50%;
+  background: rgba(255,253,247,0.88);
+  box-shadow: 0 12px 28px rgba(22,52,28,0.2), inset 0 1px 0 rgba(255,255,255,0.9);
+  color: #193d28;
+  cursor: pointer;
+  font-size: 1.05rem;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+.mp-sound-toggle:hover, .mp-sound-toggle:focus-visible { background: #fff; transform: translateY(-1px); }
 
 @media (max-width: 860px) {
   .glass { width: 100%; }
@@ -1129,3 +1153,1175 @@ ul.clean li { margin-bottom: 0.25rem; }
   .meadow-heading span { animation: none; }
   .glass::before { display: none; }
 }
+
+/* Approved Anvīti landing direction: botanical editorial layout, Newsreader
+   display type, and a real rose-flower infinity lockup. */
+.meadow-brand {
+  padding: 0.35rem 0.8rem 0.35rem 0.45rem;
+  border: 1px solid rgba(255,255,255,0.78);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.46);
+  backdrop-filter: blur(16px) saturate(1.08);
+  -webkit-backdrop-filter: blur(16px) saturate(1.08);
+  box-shadow: 0 12px 26px rgba(33, 25, 18, 0.14), inset 0 1px 0 rgba(255,255,255,0.8);
+}
+.meadow-logo-lockup { display: inline-flex; align-items: center; gap: 0.55rem; }
+.meadow-logo-mark {
+  display: block;
+  width: clamp(62px, 7vw, 94px);
+  height: clamp(31px, 3.5vw, 47px);
+  object-fit: contain;
+  object-position: center;
+  filter: drop-shadow(0 4px 8px rgba(72, 10, 23, 0.22));
+}
+.meadow-wordmark {
+  color: #5b1525;
+  font-family: var(--font-serif);
+  font-size: clamp(1.18rem, 2vw, 1.7rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  white-space: nowrap;
+}
+.meadow-heading {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: clamp(2.6rem, 5.8vw, 5.25rem);
+  letter-spacing: -0.045em;
+  line-height: 0.91;
+  color: #111312;
+  text-shadow: 0 2px 18px rgba(255,255,255,0.6);
+}
+.meadow-cta,
+.glass-continue { background: #111312; }
+.meadow-cta:hover,
+.glass-continue:hover { background: #252827; }
+.glass-h,
+.landing-journey h3 { font-family: var(--font-serif); font-weight: 700; }
+
+.landing-journey {
+  padding: 0.9rem 1rem 0.8rem;
+  border: 1px solid rgba(20, 30, 24, 0.12);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.32);
+}
+.landing-journey h3 {
+  margin: 0 0 0.65rem;
+  color: #111312;
+  font-size: 1.05rem;
+}
+.landing-journey-track {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.landing-stage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+  color: #111312;
+}
+.landing-stage:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(100% - 0.15rem);
+  width: 0.5rem;
+  height: 1px;
+  background: rgba(17, 19, 18, 0.26);
+}
+.landing-stage-icon {
+  flex: 0 0 32px;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  background: rgba(255,255,255,0.56);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+.landing-stage span:last-child { min-width: 0; }
+.landing-stage strong,
+.landing-stage small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.landing-stage strong { font-size: 0.8rem; }
+.landing-stage small { margin-top: 0.06rem; font-size: 0.68rem; color: rgba(17,19,18,0.65); }
+.landing-stage-complete { color: #1d653f; }
+.landing-stage-current { color: #176d72; }
+.landing-stage-upcoming { color: #817495; }
+.landing-stage-review { color: #a97512; }
+.landing-stage-professional { color: #a9573f; }
+.landing-stage-locked { color: #77756c; }
+.landing-stage-complete .landing-stage-icon { background: #2f7d4f; color: #fff; }
+.landing-stage-current .landing-stage-icon { background: #2e8790; color: #fff; }
+.landing-stage-upcoming .landing-stage-icon { background: #b8acd0; color: #fff; }
+.landing-stage-review .landing-stage-icon { background: #d3a13a; color: #fff; }
+.landing-stage-professional .landing-stage-icon { background: #bd735d; color: #fff; }
+.landing-stage-locked .landing-stage-icon { background: #98958a; color: #fff; }
+
+@media (max-width: 720px) {
+  .meadow-brand { padding-right: 0.65rem; }
+  .meadow-logo-mark { width: 62px; height: 31px; }
+  .meadow-wordmark { font-size: 1.2rem; }
+  .landing-journey-track { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 0.75rem; }
+  .landing-stage:nth-child(2)::after { display: none; }
+}
+
+/* Landing composition: compact botanical editorial frame on every viewport. */
+.meadow {
+  padding: clamp(0.7rem, 1.8vw, 1.3rem);
+  padding-bottom: 7.5rem;
+  background-image:
+    linear-gradient(rgba(249, 249, 244, 0.32), rgba(244, 247, 239, 0.45)),
+    url("/images/clover-meadow.jpg");
+}
+.meadow-frame {
+  min-height: calc(100svh - 9rem);
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: clamp(0.8rem, 2.4vw, 1.75rem);
+  gap: clamp(0.7rem, 1.7vw, 1.2rem);
+}
+.meadow-nav { align-items: flex-start; }
+.meadow-nav-right { gap: 0.4rem; }
+.meadow-nav-right select {
+  min-width: 112px !important;
+  max-width: 132px;
+  font-size: 0.86rem;
+}
+.meadow-menu {
+  min-width: 40px;
+  min-height: 40px;
+  background: rgba(255,255,255,0.66);
+}
+.meadow-hero {
+  align-self: center;
+  gap: 0.8rem;
+  padding: clamp(0.4rem, 2.5vw, 1.25rem) 1rem;
+}
+.meadow-heading {
+  max-width: 19ch;
+  font-size: clamp(2.15rem, 5.1vw, 4.75rem);
+  line-height: 0.92;
+}
+.meadow-cta {
+  min-height: 44px;
+  padding: 0.72rem 1.3rem;
+  font-size: 0.92rem;
+}
+.meadow .glass {
+  width: min(920px, 92%);
+  align-self: end;
+  margin-bottom: 0;
+  padding: clamp(0.8rem, 2vw, 1.25rem);
+  gap: 0.65rem;
+  border-radius: 22px;
+  background: rgba(255, 253, 247, 0.48);
+  backdrop-filter: blur(22px) saturate(1.03);
+  -webkit-backdrop-filter: blur(22px) saturate(1.03);
+}
+.glass-h { font-size: clamp(1.05rem, 2vw, 1.38rem); }
+.glass-fields { gap: 0.55rem; }
+.glass-label { font-size: 0.72rem; }
+.glass-field,
+.glass select { min-height: 40px; font-size: 0.86rem; }
+.glass .gf > .row { width: 100%; }
+.glass .gf > .row select { min-width: 0 !important; width: 100% !important; flex: 1; }
+.landing-journey { padding: 0.7rem 0.75rem; border-radius: 15px; }
+.landing-journey h3 { margin-bottom: 0.45rem; font-size: 0.98rem; }
+.landing-stage { gap: 0.38rem; }
+.landing-stage-icon { flex-basis: 28px; width: 28px; height: 28px; font-size: 0.7rem; }
+.landing-stage strong { font-size: 0.7rem; }
+.landing-stage small { font-size: 0.59rem; }
+.glass-continue { min-width: 220px; min-height: 44px; font-size: 0.9rem; }
+.glass-trust { gap: 0.8rem; font-size: 0.68rem; }
+.glass-trust b { font-size: 1rem; }
+
+@media (max-width: 860px) {
+  .glass-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 720px) {
+  .meadow-frame { min-height: calc(100svh - 8.5rem); }
+  .meadow-nav { gap: 0.5rem; }
+  .meadow-brand { padding: 0.3rem 0.55rem 0.3rem 0.38rem; }
+  .meadow-logo-mark { width: 56px; height: 28px; }
+  .meadow-wordmark { font-size: 1.1rem; }
+  .meadow-nav-right select { min-width: 92px !important; max-width: 108px; }
+  .meadow-heading { font-size: clamp(2rem, 9vw, 3rem); }
+  .meadow .glass { width: 100%; }
+  .glass-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .landing-journey-track { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.65rem 0.35rem; }
+  .landing-stage { flex-direction: column; align-items: flex-start; }
+  .landing-stage:not(:last-child)::after { display: none; }
+  .landing-stage strong,
+  .landing-stage small { white-space: normal; line-height: 1.12; }
+  .glass-trust { display: none; }
+}
+
+/* Selected botanical-editorial landing composition. Kept deliberately scoped to
+   the home page so the case workspace retains its existing functional styles. */
+.botanical-landing {
+  --botanical-ink: #102a1b;
+  --botanical-deep: #0c1e14;
+  --botanical-cream: #fbf7ed;
+  --botanical-paper: #f4eee0;
+  --botanical-sage: #aebaa2;
+  --botanical-muted: #566253;
+  background: var(--botanical-cream);
+  color: var(--botanical-ink);
+  overflow: hidden;
+  padding: clamp(0.7rem, 2vw, 1.5rem) clamp(0.7rem, 3vw, 3.5rem) 8rem;
+}
+
+.botanical-hero {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  perspective: 1200px;
+  transform-style: preserve-3d;
+  min-height: min(760px, calc(100svh - 7rem));
+  overflow: hidden;
+  border: 1px solid rgba(39, 67, 42, 0.16);
+  border-radius: 14px 14px 0 0;
+  background:
+    linear-gradient(180deg, rgba(255, 252, 244, 0.76) 0%, rgba(250, 244, 228, 0.28) 42%, rgba(24, 47, 27, 0.18) 100%),
+    url("/images/anviti-botanical-hero-v2.png") center / cover;
+}
+
+.botanical-hero::before {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 50% 38%, rgba(255, 253, 246, 0.45), transparent 48%),
+    url("/images/anviti-botanical-hero-v2.png") center / cover;
+  mix-blend-mode: soft-light;
+  opacity: 0.46;
+  transform: scale(1.08) translate3d(-1.2%, 0.8%, -55px);
+  animation: botanical-hero-drift 18s ease-in-out infinite alternate;
+}
+
+@keyframes botanical-hero-drift {
+  from { transform: scale(1.08) translate3d(-1.2%, 0.8%, -55px); }
+  to { transform: scale(1.16) translate3d(1.3%, -1%, -55px); }
+}
+
+.botanical-nav {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 68px;
+  padding: 0.75rem clamp(1rem, 3vw, 2rem);
+  border-bottom: 1px solid rgba(39, 67, 42, 0.13);
+  background: rgba(255, 252, 245, 0.72);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+}
+
+.botanical-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0.72rem 0.3rem 0.5rem;
+  border: 1px solid rgba(116, 23, 42, 0.13);
+  border-radius: 16px;
+  background: rgba(255, 253, 249, 0.86);
+  box-shadow: 0 4px 12px rgba(34, 37, 27, 0.07);
+  color: #74172a;
+  font-family: var(--font-serif);
+  font-size: clamp(1.22rem, 2.1vw, 1.55rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  text-decoration: none;
+}
+
+.botanical-brand img {
+  display: block;
+  width: 58px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.botanical-nav-actions {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.botanical-nav-actions select {
+  min-width: 96px !important;
+  min-height: 36px !important;
+  border-color: rgba(39, 67, 42, 0.16) !important;
+  border-radius: 8px !important;
+  background-color: rgba(255, 253, 247, 0.54) !important;
+  color: var(--botanical-ink) !important;
+  font-size: 0.78rem !important;
+}
+
+.botanical-menu {
+  display: grid;
+  width: 38px;
+  height: 36px;
+  place-items: center;
+  border: 0;
+  border-left: 1px solid rgba(39, 67, 42, 0.18);
+  background: transparent;
+  color: var(--botanical-ink);
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.botanical-menupanel {
+  position: absolute;
+  top: calc(100% + 0.6rem);
+  right: 0;
+  z-index: 8;
+  min-width: 220px;
+}
+
+.botanical-hero-copy {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  justify-items: center;
+  margin: auto;
+  padding: 3rem 1.25rem 1.5rem;
+  text-align: center;
+  transform: translateZ(42px);
+}
+
+.botanical-hero-copy h1,
+.botanical-roadmap h2,
+.botanical-reflection p {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  letter-spacing: -0.055em;
+}
+
+.botanical-hero-copy h1 {
+  max-width: 13ch;
+  margin: 0;
+  color: var(--botanical-ink);
+  font-size: clamp(2.75rem, 6.2vw, 5rem);
+  line-height: 0.88;
+}
+
+.botanical-hero-copy > p {
+  margin: 1.1rem 0 1.2rem;
+  color: #334838;
+  font-size: clamp(0.78rem, 1.4vw, 0.95rem);
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.botanical-cta,
+.botanical-glance button {
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: #2a7f7a;
+  box-shadow: 0 8px 20px rgba(10, 24, 14, 0.18);
+  color: #fffdf7;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 750;
+}
+
+.botanical-cta {
+  min-height: 43px;
+  padding: 0.7rem 1.35rem;
+}
+
+.botanical-cta:hover:not(:disabled),
+.botanical-glance button:hover { background: #216a67; }
+.botanical-cta:disabled { cursor: wait; opacity: 0.7; }
+.botanical-error { margin: 0.8rem 0 0 !important; color: #8a1526 !important; }
+
+.botanical-feature-panel {
+  position: relative;
+  z-index: 1;
+  width: min(760px, calc(100% - 2rem));
+  margin: 0 auto clamp(1.2rem, 4vw, 2.5rem);
+  padding: 1.1rem clamp(0.8rem, 2.5vw, 1.4rem) 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 19px;
+  background: rgba(249, 242, 221, 0.64);
+  box-shadow: 0 16px 44px rgba(23, 42, 22, 0.15);
+  backdrop-filter: blur(15px) saturate(0.9);
+  -webkit-backdrop-filter: blur(15px) saturate(0.9);
+  text-align: center;
+  transform: translateZ(72px);
+  transform-style: preserve-3d;
+}
+
+.botanical-feature-panel h2 {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-serif);
+  font-size: clamp(0.88rem, 1.5vw, 1.08rem);
+  font-weight: 700;
+}
+
+.botanical-features { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.65rem; }
+
+.botanical-feature {
+  display: grid;
+  min-height: 103px;
+  align-content: center;
+  justify-items: center;
+  gap: 0.25rem;
+  padding: 0.7rem 0.4rem;
+  border: 1px solid rgba(91, 103, 73, 0.1);
+  border-radius: 13px;
+  background: rgba(255, 253, 247, 0.64);
+}
+
+.botanical-feature > span { color: #2d543d; font-size: 1.15rem; line-height: 1; }
+.botanical-feature strong { font-size: 0.7rem; line-height: 1.1; }
+.botanical-feature small { color: #586353; font-size: 0.62rem; line-height: 1.1; }
+.botanical-feature-panel > p { margin: 0.7rem 0 0; color: #4f5e4c; font-size: 0.65rem; }
+
+.botanical-roadmap {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(3.3rem, 7vw, 5.7rem) clamp(1.25rem, 5vw, 5rem);
+  background:
+    radial-gradient(ellipse at 85% 22%, rgba(175, 153, 196, 0.21), transparent 24%),
+    radial-gradient(ellipse at 80% 34%, rgba(132, 159, 102, 0.22), transparent 18%),
+    var(--botanical-cream);
+}
+
+.botanical-roadmap::after {
+  position: absolute;
+  right: -4rem;
+  bottom: -7rem;
+  width: min(44vw, 470px);
+  aspect-ratio: 0.75;
+  content: "";
+  opacity: 0.22;
+  background: url("/images/anviti-botanical-hero-v2.png") 79% 45% / cover;
+  filter: saturate(0.78) sepia(0.25);
+  mask-image: linear-gradient(to top, black, transparent 87%);
+  pointer-events: none;
+}
+
+.botanical-roadmap-intro,
+.botanical-roadmap-grid { position: relative; z-index: 1; max-width: 980px; margin-inline: auto; }
+.botanical-roadmap-intro { margin-bottom: 1.8rem; }
+.botanical-roadmap-intro > span { display: block; margin-bottom: 0.5rem; color: #596554; font-size: 0.64rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+.botanical-roadmap h2 { max-width: 16ch; margin: 0; font-size: clamp(2rem, 4.2vw, 3.45rem); line-height: 0.92; }
+
+.botanical-roadmap-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(215px, 0.72fr); align-items: center; gap: clamp(1.5rem, 5vw, 5rem); }
+.botanical-timeline { position: relative; display: grid; gap: 0.05rem; margin: 0; padding: 0; list-style: none; }
+.botanical-timeline::before { position: absolute; top: 30px; bottom: 30px; left: 16px; width: 1px; content: ""; background: rgba(65, 91, 63, 0.3); }
+
+.botanical-timeline-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 35px minmax(0, 1fr) auto 12px;
+  align-items: center;
+  column-gap: 0.7rem;
+  min-height: 72px;
+  padding: 0.75rem 0.85rem 0.75rem 0;
+  border-bottom: 1px solid rgba(51, 75, 46, 0.13);
+}
+
+.botanical-timeline-number {
+  display: grid;
+  z-index: 1;
+  width: 29px;
+  height: 29px;
+  place-items: center;
+  border-radius: 50%;
+  background: #d4d8ca;
+  color: #41543f;
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+.botanical-timeline-complete .botanical-timeline-number { background: #1f5e45; color: #fff; }
+.botanical-timeline-progress .botanical-timeline-number { background: #91a48d; color: #163724; }
+.botanical-timeline-upcoming .botanical-timeline-number { background: #e4dfcd; color: #5c614e; }
+.botanical-timeline-item strong { display: block; font-family: var(--font-serif); font-size: clamp(0.86rem, 1.4vw, 1.05rem); line-height: 1.05; }
+.botanical-timeline-item p { margin: 0.25rem 0 0; color: var(--botanical-muted); font-size: 0.66rem; line-height: 1.25; }
+.botanical-status { padding: 0.28rem 0.48rem; border-radius: 999px; background: #e9e2ea; color: #716373; font-size: 0.57rem; font-weight: 800; white-space: nowrap; }
+.botanical-timeline-complete .botanical-status { background: #d6e6d5; color: #2b6a41; }
+.botanical-timeline-progress .botanical-status { background: #d5dfca; color: #445f32; }
+.botanical-timeline-upcoming .botanical-status { background: #ece8dc; color: #777465; }
+
+.botanical-glance {
+  padding: clamp(1.25rem, 2.6vw, 1.7rem);
+  border: 1px solid rgba(51, 75, 46, 0.15);
+  border-radius: 15px;
+  background: rgba(255, 253, 247, 0.73);
+  box-shadow: 0 13px 30px rgba(45, 59, 33, 0.06);
+}
+.botanical-glance h3 { margin: 0 0 1.4rem; font-family: var(--font-serif); font-size: 1.1rem; }
+.botanical-glance dl { display: grid; gap: 0.95rem; margin: 0; }
+.botanical-glance dl div { display: grid; gap: 0.16rem; }
+.botanical-glance dt { color: #54654f; font-size: 0.67rem; font-weight: 700; }
+.botanical-glance dd { margin: 0; color: var(--botanical-ink); font-size: 0.72rem; font-weight: 800; }
+.botanical-glance button { width: 100%; margin-top: 1.5rem; padding: 0.65rem 0; border-radius: 7px; box-shadow: none; font-size: 0.68rem; }
+
+.botanical-reflection {
+  position: relative;
+  overflow: hidden;
+  min-height: 215px;
+  padding: clamp(3rem, 7vw, 5rem) 2rem;
+  background: linear-gradient(90deg, rgba(8, 30, 17, 0.92), rgba(19, 55, 30, 0.68)), url("/images/anviti-botanical-hero-v2.png") center / cover;
+  color: #fff9e9;
+}
+.botanical-reflection p { max-width: 980px; margin: 0 auto; font-size: clamp(1.4rem, 3vw, 2.35rem); line-height: 1.02; }
+
+@media (prefers-reduced-motion: reduce) {
+  .botanical-hero::before { animation: none; }
+}
+
+@media (max-width: 700px) {
+  .botanical-landing { padding: 0 0 7.5rem; }
+  .botanical-hero { min-height: 680px; border-radius: 0; }
+  .botanical-nav { min-height: 60px; padding-inline: 0.85rem; }
+  .botanical-brand img { width: 48px; height: 25px; }
+  .botanical-brand { font-size: 1.2rem; }
+  .botanical-nav-actions select { min-width: 74px !important; max-width: 90px; padding-inline: 0.35rem !important; }
+  .botanical-hero-copy { margin: 2.4rem auto auto; padding-top: 1rem; }
+  .botanical-hero-copy h1 { font-size: clamp(2.65rem, 13vw, 4rem); }
+  .botanical-hero-copy > p { font-size: 0.78rem; }
+  .botanical-feature-panel { width: calc(100% - 1.25rem); margin-bottom: 0.75rem; }
+  .botanical-features { grid-template-columns: repeat(2, 1fr); }
+  .botanical-feature { min-height: 79px; }
+  .botanical-roadmap { padding-inline: 1.3rem; }
+  .botanical-roadmap-grid { grid-template-columns: 1fr; gap: 1.7rem; }
+  .botanical-timeline-item { grid-template-columns: 31px minmax(0, 1fr) auto 9px; column-gap: 0.45rem; }
+  .botanical-timeline-item p { font-size: 0.6rem; }
+  .botanical-status { display: none; }
+  .botanical-reflection { min-height: 190px; }
+}
+
+/* ==========================================================================
+   Shared Anvīti product skin — all authenticated/product routes reuse these
+   primitives, so the functional screens inherit the landing's visual language.
+   ========================================================================== */
+.container { position: relative; z-index: 1; padding-bottom: 8rem; }
+
+.navpill {
+  min-width: min(760px, calc(100vw - 1.5rem));
+  padding: 0.42rem 0.55rem;
+  border-color: rgba(255, 255, 255, 0.82);
+  background: rgba(255, 253, 247, 0.79);
+  box-shadow: 0 13px 32px rgba(29, 54, 32, 0.16), inset 0 1px 0 rgba(255,255,255,0.82);
+  backdrop-filter: blur(15px) saturate(0.9);
+  -webkit-backdrop-filter: blur(15px) saturate(0.9);
+}
+
+.navpill .anviti-nav-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  padding: 0.25rem 0.55rem 0.25rem 0.36rem;
+  border: 1px solid rgba(116, 23, 42, 0.13);
+  border-radius: 13px;
+  background: rgba(255,255,255,0.82);
+  color: #74172a;
+  box-shadow: 0 3px 10px rgba(33, 48, 29, 0.06);
+  letter-spacing: -0.05em;
+}
+
+.anviti-nav-brand img { display: block; width: 45px; height: 23px; object-fit: contain; }
+.navpill select { min-height: 37px; max-width: 126px; border-radius: 10px; background: rgba(255,255,255,0.58); }
+
+.glass-shell,
+.page-shell {
+  border-color: rgba(255,255,255,0.76);
+  background: linear-gradient(135deg, rgba(255,253,247,0.87), rgba(244,238,219,0.74));
+  box-shadow: 0 32px 70px -32px rgba(23, 57, 32, 0.38), inset 0 1px 0 rgba(255,255,255,0.82);
+}
+
+.page-shell h1,
+.glass-shell h1 { color: var(--ink); font-weight: 700; letter-spacing: -0.045em; }
+
+.card {
+  border-color: rgba(255,255,255,0.77);
+  background: linear-gradient(145deg, rgba(255,254,250,0.88), rgba(246,242,230,0.79));
+  box-shadow: 0 16px 34px -24px rgba(30, 59, 33, 0.34), inset 0 1px 0 rgba(255,255,255,0.8);
+}
+
+.btn { border-color: #2a7f7a; background: #2a7f7a; color: #fffdf7; }
+.btn:hover { background: #216a67; filter: none; }
+.btn:disabled {
+  border: 2px solid #62655c;
+  background: #62655c;
+  color: #fffdf7;
+  opacity: 1;
+  font-weight: 750;
+}
+.btn-secondary { border-color: rgba(45,78,48,0.16); background: rgba(255,253,247,0.92); color: var(--ink); }
+.btn-secondary:hover { background: #e8eedb; }
+.btn-ghost { border-color: transparent; background: transparent; color: #28736f; }
+.btn-ghost:hover { background: rgba(42,127,122,0.12); }
+
+input, select, textarea {
+  border-color: rgba(52,84,54,0.18);
+  background: rgba(255,254,250,0.82);
+  box-shadow: inset 0 1px 2px rgba(30,57,31,0.04);
+}
+
+.notice { background: rgba(255,253,247,0.76); border-color: rgba(52,84,54,0.16); }
+.badge { border-color: rgba(52,84,54,0.14); background: rgba(255,253,247,0.72); color: #526651; }
+.badge-info { color: #216149; background: #dcebdc; }
+.badge-warn { color: #775a18; background: #f0e5c5; }
+
+.jg-bar { background: rgba(33,75,42,0.13); }
+.jg-current-panel { background: linear-gradient(135deg, #173d28, #315f3f); box-shadow: 0 20px 40px -18px rgba(21, 60, 35, 0.55); }
+.jg-current { border-left-color: #247177; box-shadow: 0 18px 34px -14px rgba(36,113,119,0.36); }
+.jg-b-current { background: #247177; }
+.jg-available { border-left-color: #a99bb7; }
+.jg-b-available { background: #a99bb7; }
+.jg-blocked { border-left-color: #aaa28d; }
+.jg-b-blocked { background: #aaa28d; }
+.jg-conditional { border-left-color: #9a762d; }
+.jg-b-conditional { background: #9a762d; }
+.jg-professional { border-left-color: #a45e43; }
+.jg-b-professional { background: #a45e43; }
+.jg-node { border-color: rgba(48,78,47,0.14); background: rgba(255,254,250,0.9); }
+.jg-selected { outline-color: #216149; }
+
+.mp {
+  border-color: rgba(255,255,255,0.82);
+  background: rgba(255,253,247,0.89);
+  box-shadow: 0 18px 42px -22px rgba(22,52,28,0.38), inset 0 1px 0 rgba(255,255,255,0.85);
+  backdrop-filter: blur(16px) saturate(0.9);
+  -webkit-backdrop-filter: blur(16px) saturate(0.9);
+}
+.mp-fill { background: linear-gradient(90deg, #315f3f, #8aa26f); }
+
+/* The existing single global pointer listener supplies these variables. This gives
+   the live product a restrained spatial response without new JavaScript. */
+@media (hover: hover) and (pointer: fine) {
+  .navpill,
+  .glass-shell,
+  .page-shell,
+  .card {
+    transform: perspective(1100px) translate3d(calc(var(--mx, 0) * 1.8px), calc(var(--my, 0) * 1.8px), 0);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+  }
+  .card:hover { transform: perspective(1100px) translate3d(calc(var(--mx, 0) * 2.8px), calc(var(--my, 0) * 2.8px), 7px); }
+}
+
+@media (max-width: 700px) {
+  .navpill { min-width: 0; width: calc(100vw - 1rem); }
+  .navpill .anviti-nav-brand { padding-right: 0.42rem; }
+  .anviti-nav-brand img { width: 38px; height: 20px; }
+  .navpill select { max-width: 92px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .se-photo-sky { animation: none; }
+  .navpill, .glass-shell, .page-shell, .card, .card:hover { transform: none; transition: none; }
+}
+
+/* Reference journey palette: done → current → upcoming → review → professional → locked. */
+.botanical-timeline-complete .botanical-timeline-number { background: #236342; }
+.botanical-timeline-todo .botanical-timeline-number { background: #247177; color: #fff; }
+.botanical-timeline-progress .botanical-timeline-number { background: #a99bb7; color: #fff; }
+.botanical-timeline-upcoming .botanical-timeline-number { background: #aaa28d; color: #fff; }
+.botanical-timeline-todo .botanical-status { background: #d8edec; color: #1b6369; }
+.botanical-timeline-progress .botanical-status { background: #e4ddea; color: #6d5f7d; }
+.botanical-timeline-upcoming .botanical-status { background: #e8e5da; color: #716b58; }
+
+/* Case journey: three quiet editorial lanes make the roadmap easier to scan while
+   retaining the existing status colours as the source of truth. */
+.jg-wrap {
+  padding: 0.95rem;
+  border: 1px solid rgba(255,255,255,0.72);
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(255,253,247,0.73), rgba(239,239,219,0.62));
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.84);
+}
+.jg-progress { padding: 0 0.2rem 0.6rem; }
+.jg-scroll { padding: 0.25rem 0.15rem 0.3rem; }
+.jg-flow { align-items: stretch; gap: 0.8rem; }
+.jg-phase {
+  position: relative;
+  min-width: 250px;
+  padding: 0.8rem;
+  border: 1px solid rgba(57,86,55,0.12);
+  border-radius: 18px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.75);
+}
+.jg-phase-record { background: linear-gradient(160deg, rgba(224,239,222,0.86), rgba(248,247,235,0.78)); }
+.jg-phase-inherits { background: linear-gradient(160deg, rgba(218,238,236,0.9), rgba(247,247,234,0.78)); }
+.jg-phase-assets { min-width: 290px; background: linear-gradient(160deg, rgba(235,229,240,0.86), rgba(249,246,233,0.78)); }
+.jg-phase-label {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.55rem;
+  color: #445947;
+}
+.jg-phase-label::before {
+  display: grid;
+  width: 21px;
+  height: 21px;
+  place-items: center;
+  border-radius: 50%;
+  color: #fff;
+  content: "";
+  font-size: 0.66rem;
+}
+.jg-phase-record .jg-phase-label::before { content: "1"; background: #236342; }
+.jg-phase-inherits .jg-phase-label::before { content: "2"; background: #247177; }
+.jg-phase-assets .jg-phase-label::before { content: "3"; background: #a99bb7; }
+.jg-phase .jg-node {
+  min-width: 0;
+  padding: 0.78rem 0.82rem;
+  border-radius: 14px;
+  background: rgba(255,254,250,0.86);
+}
+.jg-phase-record .jg-node { box-shadow: 0 10px 20px -18px rgba(35,99,66,0.38); }
+.jg-phase-inherits .jg-node { box-shadow: 0 10px 20px -18px rgba(36,113,119,0.38); }
+.jg-phase-assets .jg-node { box-shadow: 0 10px 20px -18px rgba(109,95,125,0.3); }
+.jg-phase-assets .jg-node:nth-child(3n + 2) { border-left-color: #a99bb7; }
+.jg-phase-assets .jg-node:nth-child(3n) { border-left-color: #8aa26f; }
+.jg-arrow {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  align-self: center;
+  border: 1px solid rgba(59,91,61,0.14);
+  border-radius: 50%;
+  background: rgba(255,253,247,0.74);
+  color: #247177;
+  font-size: 1.1rem;
+  box-shadow: 0 7px 16px -12px rgba(22,55,30,0.32);
+}
+.jg-selected { outline: 2px solid #247177; outline-offset: 2px; background: #fafffc !important; }
+
+.journey-detail-card {
+  position: relative;
+  overflow: hidden;
+  border-left: 5px solid #247177;
+  background: linear-gradient(135deg, rgba(255,254,250,0.94), rgba(244,247,237,0.81));
+}
+.journey-detail-card::after {
+  position: absolute;
+  top: -1.05rem;
+  right: 1.2rem;
+  content: "✦";
+  color: rgba(42,127,122,0.15);
+  font-family: var(--font-serif);
+  font-size: 5rem;
+  line-height: 1;
+  pointer-events: none;
+}
+.journey-detail-card > * { position: relative; z-index: 1; }
+.guidance-stack .notice-info {
+  border-left: 3px solid #247177;
+  background: linear-gradient(90deg, rgba(216,237,236,0.76), rgba(255,253,247,0.62));
+}
+.guidance-stack > .card { border-top: 2px solid rgba(169,155,183,0.42); }
+
+@media (max-width: 760px) {
+  .jg-wrap { padding: 0.65rem; border-radius: 18px; }
+  .jg-phase, .jg-phase-assets { min-width: 0; }
+  .jg-arrow { transform: rotate(90deg); }
+}
+
+/* Three photographic butterflies are decor only. Their long, low-opacity paths make
+   the environment feel alive without competing with any form or journey action. */
+.butterfly-layer,
+.botanical-butterflies,
+.botanical-breeze { position: absolute; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+.botanical-butterflies { z-index: 2; }
+.butterfly-flight {
+  position: absolute;
+  display: block;
+  width: clamp(38px, 4.1vw, 70px);
+  aspect-ratio: 1.5;
+  will-change: transform, opacity;
+}
+.butterfly {
+  position: absolute;
+  inset: 0;
+  display: block;
+  opacity: 0.7;
+  filter: drop-shadow(0 5px 6px rgba(18, 51, 29, 0.13)) saturate(1.08);
+  mix-blend-mode: screen;
+  perspective: 190px;
+  transform-style: preserve-3d;
+}
+.butterfly::before,
+.butterfly::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  content: "";
+  background-image: var(--butterfly-image);
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+.butterfly::before {
+  left: 0;
+  background-position: left center;
+  transform-origin: 100% 52%;
+  animation: butterfly-left-wing 620ms cubic-bezier(.42, 0, .58, 1) infinite;
+}
+.butterfly::after {
+  right: 0;
+  background-position: right center;
+  transform-origin: 0 52%;
+  animation: butterfly-right-wing 620ms cubic-bezier(.42, 0, .58, 1) infinite;
+}
+.butterfly-morpho { top: 0; left: 0; animation: butterfly-morpho-flight 18s ease-in-out infinite alternate; }
+.butterfly-monarch { top: 0; left: 0; animation: butterfly-monarch-flight 22s ease-in-out infinite alternate; }
+.butterfly-swallowtail { top: 0; left: 0; animation: butterfly-swallowtail-flight 25s ease-in-out infinite alternate; }
+.butterfly-morpho .butterfly { --butterfly-image: url("/images/butterfly-morpho.png"); }
+.butterfly-monarch .butterfly { --butterfly-image: url("/images/butterfly-monarch.png"); }
+.butterfly-swallowtail .butterfly { --butterfly-image: url("/images/butterfly-swallowtail.png"); }
+.butterfly-monarch .butterfly::before,
+.butterfly-monarch .butterfly::after { animation-duration: 760ms; }
+.butterfly-swallowtail .butterfly::before,
+.butterfly-swallowtail .butterfly::after { animation-duration: 900ms; }
+
+@keyframes butterfly-left-wing {
+  0%, 100% { transform: rotateY(-5deg) rotateZ(-1deg); }
+  48% { transform: rotateY(-58deg) rotateZ(-4deg) translateY(-1px); }
+}
+@keyframes butterfly-right-wing {
+  0%, 100% { transform: rotateY(5deg) rotateZ(1deg); }
+  48% { transform: rotateY(58deg) rotateZ(4deg) translateY(-1px); }
+}
+
+@keyframes butterfly-morpho-flight {
+  0% { transform: translate3d(3vw, 16vh, 0) rotate(-11deg) scale(0.82); }
+  24% { transform: translate3d(24vw, 9vh, 24px) rotate(9deg) scale(0.98); }
+  52% { transform: translate3d(49vw, 18vh, 8px) rotate(-6deg) scale(0.9); }
+  77% { transform: translate3d(74vw, 11vh, 18px) rotate(7deg) scale(0.84); }
+  100% { transform: translate3d(94vw, 17vh, 0) rotate(-3deg) scale(0.76); }
+}
+@keyframes butterfly-monarch-flight {
+  0% { transform: translate3d(93vw, 47vh, 0) rotate(12deg) scale(0.72); }
+  22% { transform: translate3d(75vw, 39vh, 18px) rotate(-9deg) scale(0.88); }
+  50% { transform: translate3d(51vw, 52vh, 6px) rotate(8deg) scale(0.8); }
+  76% { transform: translate3d(26vw, 43vh, 16px) rotate(-5deg) scale(0.86); }
+  100% { transform: translate3d(4vw, 55vh, 0) rotate(4deg) scale(0.7); }
+}
+@keyframes butterfly-swallowtail-flight {
+  0% { transform: translate3d(10vw, 78vh, 0) rotate(-7deg) scale(0.66); }
+  24% { transform: translate3d(28vw, 65vh, 14px) rotate(8deg) scale(0.81); }
+  49% { transform: translate3d(49vw, 75vh, 5px) rotate(-8deg) scale(0.75); }
+  73% { transform: translate3d(69vw, 63vh, 17px) rotate(5deg) scale(0.84); }
+  100% { transform: translate3d(88vw, 72vh, 0) rotate(-4deg) scale(0.69); }
+}
+
+.botanical-flower-sway {
+  position: absolute;
+  bottom: -10%;
+  width: 37%;
+  height: 83%;
+  background: url("/images/anviti-botanical-hero-v2.png") bottom / auto 100% no-repeat;
+  opacity: 0.58;
+  transform-origin: 50% 100%;
+  will-change: transform;
+}
+.botanical-flower-sway-left {
+  left: -5%;
+  background-position: left bottom;
+  mask-image: linear-gradient(90deg, #000 78%, transparent);
+  animation: botanical-breeze-left 3.6s ease-in-out infinite alternate;
+}
+.botanical-flower-sway-right {
+  right: -5%;
+  background-position: right bottom;
+  mask-image: linear-gradient(270deg, #000 78%, transparent);
+  animation: botanical-breeze-right 4.1s ease-in-out -0.9s infinite alternate;
+}
+@keyframes botanical-breeze-left {
+  from { transform: rotate(-0.8deg) translateX(-0.5%); }
+  to { transform: rotate(2.1deg) translateX(1.3%); }
+}
+@keyframes botanical-breeze-right {
+  from { transform: rotate(0.8deg) translateX(0.4%); }
+  to { transform: rotate(-2deg) translateX(-1.1%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .butterfly, .butterfly::before, .butterfly::after, .butterfly-flight, .botanical-flower-sway { animation: none; }
+  .butterfly { opacity: 0.22; }
+  .butterfly-morpho { transform: translate3d(8vw, 13vh, 0); }
+  .butterfly-monarch { transform: translate3d(82vw, 54vh, 0); }
+  .butterfly-swallowtail { transform: translate3d(52vw, 75vh, 0); }
+}
+
+/* Golden Latte current-step panel: a small, CSS-only champagne sparkle field. */
+.jg-current-panel {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: linear-gradient(135deg, #b77a2e, #9b6428);
+  box-shadow: 0 20px 40px -18px rgba(91,52,17,0.56);
+}
+.jg-current-panel > * { position: relative; z-index: 1; }
+.jg-current-panel::before {
+  position: absolute;
+  inset: -90% 0;
+  z-index: 0;
+  content: "";
+  pointer-events: none;
+  opacity: 0.72;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.94) 0 1px, transparent 1.8px),
+    radial-gradient(circle, rgba(255,235,179,0.92) 0 1.5px, transparent 2.3px),
+    radial-gradient(circle, rgba(255,255,255,0.72) 0 0.8px, transparent 1.5px);
+  background-position: 9% 0, 72% 28px, 38% 64px;
+  background-size: 94px 158px, 137px 206px, 177px 249px;
+  animation: golden-latte-sparkles 7s linear infinite;
+}
+@keyframes golden-latte-sparkles {
+  from { transform: translateY(-18%); }
+  to { transform: translateY(18%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .jg-current-panel::before { animation: none; }
+}
+
+/* Pastel mobile workspace for the live case journey. */
+.app-phone-shell {
+  max-width: 480px;
+  padding: 0.7rem 0.65rem 5.5rem;
+}
+.app-phone-shell .page-shell {
+  margin: 0.35rem 0 1rem;
+  padding: 1rem 0.85rem;
+  border-radius: 28px;
+}
+.app-phone-shell .jg-wrap {
+  padding: 0.7rem;
+  border-color: rgba(255,255,255,0.82);
+  border-radius: 22px;
+  background: linear-gradient(145deg, rgba(255,253,250,0.9), rgba(249,245,241,0.76));
+}
+.app-phone-shell .jg-scroll { overflow: visible; padding: 0.2rem 0; }
+.app-phone-shell .jg-flow { flex-direction: column; min-width: 0; gap: 0.55rem; }
+.app-phone-shell .jg-phase,
+.app-phone-shell .jg-phase-assets {
+  min-width: 0;
+  padding: 0.72rem;
+  border-color: rgba(104,84,92,0.12);
+  border-radius: 18px;
+}
+.app-phone-shell .jg-phase-record { background: linear-gradient(160deg, #f4ece9, #fbf7f5); }
+.app-phone-shell .jg-phase-inherits { background: linear-gradient(160deg, #f8edd7, #fdf9ef); }
+.app-phone-shell .jg-phase-assets { background: linear-gradient(160deg, #eeeaf3, #faf8fc); }
+.app-phone-shell .jg-phase-label { color: #6f6268; }
+.app-phone-shell .jg-phase-record .jg-phase-label::before { background: #9e7a71; }
+.app-phone-shell .jg-phase-inherits .jg-phase-label::before { background: #b18c55; }
+.app-phone-shell .jg-phase-assets .jg-phase-label::before { background: #9c8daa; }
+.app-phone-shell .jg-phase .jg-node {
+  min-height: 82px;
+  padding: 0.78rem 0.82rem;
+  border-color: rgba(104,84,92,0.12);
+  background: rgba(255,255,255,0.82);
+  box-shadow: 0 10px 20px -18px rgba(67,47,55,0.38);
+}
+.app-phone-shell .jg-arrow {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  transform: rotate(90deg);
+  border-color: rgba(177,140,85,0.2);
+  background: #fffaf1;
+  color: #b18c55;
+  box-shadow: 0 7px 16px -12px rgba(75,53,31,0.32);
+}
+.app-phone-shell .jg-selected {
+  outline-color: #b77a2e;
+  background: #fff9eb !important;
+}
+.app-phone-shell .jg-completed { border-left-color: #9e7a71; }
+.app-phone-shell .jg-b-completed { background: #9e7a71; }
+.app-phone-shell .jg-current { border-left-color: #b77a2e; box-shadow: 0 16px 28px -16px rgba(183,122,46,0.42); }
+.app-phone-shell .jg-b-current { background: #b77a2e; }
+.app-phone-shell .jg-available { border-left-color: #a897c3; }
+.app-phone-shell .jg-b-available { background: #a897c3; }
+.app-phone-shell .jg-blocked { border-left-color: #b8b0aa; }
+.app-phone-shell .jg-b-blocked { background: #b8b0aa; }
+.app-phone-shell .jg-conditional { border-left-color: #b18c55; }
+.app-phone-shell .jg-b-conditional { background: #b18c55; }
+.app-phone-shell .jg-professional { border-left-color: #c68689; }
+.app-phone-shell .jg-b-professional { background: #c68689; }
+.app-phone-shell .jg-phase-assets .jg-node:nth-child(3n + 2) { border-left-color: #a897c3; }
+.app-phone-shell .jg-phase-assets .jg-node:nth-child(3n) { border-left-color: #b8b0aa; }
+.app-phone-shell .journey-detail-card {
+  border-left-color: #b77a2e;
+  background: linear-gradient(135deg, rgba(255,253,248,0.96), rgba(252,246,233,0.84));
+}
+.app-phone-shell .journey-detail-card::after { color: rgba(183,122,46,0.15); }
+.app-phone-shell .guidance-stack .notice-info {
+  border-left-color: #b18c55;
+  background: linear-gradient(90deg, rgba(248,237,215,0.85), rgba(255,253,248,0.74));
+}
+@media (max-width: 520px) {
+  .app-phone-shell { padding-inline: 0.45rem; }
+  .app-phone-shell .page-shell { border-radius: 22px; }
+}
+
+/* Compact step detail: action first, source-backed material on demand. */
+.app-phone-shell .journey-detail-card {
+  font-family: "Manrope", var(--font-sans);
+  padding: 1.05rem 0.95rem;
+}
+.step-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.7rem;
+}
+.step-title-block { min-width: 0; }
+.step-badges,
+.step-chip-list,
+.step-location {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+}
+.step-title {
+  display: block;
+  margin-top: 0.48rem;
+  color: #2f272c;
+  font-family: "Manrope", var(--font-sans);
+  font-size: clamp(1.36rem, 5.3vw, 1.72rem);
+  font-weight: 800;
+  letter-spacing: -0.055em;
+  line-height: 1.02;
+}
+.step-location { margin-top: 0.5rem; color: #75686b; font-size: 0.74rem; }
+.step-detail-toggle {
+  flex: 0 0 auto;
+  min-height: 36px;
+  padding: 0.42rem 0.58rem;
+  border: 1px solid rgba(177,140,85,0.25);
+  border-radius: 12px;
+  background: #fffaf1;
+  color: #8b6938;
+  font: 800 0.7rem/1 "Manrope", var(--font-sans);
+  cursor: pointer;
+}
+.step-detail-toggle span { margin-left: 0.18rem; font-size: 1rem; vertical-align: -0.06em; }
+.step-done-note { margin: 0.65rem 0 0; color: #8c7966; font-size: 0.78rem; }
+.step-progress-control {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 1rem;
+  padding: 0.7rem 0;
+  border-top: 1px solid rgba(121,96,77,0.12);
+  border-bottom: 1px solid rgba(121,96,77,0.12);
+}
+.step-progress-control label { display: grid; gap: 0.1rem; flex: 1; margin: 0; }
+.step-progress-control label span { color: #514246; font-size: 0.78rem; font-weight: 800; }
+.step-progress-control label small { color: #8b7e7e; font-size: 0.62rem; line-height: 1.25; }
+.step-progress-control select { width: auto; min-width: 130px; min-height: 40px; padding: 0.4rem 1.8rem 0.4rem 0.55rem; border-radius: 11px; font: 700 0.74rem "Manrope", var(--font-sans); }
+.step-action-card {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 0.9rem;
+  padding: 0.9rem;
+  border: 1px solid rgba(183,122,46,0.22);
+  border-radius: 18px;
+  background: linear-gradient(135deg, #fff8e8, #fbefd2);
+}
+.step-action-topline { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; color: #9a6a25; font-size: 0.64rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; }
+.step-action-topline .read-aloud { letter-spacing: 0; text-transform: none; }
+.step-action-title { color: #413136; font-size: 0.93rem; line-height: 1.2; }
+.step-action-list { display: grid; gap: 0.45rem; margin: 0; padding: 0; list-style: none; color: #544348; font-size: 0.78rem; line-height: 1.4; }
+.step-action-list li { display: grid; grid-template-columns: 20px 1fr; gap: 0.46rem; align-items: start; }
+.step-action-list li > span { display: grid; width: 20px; height: 20px; place-items: center; border-radius: 50%; background: #b77a2e; color: #fff; font-size: 0.64rem; font-weight: 800; }
+.step-chip-list { padding-top: 0.1rem; }
+.step-chip-list .badge { font-size: 0.64rem; }
+.step-local-note { color: #765a30; font-size: 0.72rem; }
+.step-local-note summary { cursor: pointer; font-weight: 800; }
+.step-local-note p { margin: 0.45rem 0 0; line-height: 1.45; }
+.app-phone-shell .guidance-stack { gap: 0.75rem; }
+.app-phone-shell .guidance-stack > .card { padding: 0.9rem; }
+@media (max-width: 380px) {
+  .step-header { flex-direction: column; }
+  .step-detail-toggle { align-self: flex-start; }
+  .step-progress-control { align-items: flex-start; flex-direction: column; }
+  .step-progress-control select { width: 100%; }
+}
+
+/* Golden Latte replaces all former green and teal UI chrome. Botanical photography
+   remains natural; these rules only recolor the product's controls and status UI. */
+.btn,
+.botanical-cta,
+.botanical-glance button {
+  border-color: #b77a2e;
+  background: linear-gradient(135deg, #c68a39, #a96b27);
+  color: #fffdf8;
+  box-shadow: 0 8px 20px rgba(111,68,21,0.22);
+}
+.btn:hover,
+.botanical-cta:hover:not(:disabled),
+.botanical-glance button:hover { background: #9b6123; }
+.btn-ghost { color: #9a6a25; }
+.btn-ghost:hover { background: rgba(183,122,46,0.12); }
+.btn-secondary { border-color: rgba(145,103,52,0.2); }
+.btn-secondary:hover { background: #fbf0db; }
+.badge { border-color: rgba(137,102,77,0.16); color: #6d5a4d; }
+.badge-info { color: #776080; background: #eee7f1; }
+.badge-ok { color: #8c5d2b; background: #f5e7cc; }
+.badge-warn { color: #8b6229; background: #f8ebcd; }
+input, select, textarea { border-color: rgba(137,102,77,0.2); box-shadow: inset 0 1px 2px rgba(73,48,31,0.05); }
+.notice { border-color: rgba(137,102,77,0.16); }
+
+.botanical-landing {
+  --botanical-ink: #342b28;
+  --botanical-deep: #3c2d20;
+  --botanical-muted: #6e5c50;
+}
+.botanical-hero-copy > p,
+.botanical-feature > span { color: #8c5d2b; }
+.botanical-feature small,
+.botanical-feature-panel > p,
+.botanical-roadmap-intro > span,
+.botanical-glance dt { color: #746254; }
+.botanical-timeline::before { background: rgba(161,118,72,0.34); }
+.botanical-timeline-item { border-bottom-color: rgba(137,102,77,0.16); }
+.botanical-timeline-number { background: #eee7dd; color: #786558; }
+.botanical-timeline-complete .botanical-timeline-number,
+.botanical-timeline-todo .botanical-timeline-number { background: #b77a2e; color: #fff; }
+.botanical-timeline-progress .botanical-timeline-number { background: #c8b3cf; color: #4e3d55; }
+.botanical-timeline-upcoming .botanical-timeline-number { background: #d8cec4; color: #665a52; }
+.botanical-timeline-complete .botanical-status,
+.botanical-timeline-todo .botanical-status { background: #f5e7cc; color: #8c5d2b; }
+.botanical-timeline-progress .botanical-status { background: #eee7f1; color: #776080; }
+.botanical-timeline-upcoming .botanical-status { background: #f1ece6; color: #756860; }
+.botanical-glance { border-color: rgba(137,102,77,0.16); box-shadow: 0 13px 30px rgba(93,61,35,0.08); }
+.botanical-reflection { background: linear-gradient(90deg, rgba(62,42,28,0.94), rgba(117,76,36,0.72)), url("/images/anviti-botanical-hero-v2.png") center / cover; }
+
+.landing-stage-complete .landing-stage-icon,
+.landing-stage-current .landing-stage-icon { background: #b77a2e; color: #fff; }
+.landing-stage-professional .landing-stage-icon { background: #c68689; color: #fff; }
+.landing-stage-locked .landing-stage-icon { background: #b8b0aa; color: #fff; }
+.mp-fill { background: linear-gradient(90deg, #b77a2e, #e0ba72); }
+.mp-sound-toggle { color: #9a6a25; }

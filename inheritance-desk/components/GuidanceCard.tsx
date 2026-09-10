@@ -38,7 +38,7 @@ export function GuidanceCard({ result }: { result: GuidanceResult | null }): JSX
     .join(". ");
 
   return (
-    <div className="stack">
+    <div className="stack guidance-stack">
       <div className="row">
         <StatusBadge status={result.status} />
         <ExecutionBadge />

@@ -285,7 +285,7 @@ const en: Dict = {
   stateOfProperty: "State/UT where the property is located",
   district: "District",
   recordType: "Record type",
-  addToEstate: "Add to estate",
+  addToEstate: "Add asset",
   adding: "Adding…",
   askAssistant: "Ask the assistant",
   assistantTitle: "Assistant",

@@ -121,9 +121,9 @@ export function JourneyGraph({
   const total = nodes.length;
   const done = nodes.filter((n) => n.status === "completed").length;
 
-  const renderPhase = (label: string, list: GraphNode[], parallel?: boolean) =>
+  const renderPhase = (label: string, list: GraphNode[], tone: "record" | "inherits" | "assets", parallel?: boolean) =>
     list.length === 0 ? null : (
-      <div className="jg-phase">
+      <div className={`jg-phase jg-phase-${tone}`}>
         <div className="jg-phase-label">{label}</div>
         <div className={parallel ? "jg-track jg-parallel" : "jg-track"}>
           {list.map((n) => (
@@ -142,11 +142,11 @@ export function JourneyGraph({
       </div>
       <div className="jg-scroll">
         <div className="jg-flow">
-          {renderPhase(t("phaseDeath"), phase1)}
+          {renderPhase(t("phaseDeath"), phase1, "record")}
           {phase2.length > 0 && <div className="jg-arrow" aria-hidden>→</div>}
-          {renderPhase(t("phaseLegal"), phase2)}
+          {renderPhase(t("phaseLegal"), phase2, "inherits")}
           {phase3.length > 0 && <div className="jg-arrow" aria-hidden>→</div>}
-          {renderPhase(t("phaseAssets"), phase3, true)}
+          {renderPhase(t("phaseAssets"), phase3, "assets", true)}
         </div>
       </div>
     </div>

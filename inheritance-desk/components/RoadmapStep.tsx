@@ -23,17 +23,18 @@ function CompactCard({ payload, version, lang }: { payload: RoadmapStepView["pay
   if (!compact) return null;
   const readable = `${tr(compact.heading)}. ${compact.bullets.map((b) => tr(b)).join(" ")}`;
   return (
-    <div className="stack" style={{ gap: "0.5rem", marginTop: "0.5rem" }}>
-      <div className="row" style={{ justifyContent: "space-between", alignItems: "center", gap: "0.4rem" }}>
-        <strong>{tr(compact.heading)}</strong>
+    <section className="step-action-card">
+      <div className="step-action-topline">
+        <span>Do this now</span>
         <ReadAloud text={readable} label={t("readScreenAloud")} lang={lang} />
       </div>
-      <ul className="clean small" style={{ margin: 0 }}>
+      <strong className="step-action-title">{tr(compact.heading)}</strong>
+      <ol className="step-action-list">
         {compact.bullets.slice(0, 2).map((b, i) => (
-          <li key={i}>• {tr(b)}</li>
+          <li key={i}><span>{i + 1}</span>{tr(b)}</li>
         ))}
-      </ul>
-      <div className="row small" style={{ gap: "0.4rem", flexWrap: "wrap" }}>
+      </ol>
+      <div className="step-chip-list">
         {compact.chips.state && <span className="badge badge-info">{compact.chips.state}</span>}
         <span className="badge">🏛 {tr(compact.chips.office)}</span>
         <span className="badge">💰 {tr(compact.chips.fee)}</span>
@@ -41,14 +42,13 @@ function CompactCard({ payload, version, lang }: { payload: RoadmapStepView["pay
         <span className={`badge ${fallback ? "badge-warn" : "badge-ok"}`}>{tr(compact.chips.status)}</span>
       </div>
       {fallback && (
-        <div className="notice notice-warn small" role="note">
-          {tr(fallback.message)}
-          <div className="muted" style={{ marginTop: "0.25rem" }}>
-            Missing: {fallback.missing.join(", ")}
-          </div>
-        </div>
+        <details className="step-local-note">
+          <summary>Local verification needed</summary>
+          <p>{tr(fallback.message)}</p>
+          <p className="muted">Missing: {fallback.missing.join(", ")}</p>
+        </details>
       )}
-    </div>
+    </section>
   );
 }
 
@@ -88,7 +88,6 @@ function neededDocs(step: RoadmapStepView): string[] {
 
 export function RoadmapStep({
   step,
-  index,
   phaseLabel,
   jurisdiction,
   institution,
@@ -96,7 +95,6 @@ export function RoadmapStep({
   onDocsChanged,
 }: {
   step: RoadmapStepView;
-  index: number;
   phaseLabel?: string;
   jurisdiction?: string;
   institution?: string;
@@ -108,7 +106,7 @@ export function RoadmapStep({
   const [saving, setSaving] = useState(false);
 
   const done = step.derived_done === 1 || status === "completed";
-  const [open, setOpen] = useState(index === 0 && !done);
+  const [open, setOpen] = useState(false);
 
   const [track, setTrack] = useState({
     submitted_at: step.submitted_at ?? "",
@@ -167,46 +165,46 @@ export function RoadmapStep({
   }
 
   return (
-    <div id={`step-${step.id}`} className="card" style={{ scrollMarginTop: "5rem", ...(done ? { opacity: 0.9 } : {}) }}>
-      <div className="row" style={{ justifyContent: "space-between", alignItems: "flex-start" }}>
-        <div className="stack" style={{ gap: "0.25rem" }}>
-          <div className="row" style={{ gap: "0.4rem", flexWrap: "wrap" }}>
+    <div id={`step-${step.id}`} className="card journey-detail-card" style={{ scrollMarginTop: "5rem", ...(done ? { opacity: 0.9 } : {}) }}>
+      <div className="step-header">
+        <div className="step-title-block">
+          <div className="step-badges">
             {phaseLabel && <span className="badge badge-info">{phaseLabel}</span>}
-            <strong>{step.title}</strong>
             {done ? (
               <span className="badge badge-ok">✓ {step.derived_done === 1 ? "Completed" : "Completed (my record)"}</span>
             ) : (
               <RequirementBadge requirement={step.requirement} />
             )}
           </div>
+          <strong className="step-title">{step.title}</strong>
           {(jurisdiction || institution) && (
-            <div className="row small muted" style={{ gap: "0.4rem", flexWrap: "wrap" }}>
+            <div className="step-location">
               {institution && <span>🏛 {institution}</span>}
               {jurisdiction && <span className="badge">{jurisdiction}</span>}
             </div>
           )}
         </div>
-        <button className="btn btn-ghost btn-small" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
-          {open ? t("hideDetails") : t("showDetails")}
+        <button className="step-detail-toggle" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
+          {open ? t("hideDetails") : t("showDetails")} <span aria-hidden>{open ? "−" : "+"}</span>
         </button>
       </div>
 
       {step.derived_done === 1 && (
-        <p className="small" style={{ color: "var(--ok)", margin: "0.4rem 0 0" }}>
+        <p className="step-done-note">
           Based on your answers, this is already done. It stays here for reference and is not your next action.
         </p>
       )}
 
-      <div className="row" style={{ marginTop: "0.5rem" }}>
-        <label htmlFor={`status-${step.id}`} style={{ margin: 0 }}>
-          {t("myProgress")}:
+      <div className="step-progress-control">
+        <label htmlFor={`status-${step.id}`}>
+          <span>{t("myProgress")}</span>
+          <small>{t("notOfficialStatus")}</small>
         </label>
-        <select id={`status-${step.id}`} value={status} disabled={saving} onChange={(e) => updateStatus(e.target.value)} style={{ maxWidth: 280 }}>
+        <select id={`status-${step.id}`} value={status} disabled={saving} onChange={(e) => updateStatus(e.target.value)}>
           {STATUS_OPTIONS.map(([v, l]) => (
             <option key={v} value={v}>{l}</option>
           ))}
         </select>
-        <span className="small muted">{t("notOfficialStatus")}</span>
       </div>
 
       {/* 5-second compact card (heading + ≤2 bullets + chips). Same format for every asset. */}

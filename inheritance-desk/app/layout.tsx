@@ -7,7 +7,7 @@ import { MusicPlayer } from "@/components/MusicPlayer";
 import { Depth3D } from "@/components/Depth3D";
 
 export const metadata: Metadata = {
-  title: "Inheritance Desk",
+  title: "Anvīti",
   description:
     "Accessible, source-grounded guidance for families claiming and transferring assets after a death in India. Orientation only — no route is certified for execution.",
 };

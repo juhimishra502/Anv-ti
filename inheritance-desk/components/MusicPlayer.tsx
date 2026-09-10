@@ -7,6 +7,7 @@
 // keyboard-accessible, 44px+ targets, localized labels.
 import { useAudio } from "@/lib/audio/audio-context";
 import { useLocale } from "@/lib/i18n/context";
+import { usePathname } from "next/navigation";
 
 function fmt(s: number): string {
   if (!Number.isFinite(s) || s <= 0) return "0:00";
@@ -18,20 +19,31 @@ function fmt(s: number): string {
 export function MusicPlayer() {
   const {
     ready, enabled, closed, playing, muted, position, duration,
-    toggle, setMuted, seek, closeSound, reopenSound,
+    toggle, play, setMuted, seek, closeSound, reopenSound,
   } = useAudio();
   const { t } = useLocale();
+  const pathname = usePathname();
   if (!ready) return null;
 
-  if (closed) {
+  const isLanding = pathname === "/";
+
+  // The questionnaire and every other product screen keeps only one explicit
+  // sound switch. The full transport belongs exclusively to the landing page.
+  if (!isLanding) {
+    const soundOn = !closed && !muted && playing;
     return (
       <button
         type="button"
-        className="mp-reopen"
-        onClick={reopenSound}
-        aria-label={t("playMusic")}
+        className="mp-sound-toggle"
+        onClick={() => {
+          if (closed) reopenSound();
+          else if (muted) { setMuted(false); if (!playing) play(); }
+          else setMuted(true);
+        }}
+        aria-pressed={soundOn}
+        aria-label={soundOn ? t("muteMusic") : t("unmuteMusic")}
       >
-        <span aria-hidden>🔇</span>
+        <span aria-hidden>{soundOn ? "🔊" : "🔇"}</span>
       </button>
     );
   }

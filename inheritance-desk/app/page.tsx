@@ -1,18 +1,28 @@
 "use client";
-// Landing page — meadow-photograph hero (rendered by the global <Environment/> behind
-// every page) inside a thin rounded white frame, a large centred editorial-serif
-// heading, a small black primary CTA, and a large translucent glass questionnaire
-// panel showing the first step (state, district, language, voice, continue). The
-// large bottom music player is global (root layout). Real HTML controls throughout —
-// nothing baked into an image, no 3D. The auth/case flow is preserved exactly.
+// Botanical editorial landing page. The existing case/auth flows remain behind the
+// start-roadmap CTA; this page only presents their first entry point.
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { api } from "@/lib/client/api";
-import type { CaseSummary, ReferenceData, SessionUser } from "@/lib/client/types";
+import type { CaseSummary, SessionUser } from "@/lib/client/types";
 import { useLocale } from "@/lib/i18n/context";
 import { LanguageSelector } from "@/components/LanguageSelector";
-import { DistrictDropdown } from "@/components/DistrictDropdown";
+
+const FEATURES = [
+  ["♧", "Understand", "the process"],
+  ["▣", "Identify", "what you own"],
+  ["⌘", "See your", "roadmap"],
+  ["◔", "Track", "progress"],
+];
+
+const ROADMAP_PREVIEW = [
+  ["1", "Notify & obtain documents", "Inform authorities and collect essential documents.", "To do", "complete"],
+  ["2", "Secure & access accounts", "Freeze, access and take control of accounts and services.", "To do", "todo"],
+  ["3", "Settle & transfer assets", "Complete legal steps, pay dues and transfer assets.", "In progress", "progress"],
+  ["4", "Close & move forward", "Close remaining accounts and preserve important records.", "Upcoming", "upcoming"],
+];
 
 export default function HomePage() {
   const router = useRouter();
@@ -21,17 +31,12 @@ export default function HomePage() {
 
   const [user, setUser] = useState<SessionUser | null>(null);
   const [cases, setCases] = useState<CaseSummary[]>([]);
-  const [reference, setReference] = useState<ReferenceData | null>(null);
-  const [stateCode, setStateCode] = useState("");
-  const [district, setDistrict] = useState("");
-  const [assetType, setAssetType] = useState("");
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState<string | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const [authOpen, setAuthOpen] = useState(false);
 
   useEffect(() => {
-    api.get<ReferenceData>("/api/reference").then(setReference).catch(() => {});
     (async () => {
       try {
         const me = await api.get<{ user: SessionUser | null }>("/api/auth/me");
@@ -96,32 +101,27 @@ export default function HomePage() {
   }
 
   return (
-    <div className="meadow">
-      {/* The photograph remains the actual background. These transparent layers give
-          the real UI a calm sense of depth without replacing it with a generated scene. */}
-      <div className="meadow-depth" aria-hidden="true">
-        <span className="meadow-light meadow-light-one" />
-        <span className="meadow-light meadow-light-two" />
-        <span className="meadow-mote meadow-mote-one" />
-        <span className="meadow-mote meadow-mote-two" />
-        <span className="meadow-mote meadow-mote-three" />
-        <span className="meadow-mote meadow-mote-four" />
-        <span className="meadow-mote meadow-mote-five" />
-      </div>
-      <div className="meadow-frame" id="main">
-        {/* Floating nav inside the frame */}
-        <nav className="meadow-nav" aria-label={t("brand")}>
-          <Link className="meadow-brand" href="/">
-            <svg className="meadow-mark" viewBox="0 0 48 48" aria-hidden="true">
-              <path d="M24 42V22M24 30c-8 0-14-4-14-12 8 0 14 4 14 12ZM24 27c0-9 5-15 13-15 0 9-5 15-13 15ZM24 18c-5 0-9-4-9-9 5 0 9 4 9 9Z" />
-            </svg>
-            {t("brand")}
+    <main className="botanical-landing" id="main">
+      <section className="botanical-hero">
+        <div className="botanical-butterflies" aria-hidden="true">
+          <span className="butterfly-flight butterfly-morpho"><span className="butterfly" /></span>
+          <span className="butterfly-flight butterfly-monarch"><span className="butterfly" /></span>
+          <span className="butterfly-flight butterfly-swallowtail"><span className="butterfly" /></span>
+        </div>
+        <div className="botanical-breeze" aria-hidden="true">
+          <span className="botanical-flower-sway botanical-flower-sway-left" />
+          <span className="botanical-flower-sway botanical-flower-sway-right" />
+        </div>
+        <nav className="botanical-nav" aria-label={t("brand")}>
+          <Link className="botanical-brand" href="/">
+            <Image src="/images/anviti-rose-infinity.png" alt="" width={1774} height={887} priority />
+            <span>Anvīti</span>
           </Link>
-          <div className="meadow-nav-right">
+          <div className="botanical-nav-actions">
             <LanguageSelector compact />
-            <button className="meadow-menu" onClick={() => setMenuOpen((o) => !o)} aria-expanded={menuOpen} aria-label="menu">☰</button>
+            <button className="botanical-menu" onClick={() => setMenuOpen((o) => !o)} aria-expanded={menuOpen} aria-label="menu">☰</button>
             {menuOpen && (
-              <div className="card menupanel meadow-menupanel">
+              <div className="card menupanel botanical-menupanel">
                 {user ? (
                   <div className="stack">
                     <strong className="small">{t("yourCases")}</strong>
@@ -141,51 +141,62 @@ export default function HomePage() {
           </div>
         </nav>
 
-        {/* Centred editorial heading + primary CTA */}
-        <div className="meadow-hero">
-          <h1 className="meadow-heading"><span>{t("heroTitle")}</span><br /><span>{t("heroSub")}</span></h1>
-          <button className="meadow-cta" onClick={onStartCase} disabled={busy}>{busy ? "…" : t("ctaPrimary")}</button>
+        <div className="botanical-hero-copy">
+          <h1>Guidance. Clarity.<br />Closure.</h1>
+          <p>A calm, step-by-step orientation to help<br />your family handle assets after a death in India.</p>
+          <button className="botanical-cta" onClick={onStartCase} disabled={busy}>{busy ? "…" : "Start your roadmap"}</button>
+          {err && <p className="botanical-error" role="alert">{err}</p>}
         </div>
 
-        {/* Large translucent glass questionnaire panel — a horizontal row of four
-            fields, centred title above and Continue below, trust labels along the base. */}
-        <form className="glass" onSubmit={(e) => { e.preventDefault(); onStartCase(); }}>
-          <h2 className="glass-h">{t("glassHeading")}</h2>
-
-          <div className="glass-fields">
-            <div className="gf">
-              <label htmlFor="q-state" className="glass-label">{t("qSelectState")}</label>
-              <select id="q-state" className="glass-field" value={stateCode} onChange={(e) => { setStateCode(e.target.value); setDistrict(""); }}>
-                <option value="">{t("qSelectState")}</option>
-                {reference?.states.map((s) => <option key={s.code} value={s.code}>{s.name}</option>)}
-              </select>
-            </div>
-            <div className="gf gf-district">
-              <DistrictDropdown stateCode={stateCode || undefined} value={district} onChange={setDistrict} label={t("qSelectDistrict")} />
-            </div>
-            <div className="gf">
-              <label htmlFor="q-asset" className="glass-label">{t("qSelectAsset")}</label>
-              <select id="q-asset" className="glass-field" value={assetType} onChange={(e) => setAssetType(e.target.value)}>
-                <option value="">{t("qSelectAsset")}</option>
-                {reference?.asset_types.map((a) => <option key={a.id} value={a.id}>{a.id.replace(/_/g, " ")}</option>)}
-              </select>
-            </div>
-            <div className="gf">
-              <span className="glass-label">{t("navLanguage")}</span>
-              <LanguageSelector compact />
-            </div>
+        <section className="botanical-feature-panel" aria-label="How Anvīti helps">
+          <h2>Where would you like to begin?</h2>
+          <div className="botanical-features">
+            {FEATURES.map(([icon, lineOne, lineTwo]) => (
+              <div className="botanical-feature" key={lineOne}>
+                <span aria-hidden="true">{icon}</span>
+                <strong>{lineOne}</strong>
+                <small>{lineTwo}</small>
+              </div>
+            ))}
           </div>
+          <p>♢ Private by design. Your data stays with you.</p>
+        </section>
+      </section>
 
-          <button type="submit" className="glass-continue" disabled={busy}>{busy ? "…" : `${t("ctaPrimary")} →`}</button>
-          {err && <p className="small" style={{ color: "var(--danger)", textAlign: "center" }}>{err}</p>}
+      <section className="botanical-roadmap" aria-labelledby="roadmap-preview-title">
+        <div className="botanical-roadmap-intro">
+          <span>Your roadmap</span>
+          <h2 id="roadmap-preview-title">A step-by-step path<br />for your family</h2>
+        </div>
+        <div className="botanical-roadmap-grid">
+          <ol className="botanical-timeline">
+            {ROADMAP_PREVIEW.map(([number, title, detail, status, tone]) => (
+              <li className={`botanical-timeline-item botanical-timeline-${tone}`} key={number}>
+                <span className="botanical-timeline-number">{number}</span>
+                <div>
+                  <strong>{title}</strong>
+                  <p>{detail}</p>
+                </div>
+                <span className="botanical-status">{status}</span>
+                <span aria-hidden="true">›</span>
+              </li>
+            ))}
+          </ol>
+          <aside className="botanical-glance">
+            <h3>At a glance</h3>
+            <dl>
+              <div><dt>▣ Progress</dt><dd>2 of 8 steps</dd></div>
+              <div><dt>◷ Estimated time</dt><dd>3–6 months</dd></div>
+              <div><dt>♧ Things to do</dt><dd>5 tasks</dd></div>
+            </dl>
+            <button type="button" onClick={onStartCase}>View full roadmap&nbsp; →</button>
+          </aside>
+        </div>
+      </section>
 
-          <div className="glass-trust">
-            <span><b aria-hidden>⌾</b> {t("trustSources")}</span>
-            <span><b aria-hidden>⌁</b> {t("trustVoice")}</span>
-            <span><b aria-hidden>⌖</b> {t("trustState")}</span>
-          </div>
-        </form>
-      </div>
+      <section className="botanical-reflection" aria-label="A moment of support">
+        <p>“<br />We are here to simplify a difficult time<br />with clarity and compassion.</p>
+      </section>
 
       {/* Sign-in modal */}
       {authOpen && (
@@ -205,6 +216,6 @@ export default function HomePage() {
           </div>
         </div>
       )}
-    </div>
+    </main>
   );
 }

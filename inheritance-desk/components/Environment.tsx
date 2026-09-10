@@ -7,6 +7,11 @@ export function Environment() {
     <div className="scene-env" aria-hidden>
       <div className="se-photo-sky" />
       <div className="se-haze" />
+      <div className="butterfly-layer">
+        <span className="butterfly-flight butterfly-morpho"><span className="butterfly" /></span>
+        <span className="butterfly-flight butterfly-monarch"><span className="butterfly" /></span>
+        <span className="butterfly-flight butterfly-swallowtail"><span className="butterfly" /></span>
+      </div>
     </div>
   );
 }
